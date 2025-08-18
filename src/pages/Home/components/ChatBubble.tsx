@@ -1,12 +1,5 @@
-export interface ChatMessage {
-  id: string;
-  type: 'user' | 'bot';
-  content: React.ReactNode;
-  timestamp: Date;
-}
-
 interface ChatBubbleProps {
-  message: ChatMessage;
+  message: string;
   isBot: boolean;
 }
 
@@ -24,7 +17,7 @@ export default function ChatBubble({ message, isBot }: ChatBubbleProps) {
             ? 'bg-white border border-gray-200 shadow-sm text-gray-800' 
             : 'bg-blue-600 text-white ml-3 shadow-sm'
         }`}>
-          {message.content}
+          {message}
         </div>
       </div>
     </div>
