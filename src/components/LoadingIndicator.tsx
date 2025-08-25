@@ -11,7 +11,6 @@ export default function LoadingIndicator() {
             <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
             <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
           </div>
-          <div className="text-xs text-gray-500 mt-2">정보 수집 완료 - 분석 진행 중</div>
         </div>
       </div>
     </div>
