@@ -8,8 +8,12 @@ export interface CreateChatBotSessionResponse {
   title: string;
 }
 
-export interface ChatMessageResponse {
+interface ChatMessage {
   id: number;
-  isUser: boolean;
   content: string;
+  isUser: boolean;
+}
+
+export interface ChatMessageResponse {
+  messages: ChatMessage[];
 }
