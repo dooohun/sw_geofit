@@ -26,7 +26,7 @@ export const apiClient = {
 async function sendRequest<T = unknown>(
   endPoint: string,
   options: FetchOptions = {},
-  timeout: number = 10000,
+  timeout: number = 100000,
 ): Promise<T> {
   const { headers, body, method, params, ...restOptions } = options;
 
