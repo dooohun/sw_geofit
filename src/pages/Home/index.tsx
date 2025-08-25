@@ -1,10 +1,13 @@
-import FirstSection from "./components/FirstSection";
+import FirstSection from './components/FirstSection';
+import Header from './components/Header';
+import SecondSection from './components/SecondSection';
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#dde2eecc]">
+      <Header />
       <FirstSection />
+      <SecondSection />
     </div>
-  )
-};
-
+  );
+}
