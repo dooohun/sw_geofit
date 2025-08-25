@@ -1,12 +1,12 @@
 // components/ChatInterface.tsx
 import { useState, useEffect, useRef } from 'react';
-import ChatBubble from '@/pages/Home/components/ChatBubble';
+import ChatBubble from '@/pages/Chatbot/components/ChatBubble';
 import LoadingIndicator from '@/components/LoadingIndicator';
-import Sidebar from '@/pages/Home/components/Sidebar';
+import Sidebar from '@/pages/Chatbot/components/Sidebar';
 import { useGetMessages, usePostMessage } from './queries';
 import { useParams } from 'react-router-dom';
 
-const ChatInterface = () => {
+export default function ChatBot() {
   const [inputValue, setInputValue] = useState('');
   const [pendingMessage, setPendingMessage] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -113,5 +113,3 @@ const ChatInterface = () => {
     </div>
   );
 };
-
-export default ChatInterface;
