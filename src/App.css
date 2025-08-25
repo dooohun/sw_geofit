@@ -1,9 +1,24 @@
-@import "tailwindcss";
-@import "./styles/font.css";
-@import "./styles/theme.css";
-
+@import 'tailwindcss';
+@import './styles/font.css';
+@import './styles/theme.css';
+@import './styles/utility.css';
 
 body {
-  font-family: "Pretendard Regular", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family:
+    'Pretendard Regular',
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    'Helvetica Neue',
+    'Segoe UI',
+    'Apple SD Gothic Neo',
+    'Noto Sans KR',
+    'Malgun Gothic',
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    sans-serif;
   letter-spacing: -0.3px;
 }
