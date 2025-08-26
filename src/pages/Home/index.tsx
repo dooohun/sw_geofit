@@ -1,6 +1,9 @@
+import Footer from '@/components/Footer';
 import FirstSection from './components/FirstSection';
-import Header from './components/Header';
+import FourthSection from './components/FourthSection';
+import Header from '@/components/Header';
 import SecondSection from './components/SecondSection';
+import ThirdSection from './components/ThirdSection';
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <Header />
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
+      <FourthSection />
+      <Footer />
     </div>
   );
 }

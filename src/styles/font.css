@@ -3,7 +3,7 @@
   font-weight: 600;
   src:
     local('Pretendard SemiBold'),
-    url('./styles/fonts/Pretendard-SemiBold.subset.woff2') format('woff2');
+    url('./fonts/Pretendard-SemiBold.subset.woff2') format('woff2');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-weight: 500;
   src:
     local('Pretendard Medium'),
-    url('./styles/fonts/Pretendard-Medium.subset.woff2') format('woff2');
+    url('./fonts/Pretendard-Medium.subset.woff2') format('woff2');
 }
 
 @font-face {
@@ -19,5 +19,5 @@
   font-weight: 400;
   src:
     local('Pretendard Regular'),
-    url('./styles/fonts/Pretendard-Regular.subset.woff2') format('woff2');
+    url('./fonts/Pretendard-Regular.subset.woff2') format('woff2');
 }
