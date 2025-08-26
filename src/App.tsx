@@ -6,6 +6,7 @@ import Analysis from '@/pages/Analysis';
 import PropertyRegistration from '@/pages/PropertyRegistration';
 import './App.css';
 import Layout from './components/Layout';
+import PropertySearchPage from './pages/PropertySearch';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/property-registration" element={<PropertyRegistration />} />
+          <Route path="/property-search" element={<PropertySearchPage />} />
         </Route>
         <Route path="/analysis" element={<Analysis />} />
         <Route path="/chatbot" element={<ChatBotHome />} />
