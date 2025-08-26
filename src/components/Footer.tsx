@@ -16,7 +16,7 @@ export default function Footer() {
             <h3 className="mb-6 text-lg font-semibold text-black">서비스</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/chatbot/new" className="text-sm text-[#718096] transition-colors hover:text-black">
+                <Link to="/chatbot" className="text-sm text-[#718096] transition-colors hover:text-black">
                   AI 추천받기
                 </Link>
               </li>

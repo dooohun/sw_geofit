@@ -48,7 +48,7 @@ export default function FirstSection() {
                 </button>
                 <button
                   className="flex cursor-pointer items-center space-x-2 rounded-3xl bg-black px-6 py-2 text-white transition-colors hover:bg-gray-800"
-                  onClick={() => navigate('/chatbot/new')}
+                  onClick={() => navigate('/chatbot')}
                 >
                   <RequestIcon />
                   <span>Request</span>

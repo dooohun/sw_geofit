@@ -22,3 +22,7 @@ body {
     sans-serif;
   letter-spacing: -0.3px;
 }
+
+button {
+  cursor: pointer;
+}

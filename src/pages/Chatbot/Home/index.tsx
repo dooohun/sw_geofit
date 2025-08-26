@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import RequestIcon from '@/assets/svgs/request-icon.svg';
-import Sidebar from '../components/Sidebar';
+import { Link } from 'react-router-dom';
 
 export default function ChatBotHome() {
   const [inputValue, setInputValue] = useState('');
@@ -26,10 +26,9 @@ export default function ChatBotHome() {
   return (
     <div className="flex min-h-screen bg-white">
       {/* Sidebar */}
-      {/* <div
+      <div
         className={`${sidebarOpen ? 'w-64' : 'w-0'} flex flex-col overflow-hidden border-r border-gray-200 bg-[#F7F7F8] transition-all duration-300 ease-in-out`}
       >
-        
         <div className="p-4">
           <button className="flex w-full items-center justify-center space-x-2 rounded-lg bg-black px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-800">
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -39,7 +38,6 @@ export default function ChatBotHome() {
           </button>
         </div>
 
-        
         <div className="flex-1 px-4 pb-4">
           <div className="mb-3 text-xs font-medium text-gray-500">최근 분석</div>
 
@@ -59,7 +57,6 @@ export default function ChatBotHome() {
           </div>
         </div>
 
-        
         <div className="border-t border-gray-200 p-4">
           <div className="flex items-center space-x-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
@@ -68,9 +65,7 @@ export default function ChatBotHome() {
             <div className="text-sm font-medium text-gray-900">김창업</div>
           </div>
         </div>
-      </div> */}
-      {/* <Sidebar /> */}
-      <Sidebar />
+      </div>
       {/* Main Content */}
       <div className="flex flex-1 flex-col">
         {/* Header */}
@@ -88,35 +83,23 @@ export default function ChatBotHome() {
                 </svg>
               </button>
 
-              <div className="text-xl font-bold text-black">Geo-Fit</div>
-
-              {sidebarOpen && (
-                <div className="flex items-center space-x-2 rounded-lg bg-gray-100 px-3 py-1.5">
-                  <svg className="h-4 w-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                    />
-                  </svg>
-                  <span className="text-sm text-gray-700">수원시 영통구 음식업 분석</span>
-                </div>
-              )}
+              <Link to="/" className="text-xl font-bold text-black">
+                Geo-Fit
+              </Link>
             </div>
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-gray-600 transition-colors hover:text-gray-800">
+              <Link to="/chatbot" className="text-gray-600 transition-colors hover:text-gray-800">
                 AI 채팅
-              </a>
-              <a href="#" className="text-gray-600 transition-colors hover:text-gray-800">
+              </Link>
+              <Link to="/property-registration" className="text-gray-600 transition-colors hover:text-gray-800">
                 매물 등록
-              </a>
-              <a href="#" className="text-gray-600 transition-colors hover:text-gray-800">
+              </Link>
+              <Link to="/property-search" className="text-gray-600 transition-colors hover:text-gray-800">
                 매물 조회
-              </a>
-              <a href="#" className="text-gray-600 transition-colors hover:text-gray-800">
+              </Link>
+              <Link to="/guide" className="text-gray-600 transition-colors hover:text-gray-800">
                 이용 가이드
-              </a>
+              </Link>
             </div>
           </div>
         </header>
@@ -135,23 +118,21 @@ export default function ChatBotHome() {
         {/* Input Area */}
         <div className="border-t border-gray-200 p-6">
           <div className="mx-auto max-w-4xl">
-            <div className="relative flex items-end space-x-4">
+            <div className="relative flex justify-between gap-4">
               <div className="relative flex-1">
                 <textarea
                   value={inputValue}
                   onChange={(e) => setInputValue(e.target.value)}
                   onKeyDown={handleKeyPress}
                   placeholder="추가 정보이나 요청사항을 입력해주세요"
-                  className="h-full w-full resize-none rounded-xl border border-gray-300 px-4 py-3 pr-12 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                  className="w-full resize-none rounded-xl border border-gray-300 px-4 py-3 pr-12 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
                   rows={1}
-                  style={{ minHeight: '48px', maxHeight: '200px' }}
                 />
               </div>
-
               <button
                 onClick={handleSend}
                 disabled={!inputValue.trim()}
-                className="flex h-10 w-10 items-center justify-center rounded-lg bg-black p-3 text-white transition-colors hover:bg-gray-800 disabled:cursor-not-allowed disabled:bg-gray-300"
+                className="flex h-[46px] w-[46px] items-center justify-center rounded-lg bg-black p-3 text-white transition-colors hover:bg-gray-800 disabled:cursor-not-allowed disabled:bg-gray-300"
               >
                 <RequestIcon />
               </button>
