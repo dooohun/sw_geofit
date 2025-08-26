@@ -32,11 +32,11 @@ export default function ThirdSection() {
                 data: [27, 73],
                 backgroundColor: ['#4285F4', '#E5E7EB'],
                 borderWidth: 0,
-                cutout: '75%',
               },
             ],
           },
           options: {
+            cutout: '75%',
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
