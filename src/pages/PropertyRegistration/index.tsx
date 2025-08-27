@@ -120,18 +120,26 @@ export default function PropertyRegistration() {
             {/* Property Type */}
             <div>
               <h2 className="mb-6 text-lg font-semibold text-gray-900">건물 유형</h2>
-              <div className="flex space-x-4">
+              <div className="grid grid-cols-2 gap-4">
                 <label className="flex items-center">
                   <input type="radio" name="buildingType" className="mr-2" />
-                  <span>상가</span>
+                  <span>근린상가</span>
                 </label>
                 <label className="flex items-center">
                   <input type="radio" name="buildingType" className="mr-2" />
-                  <span>사무실</span>
+                  <span>오피스·업무</span>
                 </label>
                 <label className="flex items-center">
                   <input type="radio" name="buildingType" className="mr-2" />
-                  <span>창고/공장</span>
+                  <span>주상복합·오피스텔 상가</span>
+                </label>
+                <label className="flex items-center">
+                  <input type="radio" name="buildingType" className="mr-2" />
+                  <span>단독·다가구 1층 상가</span>
+                </label>
+                <label className="flex items-center">
+                  <input type="radio" name="buildingType" className="mr-2" />
+                  <span>기타 복합·몰</span>
                 </label>
               </div>
             </div>
@@ -156,9 +164,22 @@ export default function PropertyRegistration() {
                   층수 <span className="text-red-500">*</span>
                 </label>
                 <div className="flex items-center space-x-2">
+                  <div className="relative">
+                    <select className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                      <option value="">선택</option>
+                      <option value="지상">지상</option>
+                      <option value="지하">지하</option>
+                    </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
+                      <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </div>
+                  </div>
                   <input
-                    type="text"
-                    placeholder="지상"
+                    type="number"
+                    placeholder="층수"
+                    min="1"
                     className="flex-1 rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   />
                   <span className="text-gray-500">층</span>
@@ -198,7 +219,7 @@ export default function PropertyRegistration() {
                 </div>
               </div>
               <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">권리비</label>
+                <label className="mb-2 block text-sm font-medium text-gray-700">관리비</label>
                 <div className="flex items-center space-x-4">
                   <input
                     type="number"
