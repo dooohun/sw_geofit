@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+
 export default function FourthSection() {
+  const navigate = useNavigate();
+
   return (
     <section className="bg-white px-6 pt-16 pb-20">
       <div className="mx-auto max-w-6xl">
@@ -48,7 +52,10 @@ export default function FourthSection() {
 
         {/* Call to Action */}
         <div className="mt-16 text-center">
-          <button className="rounded-xl bg-[#4285F4] px-8 py-4 text-lg font-medium text-white transition-colors hover:bg-[#3367D6]">
+          <button
+            onClick={() => navigate('/chatbot')}
+            className="rounded-xl bg-[#4285F4] px-8 py-4 text-lg font-medium text-white transition-colors hover:bg-[#3367D6]"
+          >
             지금 시작하기
           </button>
         </div>
