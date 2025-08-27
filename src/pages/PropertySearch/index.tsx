@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import PropertyDetailModal from './modal';
-import { createPortal } from 'react-dom';
 
 interface Property {
   id: string;
@@ -12,29 +11,31 @@ interface Property {
   image: string;
   businessTypes: string[];
   suitableBusinesses: { name: string; percentage: number }[];
+  keyFactors: string[];
 }
 
 const properties: Property[] = [
   {
     id: '1',
-    title: '광교중앙역 인근 상가',
+    title: '소담동 · 1F · 근린상가',
     address: '경기도 수원시 영통구 광교로 147',
-    price: '월세 180만원',
+    price: '2,000만 / 200만 / 100㎡',
     score: 95,
     scoreText: '매우 우수',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop',
-    businessTypes: ['한식당', '카페', '치킨'],
+    businessTypes: ['국/탕/찌개', '카페', '요리주점'],
     suitableBusinesses: [
-      { name: '한식당', percentage: 92 },
+      { name: '국/탕/찌개', percentage: 92 },
       { name: '카페', percentage: 88 },
-      { name: '치킨', percentage: 85 },
+      { name: '요리주점', percentage: 85 },
     ],
+    keyFactors: ['저녁피크', '40대배후', '경쟁희소'],
   },
   {
     id: '2',
-    title: '강남역 초역세권 오피스텔',
+    title: '역삼동 · 2F · 오피스텔',
     address: '서울특별시 강남구 태헌로 123',
-    price: '월세 350만원',
+    price: '1,000만 / 350만 / 78㎡',
     score: 88,
     scoreText: '우수',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop',
@@ -44,27 +45,29 @@ const properties: Property[] = [
       { name: '컨설팅', percentage: 89 },
       { name: '디자인', percentage: 85 },
     ],
+    keyFactors: ['정류장3', '심야배달↑', '매출잠재력높음'],
   },
   {
     id: '3',
-    title: '홍대 청년창업공간',
+    title: '홍익동 · B1 · 근린상가',
     address: '서울특별시 마포구 홍익로 89',
-    price: '월세 120만원',
+    price: '500만 / 120만 / 65㎡',
     score: 92,
     scoreText: '매우 우수',
     image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&h=300&fit=crop',
-    businessTypes: ['온라인쇼핑', '크리에이티브', '엔터테인먼트'],
+    businessTypes: ['카페', '주점', '치킨집'],
     suitableBusinesses: [
-      { name: '온라인쇼핑', percentage: 90 },
-      { name: '크리에이티브', percentage: 87 },
-      { name: '엔터테인먼트', percentage: 84 },
+      { name: '카페', percentage: 90 },
+      { name: '주점', percentage: 87 },
+      { name: '치킨집', percentage: 84 },
     ],
+    keyFactors: ['학교·정류장인접', '20대배후', '심야수요↑'],
   },
   {
     id: '4',
-    title: '판교 테크벨리 사무공간',
+    title: '정자동 · 1F · 근린상가',
     address: '경기도 성남구 분당구 판교역로 235',
-    price: '월세 280만원',
+    price: '3,000만 / 280만 / 120㎡',
     score: 89,
     scoreText: '우수',
     image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop',
@@ -74,81 +77,39 @@ const properties: Property[] = [
       { name: '핀테크', percentage: 91 },
       { name: 'AI/ML', percentage: 88 },
     ],
+    keyFactors: ['직장배후', '점심피크', '고소득층'],
   },
   {
     id: '5',
-    title: '이태원 글로벌 레스토랑',
+    title: '이태원동 · 2F · 근린상가',
     address: '서울특별시 용산구 이태원로 156',
-    price: '월세 220만원',
+    price: '1,500만 / 220만 / 85㎡',
     score: 84,
     scoreText: '양호',
     image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop',
-    businessTypes: ['레스토랑', '바', '카페'],
+    businessTypes: ['양식당', '바', '카페'],
     suitableBusinesses: [
       { name: '양식당', percentage: 88 },
       { name: '바', percentage: 82 },
       { name: '카페', percentage: 79 },
     ],
+    keyFactors: ['외국인수요', '주말피크', '관광지인접'],
   },
   {
     id: '6',
-    title: '신촌 대학가 상점',
+    title: '신촌동 · 1F · 근린상가',
     address: '서울특별시 서대문구 신촌로 78',
-    price: '월세 150만원',
+    price: '800만 / 150만 / 55㎡',
     score: 87,
     scoreText: '우수',
     image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop',
-    businessTypes: ['치킨', '카페', '편의점'],
+    businessTypes: ['치킨집', '카페', '편의점'],
     suitableBusinesses: [
       { name: '치킨집', percentage: 89 },
       { name: '카페', percentage: 84 },
       { name: '편의점', percentage: 81 },
     ],
-  },
-  {
-    id: '7',
-    title: '부산 해운대 관광상가',
-    address: '부산광역시 해운대구 해운대해변로 264',
-    price: '월세 200만원',
-    score: 90,
-    scoreText: '매우 우수',
-    image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop',
-    businessTypes: ['관광기념품', '레스토랑', '카페'],
-    suitableBusinesses: [
-      { name: '관광기념품', percentage: 94 },
-      { name: '해산물집', percentage: 90 },
-      { name: '카페', percentage: 86 },
-    ],
-  },
-  {
-    id: '8',
-    title: '대전 유성구 연구단지',
-    address: '대전광역시 유성구 대덕대로 468',
-    price: '월세 160만원',
-    score: 86,
-    scoreText: '우수',
-    image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop',
-    businessTypes: ['연구개발', '바이오', '첨단기술'],
-    suitableBusinesses: [
-      { name: '연구개발', percentage: 92 },
-      { name: '바이오텍', percentage: 88 },
-      { name: '첨단기술', percentage: 85 },
-    ],
-  },
-  {
-    id: '9',
-    title: '인천공항 면세구역 상가',
-    address: '인천광역시 중구 공항로 271',
-    price: '월세 300만원',
-    score: 93,
-    scoreText: '매우 우수',
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop',
-    businessTypes: ['면세점', '레스토랑', '여행용품'],
-    suitableBusinesses: [
-      { name: '면세점', percentage: 96 },
-      { name: '공항레스토랑', percentage: 92 },
-      { name: '여행용품', percentage: 89 },
-    ],
+    keyFactors: ['대학가', '20대배후', '배달수요↑'],
   },
 ];
 
@@ -185,8 +146,6 @@ export default function PropertySearchPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F6FA]">
-      {/* Header */}
-
       <div className="mx-auto max-w-7xl px-6 py-8">
         {/* Page Title */}
         <div className="mb-8">
@@ -203,7 +162,7 @@ export default function PropertySearchPage() {
                 <select
                   value={selectedSido}
                   onChange={(e) => setSelectedSido(e.target.value)}
-                  className="w-full cursor-pointer appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 >
                   <option value="">시/도 선택</option>
                   <option value="서울">서울특별시</option>
@@ -226,7 +185,7 @@ export default function PropertySearchPage() {
                 <select
                   value={selectedSigungu}
                   onChange={(e) => setSelelectedSigungu(e.target.value)}
-                  className="w-full cursor-pointer appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 >
                   <option value="">시/군/구 선택</option>
                   <option value="강남구">강남구</option>
@@ -247,7 +206,7 @@ export default function PropertySearchPage() {
                 <select
                   value={selectedDong}
                   onChange={(e) => setSelectedDong(e.target.value)}
-                  className="w-full cursor-pointer appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 >
                   <option value="">읍/면/동 선택</option>
                   <option value="역삼동">역삼동</option>
@@ -269,7 +228,7 @@ export default function PropertySearchPage() {
                 <select
                   value={selectedBusinessType}
                   onChange={(e) => setSelectedBusinessType(e.target.value)}
-                  className="w-full cursor-pointer appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2.5 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 >
                   <option value="">업종 선택</option>
                   <option value="카페">카페</option>
@@ -287,7 +246,7 @@ export default function PropertySearchPage() {
 
             {/* Search Button */}
             <div className="flex items-end">
-              <button className="w-full cursor-pointer rounded-lg bg-black px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-800">
+              <button className="w-full rounded-lg bg-black px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-800">
                 검색하기
               </button>
             </div>
@@ -301,7 +260,7 @@ export default function PropertySearchPage() {
                 <select
                   value={priceRange}
                   onChange={(e) => setPriceRange(e.target.value)}
-                  className="cursor-pointer appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 text-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 >
                   <option value="">임대료를 선택하세요</option>
                   <option value="0-100">100만원 이하</option>
@@ -350,38 +309,47 @@ export default function PropertySearchPage() {
                 <p className="mb-3 line-clamp-1 text-sm text-gray-600">{property.address}</p>
                 <div className="mb-3 text-lg font-bold text-red-600">{property.price}</div>
 
-                {/* Suitable Businesses */}
-                <div className="mb-4">
+                {/* 창업 적합도 */}
+                <div className="mb-3">
                   <div
-                    className={`mb-2 text-xs font-medium ${
+                    className={`text-xs font-medium ${
                       property.score >= 90 ? 'text-green-600' : property.score >= 85 ? 'text-blue-600' : 'text-gray-600'
                     }`}
                   >
                     창업 적합도: {property.scoreText} ({property.score}점)
                   </div>
+                </div>
 
-                  <div className="space-y-1">
-                    {property.suitableBusinesses.slice(0, 2).map((business, index) => (
-                      <div key={index} className="flex items-center justify-between text-xs">
-                        <span className="text-gray-600">{business.name}</span>
-                        <span className="font-medium text-gray-900">{business.percentage}%</span>
-                      </div>
+                {/* 추천 업종 배지 (2-3개, percentage 제거) */}
+                <div className="mb-3">
+                  <div className="mb-1 text-xs font-medium text-gray-600">추천 업종</div>
+                  <div className="flex flex-wrap gap-1">
+                    {property.suitableBusinesses.slice(0, 3).map((business, index) => (
+                      <span
+                        key={index}
+                        className="rounded-full border border-blue-200 bg-blue-50 px-2 py-1 text-xs text-blue-700"
+                      >
+                        #{business.name}
+                      </span>
                     ))}
                   </div>
                 </div>
 
-                {/* Business Types Tags */}
-                <div className="mb-4 flex flex-wrap gap-1">
-                  {property.businessTypes.slice(0, 3).map((type, index) => (
-                    <span key={index} className="rounded-full bg-gray-100 px-2 py-1 text-xs text-gray-700">
-                      {type}
-                    </span>
-                  ))}
+                {/* 핵심 근거 배지 (최대 3개) */}
+                <div className="mb-4">
+                  <div className="mb-1 text-xs font-medium text-gray-600">핵심 근거</div>
+                  <div className="flex flex-wrap gap-1">
+                    {property.keyFactors.slice(0, 3).map((factor, index) => (
+                      <span key={index} className="rounded-full bg-gray-100 px-2 py-1 text-xs text-gray-700">
+                        {factor}
+                      </span>
+                    ))}
+                  </div>
                 </div>
 
                 {/* Action Button */}
                 <button
-                  className={`w-full cursor-pointer rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors ${getButtonColor(property.score)}`}
+                  className={`w-full rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors ${getButtonColor(property.score)}`}
                   onClick={(e) => {
                     e.stopPropagation();
                     handleCardClick(property);
@@ -394,11 +362,7 @@ export default function PropertySearchPage() {
           ))}
         </div>
 
-        {/* Property Detail Modal */}
-        {createPortal(
-          <PropertyDetailModal isOpen={isModalOpen} onClose={closeModal} property={selectedProperty} />,
-          document.body,
-        )}
+        <PropertyDetailModal isOpen={isModalOpen} onClose={closeModal} property={selectedProperty} />
       </div>
     </div>
   );
