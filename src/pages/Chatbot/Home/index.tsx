@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import RequestIcon from '@/assets/svgs/request-icon.svg';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 
 export default function ChatBotHome() {
-  const [inputValue, setInputValue] = useState('');
+  const [searchParams] = useSearchParams();
+  const query = searchParams.get('query') || '';
+  const [inputValue, setInputValue] = useState(query);
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   const handleSend = () => {

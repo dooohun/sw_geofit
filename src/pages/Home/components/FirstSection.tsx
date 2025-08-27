@@ -5,8 +5,10 @@ import cmdImage from '@/assets/images/cmd-image.png';
 import upImage from '@/assets/images/up-image.png';
 import downImage from '@/assets/images/down-image.png';
 import enterImage from '@/assets/images/enter-image.png';
+import { useState } from 'react';
 
 export default function FirstSection() {
+  const [inputValue, setInputValue] = useState('서울시 강남구에 카페를 차리고 싶어');
   const navigate = useNavigate();
 
   return (
@@ -36,9 +38,12 @@ export default function FirstSection() {
           <div className="mx-auto max-w-[520px]">
             <div className="shadow-input flex h-[145px] flex-col justify-between rounded-xl bg-white p-3 align-middle">
               {/* Input Text */}
-              <div className="mt-2 ml-1.5 text-left text-base font-medium text-gray-700">
-                서울시 강남구에 카페를 차리고 싶어
-              </div>
+              <input
+                type="text"
+                onChange={(e) => setInputValue(e.target.value)}
+                className="mt-2 ml-1.5 text-left text-base font-medium text-gray-700 focus:outline-none"
+                value={inputValue}
+              />
 
               {/* Bottom Row with Icon and Button */}
               <div className="flex items-center justify-between">
@@ -48,7 +53,7 @@ export default function FirstSection() {
                 </button>
                 <button
                   className="flex cursor-pointer items-center space-x-2 rounded-3xl bg-black px-6 py-2 text-white transition-colors hover:bg-gray-800"
-                  onClick={() => navigate('/chatbot')}
+                  onClick={() => navigate(`/chatbot?query=${inputValue}`)}
                 >
                   <RequestIcon />
                   <span>Request</span>
