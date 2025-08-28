@@ -2,14 +2,24 @@ import RealTimeIcon from '@/assets/svgs/realtime-icon.svg';
 import PenIcon from '@/assets/svgs/pen-icon.svg';
 import SearchIcon from '@/assets/svgs/search-icon.svg';
 import demoUrl from '@/assets/images/demo.png';
+import demoVideoUrl from '@/assets/videos/demo-example.mp4';
 
-export default function SecondSection() {
+interface SecondSectionProps {
+  ref: React.RefObject<HTMLDivElement | null>;
+  titleRef: React.RefObject<HTMLDivElement | null>;
+  isVideoPlaying: boolean;
+}
+
+export default function SecondSection({ ref, titleRef, isVideoPlaying }: SecondSectionProps) {
+  console.log(isVideoPlaying);
   return (
-    <section className="h-screen bg-white px-6 pt-8 pb-20">
+    <section className="relative h-screen bg-white px-6 pt-8 pb-20">
       <div className="mx-auto max-w-6xl">
         {/* Service Description */}
         <div className="mb-16 text-left">
-          <div className="font-semi mb-6 text-2xl tracking-[-0.3px] text-[#4D96FF]">실시간 창업 분석</div>
+          <div ref={titleRef} className="font-semi mb-6 text-2xl tracking-[-0.3px] text-[#4D96FF]">
+            실시간 창업 분석
+          </div>
           <h2 className="font-semi mb-8 text-[40px] leading-[1.2] font-bold tracking-[-1.6px] text-black">
             창업 조건을 말로 설명하면, AI가 전국 데이터를
             <br />
@@ -34,8 +44,9 @@ export default function SecondSection() {
         {/* Demo Interface Placeholder */}
         <div className="relative h-full w-full overflow-hidden rounded-3xl bg-gradient-to-br from-blue-400 via-purple-500 to-orange-400 shadow-[0px_8px_24px_0px_rgba(0,0,0,0.12)]">
           {/* 이미지로 대체될 영역 */}
-          <img src={demoUrl} />
+          {isVideoPlaying ? <video src={demoVideoUrl} autoPlay loop playsInline /> : <img src={demoUrl} />}
         </div>
+        <div ref={ref} className="absolute bottom-[100px] h-1" />
       </div>
     </section>
   );
