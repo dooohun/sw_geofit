@@ -42,9 +42,19 @@ export default function SecondSection({ ref, titleRef, isVideoPlaying }: SecondS
         </div>
 
         {/* Demo Interface Placeholder */}
-        <div className="relative h-full w-full overflow-hidden rounded-3xl bg-gradient-to-br from-blue-400 via-purple-500 to-orange-400 shadow-[0px_8px_24px_0px_rgba(0,0,0,0.12)]">
+        <div className="relative aspect-[1216/620] overflow-hidden rounded-3xl shadow-[0px_8px_24px_0px_rgba(0,0,0,0.12)]">
           {/* 이미지로 대체될 영역 */}
-          {isVideoPlaying ? <video src={demoVideoUrl} autoPlay loop playsInline /> : <img src={demoUrl} />}
+          <video
+            src={demoVideoUrl}
+            autoPlay
+            loop
+            playsInline
+            className={`absolute top-0 left-0 h-full w-full transition-all duration-500 ${isVideoPlaying ? 'opacity-100' : 'opacity-0'}`}
+          />
+          <img
+            src={demoUrl}
+            className={`absolute top-0 left-0 h-full w-full transition-all duration-500 ${isVideoPlaying ? 'opacity-0' : 'opacity-100'}`}
+          />
         </div>
         <div ref={ref} className="absolute bottom-[100px] h-1" />
       </div>
