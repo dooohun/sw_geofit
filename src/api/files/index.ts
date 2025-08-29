@@ -28,16 +28,6 @@ export const filesApi = {
       },
       body: file,
     }),
+
+  downloadFile: async (key: string) => await apiClient.get<{ url: string }>(`files/presign-download?key=${key}`),
 };
-
-// getPresignedUrl({
-//   fileName: 'example.pdf',
-//   contentType: 'application/pdf',
-// }).then((response) => {
-//   const { url, key } = response.data;
-//   uploadFile(url, file).then((res) => {
-//     const { url } = res.data;
-//     setUrls((prev) => [...prev, url]);
-//   });
-
-// })

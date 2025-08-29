@@ -1,117 +1,8 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import PropertyDetailModal from './modal';
-
-interface Property {
-  id: string;
-  title: string;
-  address: string;
-  price: string;
-  score: number;
-  scoreText: string;
-  image: string;
-  businessTypes: string[];
-  suitableBusinesses: { name: string; percentage: number }[];
-  keyFactors: string[];
-}
-
-const properties: Property[] = [
-  {
-    id: '1',
-    title: '소담동 · 1F · 근린상가',
-    address: '경기도 수원시 영통구 광교로 147',
-    price: '2,000만 / 200만 / 100㎡',
-    score: 95,
-    scoreText: '매우 우수',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop',
-    businessTypes: ['국/탕/찌개', '카페', '요리주점'],
-    suitableBusinesses: [
-      { name: '국/탕/찌개', percentage: 92 },
-      { name: '카페', percentage: 88 },
-      { name: '요리주점', percentage: 85 },
-    ],
-    keyFactors: ['저녁피크', '40대배후', '경쟁희소'],
-  },
-  {
-    id: '2',
-    title: '역삼동 · 2F · 오피스텔',
-    address: '서울특별시 강남구 태헌로 123',
-    price: '1,000만 / 350만 / 78㎡',
-    score: 88,
-    scoreText: '우수',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop',
-    businessTypes: ['IT스타트업', '컨설팅', '디자인'],
-    suitableBusinesses: [
-      { name: 'IT스타트업', percentage: 94 },
-      { name: '컨설팅', percentage: 89 },
-      { name: '디자인', percentage: 85 },
-    ],
-    keyFactors: ['정류장3', '심야배달↑', '매출잠재력높음'],
-  },
-  {
-    id: '3',
-    title: '홍익동 · B1 · 근린상가',
-    address: '서울특별시 마포구 홍익로 89',
-    price: '500만 / 120만 / 65㎡',
-    score: 92,
-    scoreText: '매우 우수',
-    image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&h=300&fit=crop',
-    businessTypes: ['카페', '주점', '치킨집'],
-    suitableBusinesses: [
-      { name: '카페', percentage: 90 },
-      { name: '주점', percentage: 87 },
-      { name: '치킨집', percentage: 84 },
-    ],
-    keyFactors: ['학교·정류장인접', '20대배후', '심야수요↑'],
-  },
-  {
-    id: '4',
-    title: '정자동 · 1F · 근린상가',
-    address: '경기도 성남구 분당구 판교역로 235',
-    price: '3,000만 / 280만 / 120㎡',
-    score: 89,
-    scoreText: '우수',
-    image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop',
-    businessTypes: ['소프트웨어', '핀테크', 'AI/ML'],
-    suitableBusinesses: [
-      { name: '소프트웨어', percentage: 95 },
-      { name: '핀테크', percentage: 91 },
-      { name: 'AI/ML', percentage: 88 },
-    ],
-    keyFactors: ['직장배후', '점심피크', '고소득층'],
-  },
-  {
-    id: '5',
-    title: '이태원동 · 2F · 근린상가',
-    address: '서울특별시 용산구 이태원로 156',
-    price: '1,500만 / 220만 / 85㎡',
-    score: 84,
-    scoreText: '양호',
-    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop',
-    businessTypes: ['양식당', '바', '카페'],
-    suitableBusinesses: [
-      { name: '양식당', percentage: 88 },
-      { name: '바', percentage: 82 },
-      { name: '카페', percentage: 79 },
-    ],
-    keyFactors: ['외국인수요', '주말피크', '관광지인접'],
-  },
-  {
-    id: '6',
-    title: '신촌동 · 1F · 근린상가',
-    address: '서울특별시 서대문구 신촌로 78',
-    price: '800만 / 150만 / 55㎡',
-    score: 87,
-    scoreText: '우수',
-    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop',
-    businessTypes: ['치킨집', '카페', '편의점'],
-    suitableBusinesses: [
-      { name: '치킨집', percentage: 89 },
-      { name: '카페', percentage: 84 },
-      { name: '편의점', percentage: 81 },
-    ],
-    keyFactors: ['대학가', '20대배후', '배달수요↑'],
-  },
-];
+import { useGetProperties } from './queries';
+import type { PropertiesResponse } from '@/api/property/entity';
+import { filesApi } from '@/api/files';
 
 export default function PropertySearchPage() {
   const [selectedSido, setSelectedSido] = useState('');
@@ -120,28 +11,38 @@ export default function PropertySearchPage() {
   const [selectedBusinessType, setSelectedBusinessType] = useState('');
   const [priceRange, setPriceRange] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
+  const [selectedPropertyId, setSelectedPropertyId] = useState<number | null>(null);
+  const [propertyData, setPropertyData] = useState<PropertiesResponse>();
 
-  const getScoreBadgeColor = (score: number) => {
-    if (score >= 90) return 'bg-green-100 text-green-700 border-green-200';
-    if (score >= 85) return 'bg-blue-100 text-blue-700 border-blue-200';
-    return 'bg-gray-100 text-gray-700 border-gray-200';
+  const { data: fetchedPropertyData } = useGetProperties();
+
+  const changeImageUrl = async () => {
+    if (fetchedPropertyData) {
+      const updatedProperties = await Promise.all(
+        fetchedPropertyData.properties.map(async (property) => {
+          const { url } = await filesApi.downloadFile(property.image);
+          return {
+            ...property,
+            image: url,
+          };
+        }),
+      );
+      setPropertyData({ count: updatedProperties.length, properties: updatedProperties });
+    }
   };
 
-  const getButtonColor = (score: number) => {
-    if (score >= 90) return 'bg-green-600 hover:bg-green-700';
-    if (score >= 85) return 'bg-blue-600 hover:bg-blue-700';
-    return 'bg-gray-600 hover:bg-gray-700';
-  };
+  useEffect(() => {
+    changeImageUrl();
+  }, [fetchedPropertyData]);
 
-  const handleCardClick = (property: Property) => {
-    setSelectedProperty(property);
+  const handleCardClick = (propertyId: number) => {
+    setSelectedPropertyId(propertyId);
     setIsModalOpen(true);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
-    setSelectedProperty(null);
+    setSelectedPropertyId(null);
   };
 
   return (
@@ -281,88 +182,145 @@ export default function PropertySearchPage() {
         {/* Results Count */}
         <div className="mb-6">
           <p className="text-gray-600">
-            총 <span className="font-semibold text-blue-600">{properties.length}</span>개 매물
+            총 <span className="font-semibold text-blue-600">{propertyData?.count}</span>개 매물
           </p>
         </div>
 
         {/* Property Grid */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {properties.map((property) => (
-            <div
-              key={property.id}
-              className="transform cursor-pointer overflow-hidden rounded-2xl bg-white shadow-sm transition-all duration-200 hover:scale-[1.02] hover:shadow-md"
-              onClick={() => handleCardClick(property)}
-            >
-              {/* Property Image */}
-              <div className="relative aspect-[4/3]">
-                <img src={property.image} alt={property.title} className="h-full w-full object-cover" />
-                <div
-                  className={`absolute top-3 right-3 rounded-full border px-2 py-1 text-xs font-medium ${getScoreBadgeColor(property.score)}`}
-                >
-                  {property.score}점
+          {propertyData?.properties.map((property) => {
+            // 분석 완료 여부 체크
+            const isAnalysisComplete =
+              property.rec1Type &&
+              property.rec2Type &&
+              property.rec3Type &&
+              property.reason1 &&
+              property.reason2 &&
+              property.reason3;
+
+            return (
+              <div
+                key={property.propertyId}
+                className="group relative transform cursor-pointer overflow-hidden rounded-2xl bg-white shadow-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
+                onClick={() => handleCardClick(property.propertyId)}
+              >
+                {/* Property Image */}
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    src={property.image}
+                    alt={property.dong}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 </div>
-              </div>
 
-              {/* Property Info */}
-              <div className="p-4">
-                <h3 className="mb-2 line-clamp-1 font-semibold text-gray-900">{property.title}</h3>
-                <p className="mb-3 line-clamp-1 text-sm text-gray-600">{property.address}</p>
-                <div className="mb-3 text-lg font-bold text-red-600">{property.price}</div>
-
-                {/* 창업 적합도 */}
-                <div className="mb-3">
-                  <div
-                    className={`text-xs font-medium ${
-                      property.score >= 90 ? 'text-green-600' : property.score >= 85 ? 'text-blue-600' : 'text-gray-600'
-                    }`}
-                  >
-                    창업 적합도: {property.scoreText} ({property.score}점)
+                {/* Property Info */}
+                <div className="p-5">
+                  {/* Location & Basic Info */}
+                  <div className="mb-3">
+                    <div className="mb-2 flex items-center justify-between">
+                      <h3 className="line-clamp-1 text-lg font-bold text-gray-900">{property.dong}</h3>
+                      <span className="rounded-full bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">
+                        {property.floor}
+                      </span>
+                    </div>
+                    <p className="text-sm text-gray-500">{property.propertyType}</p>
                   </div>
-                </div>
 
-                {/* 추천 업종 배지 (2-3개, percentage 제거) */}
-                <div className="mb-3">
-                  <div className="mb-1 text-xs font-medium text-gray-600">추천 업종</div>
-                  <div className="flex flex-wrap gap-1">
-                    {property.suitableBusinesses.slice(0, 3).map((business, index) => (
-                      <span
-                        key={index}
-                        className="rounded-full border border-blue-200 bg-blue-50 px-2 py-1 text-xs text-blue-700"
+                  {/* Price Info */}
+                  <div className="mb-4 space-y-1">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-xl font-bold text-blue-600">
+                        월세 {Math.floor(property.rent / 10000).toLocaleString()}만원
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-sm text-gray-600">
+                      <span>보증금 {Math.floor(property.deposit / 10000).toLocaleString()}만원</span>
+                      <span>•</span>
+                      <span>{property.area}㎡</span>
+                    </div>
+                  </div>
+
+                  {/* Analysis Status */}
+                  {isAnalysisComplete ? (
+                    <>
+                      {/* 추천 업종 */}
+                      <div className="mb-4">
+                        <div className="mb-2 flex items-center gap-1">
+                          <span className="text-xs font-medium text-gray-700">추천 업종</span>
+                          <div className="h-1 w-1 rounded-full bg-blue-500"></div>
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {[property.rec1Type, property.rec2Type, property.rec3Type].map((type, index) => (
+                            <span
+                              key={index}
+                              className="inline-flex items-center rounded-full bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-200"
+                            >
+                              #{type}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* 핵심 근거 */}
+                      <div className="mb-5">
+                        <div className="mb-2 flex items-center gap-1">
+                          <span className="text-xs font-medium text-gray-700">핵심 근거</span>
+                          <div className="h-1 w-1 rounded-full bg-emerald-500"></div>
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {[property.reason1, property.reason2, property.reason3].map((reason, index) => (
+                            <span
+                              key={index}
+                              className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-medium text-emerald-700 ring-1 ring-emerald-200"
+                            >
+                              #{reason}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Action Button */}
+                      <button
+                        className="w-full rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-md"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleCardClick(property.propertyId);
+                        }}
                       >
-                        #{business.name}
-                      </span>
-                    ))}
-                  </div>
-                </div>
+                        자세히 보기
+                      </button>
+                    </>
+                  ) : (
+                    /* 분석 중 상태 */
+                    <div className="space-y-4">
+                      <div className="rounded-xl bg-amber-50 p-4 text-center">
+                        <div className="mb-2 flex items-center justify-center">
+                          <div className="h-5 w-5 animate-spin rounded-full border-2 border-amber-600 border-t-transparent"></div>
+                        </div>
+                        <p className="text-sm font-medium text-amber-800">분석 중입니다</p>
+                        <p className="mt-1 text-xs text-amber-600">업종 추천 및 입지 분석을 진행하고 있어요</p>
+                      </div>
 
-                {/* 핵심 근거 배지 (최대 3개) */}
-                <div className="mb-4">
-                  <div className="mb-1 text-xs font-medium text-gray-600">핵심 근거</div>
-                  <div className="flex flex-wrap gap-1">
-                    {property.keyFactors.slice(0, 3).map((factor, index) => (
-                      <span key={index} className="rounded-full bg-gray-100 px-2 py-1 text-xs text-gray-700">
-                        {factor}
-                      </span>
-                    ))}
-                  </div>
+                      <button
+                        className="w-full rounded-xl bg-[#4D96FF] bg-gradient-to-r px-4 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:shadow-md"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleCardClick(property.propertyId);
+                        }}
+                      >
+                        자세히 보기
+                      </button>
+                    </div>
+                  )}
                 </div>
-
-                {/* Action Button */}
-                <button
-                  className={`w-full rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors ${getButtonColor(property.score)}`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleCardClick(property);
-                  }}
-                >
-                  상세 리포트 다운로드
-                </button>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
-
-        <PropertyDetailModal isOpen={isModalOpen} onClose={closeModal} property={selectedProperty} />
+        {selectedPropertyId && (
+          <PropertyDetailModal isOpen={isModalOpen} onClose={closeModal} propertyId={selectedPropertyId} />
+        )}
       </div>
     </div>
   );

@@ -1,5 +1,12 @@
 import { apiClient } from '..';
-import type { PropertyDongResponse, PropertyFloorResponse, PropertyRequest, PropertyTypeResponse } from './entity';
+import type {
+  PropertiesResponse,
+  PropertyDongResponse,
+  PropertyFloorResponse,
+  PropertyRequest,
+  PropertyTypeResponse,
+  DetailPropertyResponse,
+} from './entity';
 
 export const propertyApi = {
   getPropertyDong: async () => await apiClient.get<PropertyDongResponse[]>(`property/dong`),
@@ -9,4 +16,7 @@ export const propertyApi = {
     await apiClient.post('property', {
       body: data,
     }),
+  getAllProperties: async () => await apiClient.get<PropertiesResponse>(`property`),
+  getDetailProperty: async (propertyId: number) =>
+    await apiClient.get<DetailPropertyResponse>(`property/${propertyId}`),
 };
