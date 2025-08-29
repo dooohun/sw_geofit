@@ -1,4 +1,10 @@
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
+import { useGetDong, useGetFloor, useGetType, useMutateProperty } from './queries';
+import type { PropertyRequest } from '@/api/property/entity';
+import { useUploadImages } from './useUploadImages';
+import { crawlingApi } from '@/api/crawling';
+import LoadingSpinner from '@/components/LoadingSpinner';
+// import { crawlingApi } from '@/api/crawling';
 
 interface ImageFile {
   id: string;
@@ -6,9 +12,30 @@ interface ImageFile {
   preview: string;
 }
 
-export default function PropertyRegistration() {
+function PropertyRegistrationPage() {
   const [images, setImages] = useState<ImageFile[]>([]);
   const [contractFile, setContractFile] = useState<File | null>(null);
+
+  const [formData, setFormData] = useState<PropertyRequest>({
+    dongId: 0,
+    typeId: 0,
+    floorId: 0,
+    area: 0,
+    rent: 0,
+    deposit: 0,
+    isMaintenance: false,
+    sido: '세종특별자치시',
+    sigungu: '세종시',
+    imageUrls: [],
+    detailAddress: '',
+  });
+
+  const { data: dongData = [] } = useGetDong();
+  const { data: floorData = [] } = useGetFloor();
+  const { data: typeData = [] } = useGetType();
+  const { mutate, isPending } = useMutateProperty();
+
+  const { uploadImages } = useUploadImages();
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = Array.from(e.target.files || []);
@@ -60,6 +87,43 @@ export default function PropertyRegistration() {
     return 'aspect-[4/3]';
   };
 
+  const handleInputChange = (field: keyof PropertyRequest, value: string | number | boolean) => {
+    setFormData((prev) => ({
+      ...prev,
+      [field]: value,
+    }));
+  };
+
+  const handleSubmit = async () => {
+    // 필수 필드 검증
+    if (
+      !formData.dongId ||
+      !formData.typeId ||
+      !formData.floorId ||
+      !formData.area ||
+      !formData.rent ||
+      !formData.deposit
+    ) {
+      alert('필수 항목을 모두 입력해주세요.');
+      return;
+    }
+
+    const imageKeys = await uploadImages(images.map((img) => img.file));
+
+    const requestData: PropertyRequest = {
+      ...formData,
+      rent: formData.rent * 10000, // 만원을 원으로 변환
+      deposit: formData.deposit * 10000, // 만원을 원으로 변환
+      imageUrls: imageKeys,
+    };
+
+    mutate(requestData, {
+      onSuccess: async (data) => await crawlingApi.crawling(data),
+    });
+    // const address = `${formData.sido} ${formData.sigungu} ${dongData.find((d) => d.id === formData.dongId)?.name || ''} ${formData.detailAddress}`;
+    // await crawlingApi.allCrawling(address);
+  };
+
   return (
     <div className="min-h-screen bg-[#F5F6FA]">
       <div className="mx-auto max-w-4xl px-6 py-8">
@@ -79,8 +143,11 @@ export default function PropertyRegistration() {
                 </label>
                 <div className="grid grid-cols-3 gap-4">
                   <div className="relative">
-                    <select className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none">
-                      <option>시/도 선택</option>
+                    <select
+                      className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      disabled
+                    >
+                      <option>세종특별자치시</option>
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
                       <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -89,8 +156,11 @@ export default function PropertyRegistration() {
                     </div>
                   </div>
                   <div className="relative">
-                    <select className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none">
-                      <option>시/군/구 선택</option>
+                    <select
+                      className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      disabled
+                    >
+                      <option>세종시</option>
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
                       <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -99,8 +169,17 @@ export default function PropertyRegistration() {
                     </div>
                   </div>
                   <div className="relative">
-                    <select className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none">
-                      <option>동/읍/면 선택</option>
+                    <select
+                      className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      value={formData.dongId}
+                      onChange={(e) => handleInputChange('dongId', parseInt(e.target.value))}
+                    >
+                      <option value={0}>동/읍/면 선택</option>
+                      {dongData.map((dong) => (
+                        <option key={dong.id} value={dong.id}>
+                          {dong.name}
+                        </option>
+                      ))}
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
                       <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -113,6 +192,8 @@ export default function PropertyRegistration() {
                   type="text"
                   placeholder="상세주소 (건물명, 호수 등)"
                   className="mt-3 w-full rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  value={formData.detailAddress}
+                  onChange={(e) => handleInputChange('detailAddress', e.target.value)}
                 />
               </div>
             </div>
@@ -121,26 +202,19 @@ export default function PropertyRegistration() {
             <div>
               <h2 className="mb-6 text-lg font-semibold text-gray-900">건물 유형</h2>
               <div className="grid grid-cols-2 gap-4">
-                <label className="flex items-center">
-                  <input type="radio" name="buildingType" className="mr-2" />
-                  <span>근린상가</span>
-                </label>
-                <label className="flex items-center">
-                  <input type="radio" name="buildingType" className="mr-2" />
-                  <span>오피스·업무</span>
-                </label>
-                <label className="flex items-center">
-                  <input type="radio" name="buildingType" className="mr-2" />
-                  <span>주상복합·오피스텔 상가</span>
-                </label>
-                <label className="flex items-center">
-                  <input type="radio" name="buildingType" className="mr-2" />
-                  <span>단독·다가구 1층 상가</span>
-                </label>
-                <label className="flex items-center">
-                  <input type="radio" name="buildingType" className="mr-2" />
-                  <span>기타 복합·몰</span>
-                </label>
+                {typeData.map((type) => (
+                  <label key={type.id} className="flex items-center">
+                    <input
+                      type="radio"
+                      name="buildingType"
+                      className="mr-2"
+                      value={type.id}
+                      checked={formData.typeId === type.id}
+                      onChange={(e) => handleInputChange('typeId', parseInt(e.target.value))}
+                    />
+                    <span>{type.name}</span>
+                  </label>
+                ))}
               </div>
             </div>
 
@@ -155,6 +229,8 @@ export default function PropertyRegistration() {
                     type="number"
                     placeholder="예: 30"
                     className="flex-1 rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    value={formData.area || ''}
+                    onChange={(e) => handleInputChange('area', parseInt(e.target.value) || 0)}
                   />
                   <span className="text-gray-500">㎡</span>
                 </div>
@@ -163,26 +239,24 @@ export default function PropertyRegistration() {
                 <label className="mb-2 block text-sm font-medium text-gray-700">
                   층수 <span className="text-red-500">*</span>
                 </label>
-                <div className="flex items-center space-x-2">
-                  <div className="relative">
-                    <select className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none">
-                      <option value="">선택</option>
-                      <option value="지상">지상</option>
-                      <option value="지하">지하</option>
-                    </select>
-                    <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
-                      <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </div>
+                <div className="relative">
+                  <select
+                    className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-8 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    value={formData.floorId}
+                    onChange={(e) => handleInputChange('floorId', parseInt(e.target.value))}
+                  >
+                    <option value={0}>층수 선택</option>
+                    {floorData.map((floor) => (
+                      <option key={floor.id} value={floor.id}>
+                        {floor.name}
+                      </option>
+                    ))}
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-2 flex items-center">
+                    <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
                   </div>
-                  <input
-                    type="number"
-                    placeholder="층수"
-                    min="1"
-                    className="flex-1 rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                  />
-                  <span className="text-gray-500">층</span>
                 </div>
               </div>
             </div>
@@ -200,6 +274,8 @@ export default function PropertyRegistration() {
                       type="number"
                       placeholder="예: 200"
                       className="flex-1 rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      value={formData.rent || ''}
+                      onChange={(e) => handleInputChange('rent', parseInt(e.target.value) || 0)}
                     />
                     <span className="text-gray-500">만원</span>
                   </div>
@@ -213,6 +289,8 @@ export default function PropertyRegistration() {
                       type="number"
                       placeholder="예: 1000"
                       className="flex-1 rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      value={formData.deposit || ''}
+                      onChange={(e) => handleInputChange('deposit', parseInt(e.target.value) || 0)}
                     />
                     <span className="text-gray-500">만원</span>
                   </div>
@@ -220,45 +298,15 @@ export default function PropertyRegistration() {
               </div>
               <div>
                 <label className="mb-2 block text-sm font-medium text-gray-700">관리비</label>
-                <div className="flex items-center space-x-4">
+                <label className="flex items-center">
                   <input
-                    type="number"
-                    placeholder="예: 10"
-                    className="rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    type="checkbox"
+                    className="mr-2"
+                    checked={formData.isMaintenance}
+                    onChange={(e) => handleInputChange('isMaintenance', e.target.checked)}
                   />
-                  <span className="text-gray-500">만원</span>
-                  <label className="flex items-center">
-                    <input type="checkbox" className="mr-2" />
-                    <span className="text-sm">협의 가능</span>
-                  </label>
-                </div>
-              </div>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h2 className="mb-6 text-lg font-semibold text-gray-900">연락처</h2>
-              <div className="grid grid-cols-2 gap-6">
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-gray-700">
-                    담당자명 <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="홍길동"
-                    className="w-full rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                  />
-                </div>
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-gray-700">
-                    연락처 <span className="text-red-500">*</span>
-                  </label>
-                  <input
-                    type="tel"
-                    placeholder="010-0000-0000"
-                    className="w-full rounded-lg border border-gray-300 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                  />
-                </div>
+                  <span className="text-sm">관리비 포함</span>
+                </label>
               </div>
             </div>
 
@@ -376,13 +424,25 @@ export default function PropertyRegistration() {
               <button className="flex-1 rounded-lg bg-gray-200 px-6 py-3 font-medium text-gray-700 transition-colors hover:bg-gray-300">
                 취소
               </button>
-              <button className="flex-1 rounded-lg bg-black px-6 py-3 font-medium text-white transition-colors hover:bg-gray-800">
-                매물 등록하기
+              <button
+                onClick={handleSubmit}
+                disabled={isPending}
+                className="flex-1 rounded-lg bg-black px-6 py-3 font-medium text-white transition-colors hover:bg-gray-800 disabled:cursor-not-allowed disabled:bg-gray-400"
+              >
+                {isPending ? '등록 중...' : '매물 등록하기'}
               </button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  );
+}
+
+export default function PropertyRegistration() {
+  return (
+    <Suspense fallback={<LoadingSpinner />}>
+      <PropertyRegistrationPage />
+    </Suspense>
   );
 }

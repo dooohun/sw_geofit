@@ -1,0 +1,9110 @@
+[
+  {
+    "id": 11100,
+    "bus_stop": "세종시보건소(대동초)",
+    "latitude": 36.5955851,
+    "longtitude": 127.2953796
+  },
+  {
+    "id": 11101,
+    "bus_stop": "세종시보건소(대동초)",
+    "latitude": 36.5955999,
+    "longtitude": 127.2935516
+  },
+  {
+    "id": 34110,
+    "bus_stop": "대평리원형교차로",
+    "latitude": 36.4600198,
+    "longtitude": 127.2805189
+  },
+  {
+    "id": 34111,
+    "bus_stop": "대평리원형교차로",
+    "latitude": 36.4600021,
+    "longtitude": 127.2807254
+  },
+  {
+    "id": 32087,
+    "bus_stop": "삼성전기",
+    "latitude": 36.5396464,
+    "longtitude": 127.3361428
+  },
+  {
+    "id": 32088,
+    "bus_stop": "삼성전기",
+    "latitude": 36.5395019,
+    "longtitude": 127.3359476
+  },
+  {
+    "id": 32089,
+    "bus_stop": "리봄화장품",
+    "latitude": 36.5451653,
+    "longtitude": 127.3308576
+  },
+  {
+    "id": 32090,
+    "bus_stop": "리봄화장품",
+    "latitude": 36.5450657,
+    "longtitude": 127.3305114
+  },
+  {
+    "id": 32091,
+    "bus_stop": "명학산업단지입구",
+    "latitude": 36.5492451,
+    "longtitude": 127.3280218
+  },
+  {
+    "id": 32092,
+    "bus_stop": "명학산업단지입구",
+    "latitude": 36.5491094,
+    "longtitude": 127.3277093
+  },
+  {
+    "id": 52048,
+    "bus_stop": "선박안전기술공단",
+    "latitude": 36.5150586,
+    "longtitude": 127.2422849
+  },
+  {
+    "id": 52049,
+    "bus_stop": "선박안전기술공단",
+    "latitude": 36.5149012,
+    "longtitude": 127.2424529
+  },
+  {
+    "id": 37071,
+    "bus_stop": "유천리",
+    "latitude": 36.6862,
+    "longtitude": 127.16905
+  },
+  {
+    "id": 37010,
+    "bus_stop": "금사리",
+    "latitude": 36.60927,
+    "longtitude": 127.17268
+  },
+  {
+    "id": 37022,
+    "bus_stop": "달전1리",
+    "latitude": 36.63113,
+    "longtitude": 127.17432
+  },
+  {
+    "id": 37019,
+    "bus_stop": "달전2리입구",
+    "latitude": 36.62698,
+    "longtitude": 127.17504
+  },
+  {
+    "id": 37018,
+    "bus_stop": "달전2리입구",
+    "latitude": 36.62677,
+    "longtitude": 127.17521
+  },
+  {
+    "id": 37020,
+    "bus_stop": "달전2리입구",
+    "latitude": 36.62685,
+    "longtitude": 127.17534
+  },
+  {
+    "id": 37057,
+    "bus_stop": "세종미래산업단지",
+    "latitude": 36.63987,
+    "longtitude": 127.17637
+  },
+  {
+    "id": 37056,
+    "bus_stop": "세종미래산업단지",
+    "latitude": 36.63972,
+    "longtitude": 127.17649
+  },
+  {
+    "id": 37055,
+    "bus_stop": "양곡리",
+    "latitude": 36.64323,
+    "longtitude": 127.17697
+  },
+  {
+    "id": 37054,
+    "bus_stop": "양곡리",
+    "latitude": 36.64316,
+    "longtitude": 127.1771
+  },
+  {
+    "id": 37068,
+    "bus_stop": "유천2리",
+    "latitude": 36.68292,
+    "longtitude": 127.17727
+  },
+  {
+    "id": 37066,
+    "bus_stop": "유천2리",
+    "latitude": 36.68278,
+    "longtitude": 127.17728
+  },
+  {
+    "id": 37024,
+    "bus_stop": "달전리(태호농장)",
+    "latitude": 36.61601,
+    "longtitude": 127.17733
+  },
+  {
+    "id": 37023,
+    "bus_stop": "달전리(태호농장)",
+    "latitude": 36.61607,
+    "longtitude": 127.17748
+  },
+  {
+    "id": 37031,
+    "bus_stop": "민석아파트입구",
+    "latitude": 36.6811,
+    "longtitude": 127.18134
+  },
+  {
+    "id": 37030,
+    "bus_stop": "민석아파트입구",
+    "latitude": 36.68099,
+    "longtitude": 127.18197
+  },
+  {
+    "id": 37047,
+    "bus_stop": "신방1리(신암골)",
+    "latitude": 36.65099,
+    "longtitude": 127.18462
+  },
+  {
+    "id": 37048,
+    "bus_stop": "신방1리(신암골)",
+    "latitude": 36.651,
+    "longtitude": 127.18479
+  },
+  {
+    "id": 37017,
+    "bus_stop": "비암사입구",
+    "latitude": 36.60406,
+    "longtitude": 127.1863
+  },
+  {
+    "id": 37016,
+    "bus_stop": "비암사입구",
+    "latitude": 36.60409,
+    "longtitude": 127.18662
+  },
+  {
+    "id": 37059,
+    "bus_stop": "대전가톨릭대입구",
+    "latitude": 36.65524,
+    "longtitude": 127.18733
+  },
+  {
+    "id": 37058,
+    "bus_stop": "대전가톨릭대입구",
+    "latitude": 36.65494,
+    "longtitude": 127.18734
+  },
+  {
+    "id": 37040,
+    "bus_stop": "서정2리마을회관",
+    "latitude": 36.69661,
+    "longtitude": 127.18893
+  },
+  {
+    "id": 37041,
+    "bus_stop": "서정2리마을회관",
+    "latitude": 36.69659,
+    "longtitude": 127.18911
+  },
+  {
+    "id": 37060,
+    "bus_stop": "영당리(영성들)",
+    "latitude": 36.66042,
+    "longtitude": 127.18919
+  },
+  {
+    "id": 37042,
+    "bus_stop": "서정리(고수골)",
+    "latitude": 36.69293,
+    "longtitude": 127.18937
+  },
+  {
+    "id": 37061,
+    "bus_stop": "영당리(영성들)",
+    "latitude": 36.66047,
+    "longtitude": 127.18938
+  },
+  {
+    "id": 37014,
+    "bus_stop": "다방1리마을회관",
+    "latitude": 36.60319,
+    "longtitude": 127.18944
+  },
+  {
+    "id": 37038,
+    "bus_stop": "서정2리",
+    "latitude": 36.70042,
+    "longtitude": 127.18963
+  },
+  {
+    "id": 37039,
+    "bus_stop": "서정2리",
+    "latitude": 36.70041,
+    "longtitude": 127.18994
+  },
+  {
+    "id": 37033,
+    "bus_stop": "부거실(아랫마을)",
+    "latitude": 36.62586,
+    "longtitude": 127.19001
+  },
+  {
+    "id": 37052,
+    "bus_stop": "신흥리",
+    "latitude": 36.66348,
+    "longtitude": 127.19092
+  },
+  {
+    "id": 37053,
+    "bus_stop": "신흥리",
+    "latitude": 36.66359,
+    "longtitude": 127.19113
+  },
+  {
+    "id": 37026,
+    "bus_stop": "덕고개",
+    "latitude": 36.68046,
+    "longtitude": 127.19186
+  },
+  {
+    "id": 37036,
+    "bus_stop": "서정1리마을회관",
+    "latitude": 36.68798,
+    "longtitude": 127.19183
+  },
+  {
+    "id": 37076,
+    "bus_stop": "전의산연수원",
+    "latitude": 36.70287,
+    "longtitude": 127.19218
+  },
+  {
+    "id": 37075,
+    "bus_stop": "전의산연수원",
+    "latitude": 36.70249,
+    "longtitude": 127.19243
+  },
+  {
+    "id": 37087,
+    "bus_stop": "한국콜마",
+    "latitude": 36.68087,
+    "longtitude": 127.19338
+  },
+  {
+    "id": 37051,
+    "bus_stop": "신흥리(사사)",
+    "latitude": 36.66931,
+    "longtitude": 127.19429
+  },
+  {
+    "id": 37064,
+    "bus_stop": "원성2리",
+    "latitude": 36.67112,
+    "longtitude": 127.19515
+  },
+  {
+    "id": 37063,
+    "bus_stop": "원성2리",
+    "latitude": 36.67103,
+    "longtitude": 127.19527
+  },
+  {
+    "id": 37082,
+    "bus_stop": "전의중학교",
+    "latitude": 36.68024,
+    "longtitude": 127.19736
+  },
+  {
+    "id": 37034,
+    "bus_stop": "부거실(윗마을)",
+    "latitude": 36.62444,
+    "longtitude": 127.19807
+  },
+  {
+    "id": 37005,
+    "bus_stop": "관정1리",
+    "latitude": 36.69898,
+    "longtitude": 127.19813
+  },
+  {
+    "id": 37006,
+    "bus_stop": "관정1리",
+    "latitude": 36.69905,
+    "longtitude": 127.19826
+  },
+  {
+    "id": 37062,
+    "bus_stop": "원성리(죽근마을)",
+    "latitude": 36.67622,
+    "longtitude": 127.19936
+  },
+  {
+    "id": 37080,
+    "bus_stop": "전의역",
+    "latitude": 36.67939,
+    "longtitude": 127.20358
+  },
+  {
+    "id": 37079,
+    "bus_stop": "전의역",
+    "latitude": 36.67953,
+    "longtitude": 127.2036
+  },
+  {
+    "id": 37078,
+    "bus_stop": "전의역",
+    "latitude": 36.67933,
+    "longtitude": 127.20402
+  },
+  {
+    "id": 37081,
+    "bus_stop": "전의역",
+    "latitude": 36.67946,
+    "longtitude": 127.20405
+  },
+  {
+    "id": 37044,
+    "bus_stop": "성호아파트",
+    "latitude": 36.68196,
+    "longtitude": 127.20455
+  },
+  {
+    "id": 37003,
+    "bus_stop": "갈정교",
+    "latitude": 36.68911,
+    "longtitude": 127.20517
+  },
+  {
+    "id": 37004,
+    "bus_stop": "갈정교",
+    "latitude": 36.68899,
+    "longtitude": 127.2053
+  },
+  {
+    "id": 37025,
+    "bus_stop": "대추리",
+    "latitude": 36.6932,
+    "longtitude": 127.2057
+  },
+  {
+    "id": 37072,
+    "bus_stop": "재동아파트",
+    "latitude": 36.6794,
+    "longtitude": 127.2066
+  },
+  {
+    "id": 35044,
+    "bus_stop": "은용리",
+    "latitude": 36.489195,
+    "longtitude": 127.195662
+  },
+  {
+    "id": 36032,
+    "bus_stop": "번암터",
+    "latitude": 36.56317,
+    "longtitude": 127.25387
+  },
+  {
+    "id": 36080,
+    "bus_stop": "연서초등학교",
+    "latitude": 36.58203,
+    "longtitude": 127.25394
+  },
+  {
+    "id": 36074,
+    "bus_stop": "연서감리교회",
+    "latitude": 36.57759,
+    "longtitude": 127.25602
+  },
+  {
+    "id": 36018,
+    "bus_stop": "연서감리교회",
+    "latitude": 36.57767,
+    "longtitude": 127.25632
+  },
+  {
+    "id": 36079,
+    "bus_stop": "연서중학교",
+    "latitude": 36.58099,
+    "longtitude": 127.25676
+  },
+  {
+    "id": 36078,
+    "bus_stop": "연서중학교",
+    "latitude": 36.58113,
+    "longtitude": 127.25696
+  },
+  {
+    "id": 36003,
+    "bus_stop": "고복1리마을회관",
+    "latitude": 36.60462,
+    "longtitude": 127.25795
+  },
+  {
+    "id": 36017,
+    "bus_stop": "국촌2리",
+    "latitude": 36.57727,
+    "longtitude": 127.25925
+  },
+  {
+    "id": 36016,
+    "bus_stop": "국촌2리",
+    "latitude": 36.57711,
+    "longtitude": 127.25936
+  },
+  {
+    "id": 36083,
+    "bus_stop": "와촌1리(대실)",
+    "latitude": 36.55868,
+    "longtitude": 127.26061
+  },
+  {
+    "id": 36084,
+    "bus_stop": "와촌1리(대실)",
+    "latitude": 36.55887,
+    "longtitude": 127.26078
+  },
+  {
+    "id": 36038,
+    "bus_stop": "서면",
+    "latitude": 36.58632,
+    "longtitude": 127.26114
+  },
+  {
+    "id": 36039,
+    "bus_stop": "서면",
+    "latitude": 36.58628,
+    "longtitude": 127.26126
+  },
+  {
+    "id": 36008,
+    "bus_stop": "고복1리",
+    "latitude": 36.59675,
+    "longtitude": 127.2614
+  },
+  {
+    "id": 36001,
+    "bus_stop": "고복1리",
+    "latitude": 36.59669,
+    "longtitude": 127.26154
+  },
+  {
+    "id": 36045,
+    "bus_stop": "성제2리",
+    "latitude": 36.59151,
+    "longtitude": 127.26172
+  },
+  {
+    "id": 36041,
+    "bus_stop": "서세종농협",
+    "latitude": 36.58857,
+    "longtitude": 127.26386
+  },
+  {
+    "id": 36042,
+    "bus_stop": "서세종농협",
+    "latitude": 36.58847,
+    "longtitude": 127.26396
+  },
+  {
+    "id": 36044,
+    "bus_stop": "성제삼거리",
+    "latitude": 36.58916,
+    "longtitude": 127.26419
+  },
+  {
+    "id": 36048,
+    "bus_stop": "성제삼거리",
+    "latitude": 36.58922,
+    "longtitude": 127.26433
+  },
+  {
+    "id": 36040,
+    "bus_stop": "국촌2리마을회관",
+    "latitude": 36.57566,
+    "longtitude": 127.26499
+  },
+  {
+    "id": 34079,
+    "bus_stop": "영대1리마을회관",
+    "latitude": 36.45845,
+    "longtitude": 127.33336
+  },
+  {
+    "id": 34099,
+    "bus_stop": "황용사",
+    "latitude": 36.47403,
+    "longtitude": 127.33406
+  },
+  {
+    "id": 34098,
+    "bus_stop": "황용사",
+    "latitude": 36.47385,
+    "longtitude": 127.3342
+  },
+  {
+    "id": 34092,
+    "bus_stop": "초정약수터",
+    "latitude": 36.47949,
+    "longtitude": 127.33524
+  },
+  {
+    "id": 34080,
+    "bus_stop": "영대리",
+    "latitude": 36.46787,
+    "longtitude": 127.33543
+  },
+  {
+    "id": 34081,
+    "bus_stop": "영대리",
+    "latitude": 36.4678,
+    "longtitude": 127.33567
+  },
+  {
+    "id": 34091,
+    "bus_stop": "초정약수터",
+    "latitude": 36.47936,
+    "longtitude": 127.3358
+  },
+  {
+    "id": 34026,
+    "bus_stop": "달전리(한울농장)",
+    "latitude": 36.46182,
+    "longtitude": 127.34222
+  },
+  {
+    "id": 34025,
+    "bus_stop": "달전리(한울농장)",
+    "latitude": 36.4617,
+    "longtitude": 127.34258
+  },
+  {
+    "id": 34029,
+    "bus_stop": "대박리(광덕사)",
+    "latitude": 36.47818,
+    "longtitude": 127.34409
+  },
+  {
+    "id": 34059,
+    "bus_stop": "부용1리",
+    "latitude": 36.49752,
+    "longtitude": 127.34413
+  },
+  {
+    "id": 34031,
+    "bus_stop": "대박리(광덕사)",
+    "latitude": 36.47829,
+    "longtitude": 127.34445
+  },
+  {
+    "id": 34060,
+    "bus_stop": "부용1리",
+    "latitude": 36.49779,
+    "longtitude": 127.34486
+  },
+  {
+    "id": 34022,
+    "bus_stop": "달전리",
+    "latitude": 36.45984,
+    "longtitude": 127.34676
+  },
+  {
+    "id": 34023,
+    "bus_stop": "달전리",
+    "latitude": 36.45978,
+    "longtitude": 127.34699
+  },
+  {
+    "id": 34027,
+    "bus_stop": "달전리마을회관",
+    "latitude": 36.462221,
+    "longtitude": 127.349332
+  },
+  {
+    "id": 34028,
+    "bus_stop": "대박리",
+    "latitude": 36.47707,
+    "longtitude": 127.3494
+  },
+  {
+    "id": 34030,
+    "bus_stop": "대박리",
+    "latitude": 36.47716,
+    "longtitude": 127.34951
+  },
+  {
+    "id": 34048,
+    "bus_stop": "망골",
+    "latitude": 36.45954,
+    "longtitude": 127.35183
+  },
+  {
+    "id": 34047,
+    "bus_stop": "망골",
+    "latitude": 36.45971,
+    "longtitude": 127.35184
+  },
+  {
+    "id": 34049,
+    "bus_stop": "박산리(작약골)",
+    "latitude": 36.47709,
+    "longtitude": 127.35183
+  },
+  {
+    "id": 34051,
+    "bus_stop": "박산리",
+    "latitude": 36.4773,
+    "longtitude": 127.35433
+  },
+  {
+    "id": 34062,
+    "bus_stop": "부용2리",
+    "latitude": 36.5125,
+    "longtitude": 127.35861
+  },
+  {
+    "id": 34061,
+    "bus_stop": "부용2리",
+    "latitude": 36.51229,
+    "longtitude": 127.35845
+  },
+  {
+    "id": 34006,
+    "bus_stop": "박산고개",
+    "latitude": 36.47516,
+    "longtitude": 127.36239
+  },
+  {
+    "id": 33007,
+    "bus_stop": "금호2리노인회관",
+    "latitude": 36.50201,
+    "longtitude": 127.35459
+  },
+  {
+    "id": 33008,
+    "bus_stop": "금호2리노인회관",
+    "latitude": 36.50221,
+    "longtitude": 127.35515
+  },
+  {
+    "id": 33003,
+    "bus_stop": "갈산2리",
+    "latitude": 36.53756,
+    "longtitude": 127.35598
+  },
+  {
+    "id": 33002,
+    "bus_stop": "갈산2리",
+    "latitude": 36.53772,
+    "longtitude": 127.35615
+  },
+  {
+    "id": 33005,
+    "bus_stop": "금호2리공단입구",
+    "latitude": 36.50417,
+    "longtitude": 127.358
+  },
+  {
+    "id": 33041,
+    "bus_stop": "산수리입구",
+    "latitude": 36.55433,
+    "longtitude": 127.35824
+  },
+  {
+    "id": 33029,
+    "bus_stop": "부강리",
+    "latitude": 36.53303,
+    "longtitude": 127.35955
+  },
+  {
+    "id": 33030,
+    "bus_stop": "부강리",
+    "latitude": 36.53291,
+    "longtitude": 127.36088
+  },
+  {
+    "id": 33037,
+    "bus_stop": "부강역",
+    "latitude": 36.53189,
+    "longtitude": 127.36464
+  },
+  {
+    "id": 33010,
+    "bus_stop": "금호3리",
+    "latitude": 36.50934,
+    "longtitude": 127.36516
+  },
+  {
+    "id": 33038,
+    "bus_stop": "부강역",
+    "latitude": 36.53192,
+    "longtitude": 127.36517
+  },
+  {
+    "id": 33032,
+    "bus_stop": "부강면",
+    "latitude": 36.52986,
+    "longtitude": 127.36613
+  },
+  {
+    "id": 33044,
+    "bus_stop": "아시아제지기숙사",
+    "latitude": 36.49129,
+    "longtitude": 127.36638
+  },
+  {
+    "id": 33040,
+    "bus_stop": "부강초등학교",
+    "latitude": 36.52823,
+    "longtitude": 127.36714
+  },
+  {
+    "id": 33001,
+    "bus_stop": "갈산리",
+    "latitude": 36.5466,
+    "longtitude": 127.3677
+  },
+  {
+    "id": 33035,
+    "bus_stop": "부강3리",
+    "latitude": 36.52795,
+    "longtitude": 127.368
+  },
+  {
+    "id": 33036,
+    "bus_stop": "부강3리",
+    "latitude": 36.52793,
+    "longtitude": 127.3682
+  },
+  {
+    "id": 33050,
+    "bus_stop": "한화사원아파트",
+    "latitude": 36.52627,
+    "longtitude": 127.36823
+  },
+  {
+    "id": 33051,
+    "bus_stop": "한화사원아파트",
+    "latitude": 36.52607,
+    "longtitude": 127.36838
+  },
+  {
+    "id": 33011,
+    "bus_stop": "부강9리",
+    "latitude": 36.51895,
+    "longtitude": 127.36841
+  },
+  {
+    "id": 33027,
+    "bus_stop": "부강성당(부강청소년문화관)",
+    "latitude": 36.52811,
+    "longtitude": 127.3702
+  },
+  {
+    "id": 33039,
+    "bus_stop": "부강성당(부강청소년문화관)",
+    "latitude": 36.52822,
+    "longtitude": 127.37038
+  },
+  {
+    "id": 33033,
+    "bus_stop": "부강삼거리",
+    "latitude": 36.52792,
+    "longtitude": 127.372
+  },
+  {
+    "id": 32048,
+    "bus_stop": "용호2리",
+    "latitude": 36.537366,
+    "longtitude": 127.313598
+  },
+  {
+    "id": 32039,
+    "bus_stop": "예양2리",
+    "latitude": 36.5808639,
+    "longtitude": 127.3172522
+  },
+  {
+    "id": 32051,
+    "bus_stop": "용호3리",
+    "latitude": 36.536552,
+    "longtitude": 127.317421
+  },
+  {
+    "id": 32042,
+    "bus_stop": "예양1리",
+    "latitude": 36.57621,
+    "longtitude": 127.32112
+  },
+  {
+    "id": 32043,
+    "bus_stop": "예양1리",
+    "latitude": 36.57534,
+    "longtitude": 127.32155
+  },
+  {
+    "id": 32041,
+    "bus_stop": "양세오충각",
+    "latitude": 36.57851,
+    "longtitude": 127.32177
+  },
+  {
+    "id": 32033,
+    "bus_stop": "양세오충각",
+    "latitude": 36.57838,
+    "longtitude": 127.3219
+  },
+  {
+    "id": 32028,
+    "bus_stop": "송용리",
+    "latitude": 36.5617958,
+    "longtitude": 127.3229875
+  },
+  {
+    "id": 32037,
+    "bus_stop": "예양리",
+    "latitude": 36.57283,
+    "longtitude": 127.32303
+  },
+  {
+    "id": 32040,
+    "bus_stop": "예양리",
+    "latitude": 36.57279,
+    "longtitude": 127.32321
+  },
+  {
+    "id": 32027,
+    "bus_stop": "송용리",
+    "latitude": 36.5619854,
+    "longtitude": 127.3231771
+  },
+  {
+    "id": 32008,
+    "bus_stop": "내판3리",
+    "latitude": 36.54827,
+    "longtitude": 127.32506
+  },
+  {
+    "id": 32010,
+    "bus_stop": "내판역",
+    "latitude": 36.55796,
+    "longtitude": 127.32516
+  },
+  {
+    "id": 32007,
+    "bus_stop": "내판3리",
+    "latitude": 36.5481637,
+    "longtitude": 127.3252197
+  },
+  {
+    "id": 32009,
+    "bus_stop": "내판역",
+    "latitude": 36.55751,
+    "longtitude": 127.3252
+  },
+  {
+    "id": 32005,
+    "bus_stop": "내판2리",
+    "latitude": 36.5520139,
+    "longtitude": 127.3257707
+  },
+  {
+    "id": 32006,
+    "bus_stop": "내판2리",
+    "latitude": 36.5516584,
+    "longtitude": 127.3262301
+  },
+  {
+    "id": 32013,
+    "bus_stop": "노송2리",
+    "latitude": 36.57126,
+    "longtitude": 127.32616
+  },
+  {
+    "id": 32068,
+    "bus_stop": "합강1리",
+    "latitude": 36.52146,
+    "longtitude": 127.32742
+  },
+  {
+    "id": 32034,
+    "bus_stop": "연동중학교",
+    "latitude": 36.55269,
+    "longtitude": 127.32796
+  },
+  {
+    "id": 32035,
+    "bus_stop": "연동중학교",
+    "latitude": 36.5529,
+    "longtitude": 127.32801
+  },
+  {
+    "id": 32012,
+    "bus_stop": "노송1리(노리미)",
+    "latitude": 36.56935,
+    "longtitude": 127.32836
+  },
+  {
+    "id": 32004,
+    "bus_stop": "교과서박물관",
+    "latitude": 36.5494,
+    "longtitude": 127.33021
+  },
+  {
+    "id": 32003,
+    "bus_stop": "교과서박물관",
+    "latitude": 36.54933,
+    "longtitude": 127.33046
+  },
+  {
+    "id": 32074,
+    "bus_stop": "합강리",
+    "latitude": 36.52605,
+    "longtitude": 127.33119
+  },
+  {
+    "id": 32073,
+    "bus_stop": "합강리",
+    "latitude": 36.52643,
+    "longtitude": 127.33143
+  },
+  {
+    "id": 32063,
+    "bus_stop": "응암농공단지",
+    "latitude": 36.54621,
+    "longtitude": 127.33419
+  },
+  {
+    "id": 32024,
+    "bus_stop": "명학산업단지 관리사무소",
+    "latitude": 36.5377697,
+    "longtitude": 127.3369857
+  },
+  {
+    "id": 32023,
+    "bus_stop": "명학산업단지 관리사무소",
+    "latitude": 36.5379229,
+    "longtitude": 127.3369072
+  },
+  {
+    "id": 32072,
+    "bus_stop": "합강2리(합강공원)",
+    "latitude": 36.5176769,
+    "longtitude": 127.3397464
+  },
+  {
+    "id": 32071,
+    "bus_stop": "합강2리(합강공원)",
+    "latitude": 36.51779,
+    "longtitude": 127.33971
+  },
+  {
+    "id": 32025,
+    "bus_stop": "명학산업단지",
+    "latitude": 36.53897,
+    "longtitude": 127.34062
+  },
+  {
+    "id": 36046,
+    "bus_stop": "성제1리마을회관",
+    "latitude": 36.59183,
+    "longtitude": 127.26913
+  },
+  {
+    "id": 36047,
+    "bus_stop": "성제1리마을회관",
+    "latitude": 36.59196,
+    "longtitude": 127.26919
+  },
+  {
+    "id": 36068,
+    "bus_stop": "쌍전리(우리요양원)",
+    "latitude": 36.57806,
+    "longtitude": 127.26923
+  },
+  {
+    "id": 36037,
+    "bus_stop": "부동리마을회관",
+    "latitude": 36.5596356,
+    "longtitude": 127.2696102
+  },
+  {
+    "id": 36036,
+    "bus_stop": "부동리마을회관",
+    "latitude": 36.559699,
+    "longtitude": 127.2697497
+  },
+  {
+    "id": 36077,
+    "bus_stop": "연서면사무소",
+    "latitude": 36.59184,
+    "longtitude": 127.27115
+  },
+  {
+    "id": 36076,
+    "bus_stop": "연서면사무소",
+    "latitude": 36.59204,
+    "longtitude": 127.2716
+  },
+  {
+    "id": 36011,
+    "bus_stop": "국촌1리",
+    "latitude": 36.57297,
+    "longtitude": 127.2725
+  },
+  {
+    "id": 36100,
+    "bus_stop": "월하1리마을회관",
+    "latitude": 36.59354,
+    "longtitude": 127.27439
+  },
+  {
+    "id": 36101,
+    "bus_stop": "월하1리마을회관",
+    "latitude": 36.59373,
+    "longtitude": 127.27467
+  },
+  {
+    "id": 36031,
+    "bus_stop": "방축골",
+    "latitude": 36.59433,
+    "longtitude": 127.27733
+  },
+  {
+    "id": 36034,
+    "bus_stop": "대원아파트",
+    "latitude": 36.55833,
+    "longtitude": 127.27817
+  },
+  {
+    "id": 36013,
+    "bus_stop": "국촌1리(함박산)",
+    "latitude": 36.5715,
+    "longtitude": 127.27887
+  },
+  {
+    "id": 36014,
+    "bus_stop": "국촌1리(함박산)",
+    "latitude": 36.57137,
+    "longtitude": 127.27907
+  },
+  {
+    "id": 36070,
+    "bus_stop": "쌍전리마을회관",
+    "latitude": 36.57776,
+    "longtitude": 127.27925
+  },
+  {
+    "id": 36071,
+    "bus_stop": "쌍전리마을회관",
+    "latitude": 36.5777729,
+    "longtitude": 127.2791041
+  },
+  {
+    "id": 36028,
+    "bus_stop": "대원아파트후문",
+    "latitude": 36.56068,
+    "longtitude": 127.28087
+  },
+  {
+    "id": 36054,
+    "bus_stop": "세종장례식장",
+    "latitude": 36.57148,
+    "longtitude": 127.28215
+  },
+  {
+    "id": 36073,
+    "bus_stop": "봉암리",
+    "latitude": 36.56358,
+    "longtitude": 127.28305
+  },
+  {
+    "id": 36072,
+    "bus_stop": "봉암리",
+    "latitude": 36.56387,
+    "longtitude": 127.28345
+  },
+  {
+    "id": 36102,
+    "bus_stop": "월하2리",
+    "latitude": 36.58373,
+    "longtitude": 127.28447
+  },
+  {
+    "id": 36049,
+    "bus_stop": "세종교통",
+    "latitude": 36.56604,
+    "longtitude": 127.28472
+  },
+  {
+    "id": 36050,
+    "bus_stop": "세종교통",
+    "latitude": 36.56604,
+    "longtitude": 127.28491
+  },
+  {
+    "id": 36029,
+    "bus_stop": "도원초등학교",
+    "latitude": 36.58576,
+    "longtitude": 127.28655
+  },
+  {
+    "id": 36053,
+    "bus_stop": "세종장례식장입구",
+    "latitude": 36.57023,
+    "longtitude": 127.28746
+  },
+  {
+    "id": 36098,
+    "bus_stop": "세종장례식장입구",
+    "latitude": 36.5700498,
+    "longtitude": 127.2875721
+  },
+  {
+    "id": 36052,
+    "bus_stop": "세종장례식장입구",
+    "latitude": 36.5703293,
+    "longtitude": 127.2875669
+  },
+  {
+    "id": 36099,
+    "bus_stop": "세종장례식장입구",
+    "latitude": 36.5700006,
+    "longtitude": 127.2877801
+  },
+  {
+    "id": 36106,
+    "bus_stop": "월하리(항공학교)",
+    "latitude": 36.57537,
+    "longtitude": 127.29147
+  },
+  {
+    "id": 36103,
+    "bus_stop": "월하리(항공학교)",
+    "latitude": 36.57633,
+    "longtitude": 127.29212
+  },
+  {
+    "id": 36104,
+    "bus_stop": "월하리",
+    "latitude": 36.57825,
+    "longtitude": 127.29256
+  },
+  {
+    "id": 36105,
+    "bus_stop": "월하리",
+    "latitude": 36.57842,
+    "longtitude": 127.29276
+  },
+  {
+    "id": 35025,
+    "bus_stop": "송학2리(언고개)",
+    "latitude": 36.54245,
+    "longtitude": 127.18782
+  },
+  {
+    "id": 35028,
+    "bus_stop": "송학2리(언고개)",
+    "latitude": 36.54252,
+    "longtitude": 127.18796
+  },
+  {
+    "id": 35061,
+    "bus_stop": "하봉리마을회관",
+    "latitude": 36.49593,
+    "longtitude": 127.19032
+  },
+  {
+    "id": 35027,
+    "bus_stop": "송학2리(하나로마트)",
+    "latitude": 36.53849,
+    "longtitude": 127.19066
+  },
+  {
+    "id": 35026,
+    "bus_stop": "송학2리(하나로마트)",
+    "latitude": 36.53804,
+    "longtitude": 127.19126
+  },
+  {
+    "id": 35045,
+    "bus_stop": "은용리",
+    "latitude": 36.48912,
+    "longtitude": 127.19574
+  },
+  {
+    "id": 35051,
+    "bus_stop": "평기리",
+    "latitude": 36.51348,
+    "longtitude": 127.19699
+  },
+  {
+    "id": 35052,
+    "bus_stop": "평기리",
+    "latitude": 36.51352,
+    "longtitude": 127.19715
+  },
+  {
+    "id": 35023,
+    "bus_stop": "송문리입구",
+    "latitude": 36.51462,
+    "longtitude": 127.19736
+  },
+  {
+    "id": 35055,
+    "bus_stop": "평기리마을회관",
+    "latitude": 36.51018,
+    "longtitude": 127.19748
+  },
+  {
+    "id": 35060,
+    "bus_stop": "하봉교차로",
+    "latitude": 36.48961,
+    "longtitude": 127.1977
+  },
+  {
+    "id": 35024,
+    "bus_stop": "송문리입구",
+    "latitude": 36.5148,
+    "longtitude": 127.19775
+  },
+  {
+    "id": 35056,
+    "bus_stop": "평기리마을회관",
+    "latitude": 36.51012,
+    "longtitude": 127.19785
+  },
+  {
+    "id": 35059,
+    "bus_stop": "하봉교차로",
+    "latitude": 36.48959,
+    "longtitude": 127.19782
+  },
+  {
+    "id": 35053,
+    "bus_stop": "평기리(아랫말)",
+    "latitude": 36.50672,
+    "longtitude": 127.19963
+  },
+  {
+    "id": 35049,
+    "bus_stop": "장기중학교",
+    "latitude": 36.49386,
+    "longtitude": 127.20217
+  },
+  {
+    "id": 35038,
+    "bus_stop": "용현길입구",
+    "latitude": 36.5401855,
+    "longtitude": 127.2020559
+  },
+  {
+    "id": 35048,
+    "bus_stop": "장기중학교",
+    "latitude": 36.49398,
+    "longtitude": 127.20235
+  },
+  {
+    "id": 35039,
+    "bus_stop": "용현리",
+    "latitude": 36.54304,
+    "longtitude": 127.20454
+  },
+  {
+    "id": 35047,
+    "bus_stop": "장군면사무소",
+    "latitude": 36.49684,
+    "longtitude": 127.20511
+  },
+  {
+    "id": 35046,
+    "bus_stop": "장군면사무소",
+    "latitude": 36.49714,
+    "longtitude": 127.20531
+  },
+  {
+    "id": 35057,
+    "bus_stop": "평촌입구",
+    "latitude": 36.54709,
+    "longtitude": 127.20582
+  },
+  {
+    "id": 35010,
+    "bus_stop": "대교1리(밤실입구)",
+    "latitude": 36.50224,
+    "longtitude": 127.20701
+  },
+  {
+    "id": 35009,
+    "bus_stop": "대교1리(밤실입구)",
+    "latitude": 36.50234,
+    "longtitude": 127.20716
+  },
+  {
+    "id": 35050,
+    "bus_stop": "장기초등학교",
+    "latitude": 36.49667,
+    "longtitude": 127.20729
+  },
+  {
+    "id": 35006,
+    "bus_stop": "금암리노인정",
+    "latitude": 36.43813,
+    "longtitude": 127.2084
+  },
+  {
+    "id": 35007,
+    "bus_stop": "금암리노인정",
+    "latitude": 36.43827,
+    "longtitude": 127.2085
+  },
+  {
+    "id": 35033,
+    "bus_stop": "용암1리마을회관",
+    "latitude": 36.54878,
+    "longtitude": 127.20851
+  },
+  {
+    "id": 35041,
+    "bus_stop": "금암리(웅대원룸)",
+    "latitude": 36.44168,
+    "longtitude": 127.20892
+  },
+  {
+    "id": 35003,
+    "bus_stop": "영상마을아파트",
+    "latitude": 36.44327,
+    "longtitude": 127.20992
+  },
+  {
+    "id": 35030,
+    "bus_stop": "금암리(정보마을영조아파트)",
+    "latitude": 36.44864,
+    "longtitude": 127.2104
+  },
+  {
+    "id": 35029,
+    "bus_stop": "금암리(정보마을영조아파트)",
+    "latitude": 36.44884,
+    "longtitude": 127.21055
+  },
+  {
+    "id": 35011,
+    "bus_stop": "대교리",
+    "latitude": 36.50069,
+    "longtitude": 127.21053
+  },
+  {
+    "id": 35001,
+    "bus_stop": "금암리(그린원룸)",
+    "latitude": 36.45103,
+    "longtitude": 127.21064
+  },
+  {
+    "id": 35022,
+    "bus_stop": "금암리(어반스테이)",
+    "latitude": 36.44591,
+    "longtitude": 127.21077
+  },
+  {
+    "id": 35062,
+    "bus_stop": "한국영상대학교",
+    "latitude": 36.46158,
+    "longtitude": 127.21124
+  },
+  {
+    "id": 35034,
+    "bus_stop": "용암2리마을회관",
+    "latitude": 36.56224,
+    "longtitude": 127.21266
+  },
+  {
+    "id": 35018,
+    "bus_stop": "봉안리(부일가든)",
+    "latitude": 36.50061,
+    "longtitude": 127.21556
+  },
+  {
+    "id": 35037,
+    "bus_stop": "용암2리입구",
+    "latitude": 36.5519867,
+    "longtitude": 127.2154951
+  },
+  {
+    "id": 35043,
+    "bus_stop": "은용1리",
+    "latitude": 36.49328,
+    "longtitude": 127.21577
+  },
+  {
+    "id": 31007,
+    "bus_stop": "수왕초등학교",
+    "latitude": 36.54498,
+    "longtitude": 127.25486
+  },
+  {
+    "id": 31029,
+    "bus_stop": "수왕초등학교",
+    "latitude": 36.54508,
+    "longtitude": 127.25503
+  },
+  {
+    "id": 31006,
+    "bus_stop": "눌왕1리(도덕농장)",
+    "latitude": 36.54496,
+    "longtitude": 127.25815
+  },
+  {
+    "id": 31005,
+    "bus_stop": "눌왕1리(도덕농장)",
+    "latitude": 36.54482,
+    "longtitude": 127.25815
+  },
+  {
+    "id": 31056,
+    "bus_stop": "해밀동,산울동",
+    "latitude": 36.528653,
+    "longtitude": 127.2638902
+  },
+  {
+    "id": 34085,
+    "bus_stop": "용담리(32사 방면)",
+    "latitude": 36.42269,
+    "longtitude": 127.28438
+  },
+  {
+    "id": 34084,
+    "bus_stop": "용담리",
+    "latitude": 36.42278,
+    "longtitude": 127.28449
+  },
+  {
+    "id": 34041,
+    "bus_stop": "도암리입구",
+    "latitude": 36.44731,
+    "longtitude": 127.28557
+  },
+  {
+    "id": 34039,
+    "bus_stop": "도암리입구",
+    "latitude": 36.44691,
+    "longtitude": 127.28575
+  },
+  {
+    "id": 34005,
+    "bus_stop": "감성초등학교",
+    "latitude": 36.44355,
+    "longtitude": 127.28742
+  },
+  {
+    "id": 34046,
+    "bus_stop": "두만리(산동마을)",
+    "latitude": 36.43671,
+    "longtitude": 127.2877
+  },
+  {
+    "id": 34003,
+    "bus_stop": "감성초등학교",
+    "latitude": 36.44337,
+    "longtitude": 127.28774
+  },
+  {
+    "id": 34004,
+    "bus_stop": "감성리(32사 방면)",
+    "latitude": 36.44005,
+    "longtitude": 127.28813
+  },
+  {
+    "id": 34002,
+    "bus_stop": "감성리",
+    "latitude": 36.440359,
+    "longtitude": 127.2883289
+  },
+  {
+    "id": 34043,
+    "bus_stop": "두만2리",
+    "latitude": 36.42736,
+    "longtitude": 127.29114
+  },
+  {
+    "id": 34075,
+    "bus_stop": "송림사입구",
+    "latitude": 36.43899,
+    "longtitude": 127.29402
+  },
+  {
+    "id": 34074,
+    "bus_stop": "송림사입구",
+    "latitude": 36.43892,
+    "longtitude": 127.29418
+  },
+  {
+    "id": 34095,
+    "bus_stop": "축산리마을회관",
+    "latitude": 36.44161,
+    "longtitude": 127.30045
+  },
+  {
+    "id": 34096,
+    "bus_stop": "축산리마을회관",
+    "latitude": 36.44147,
+    "longtitude": 127.3008
+  },
+  {
+    "id": 34093,
+    "bus_stop": "축산리",
+    "latitude": 36.43995,
+    "longtitude": 127.30652
+  },
+  {
+    "id": 34094,
+    "bus_stop": "축산리",
+    "latitude": 36.43975,
+    "longtitude": 127.30656
+  },
+  {
+    "id": 34068,
+    "bus_stop": "선화원",
+    "latitude": 36.44382,
+    "longtitude": 127.31329
+  },
+  {
+    "id": 34009,
+    "bus_stop": "금천1리",
+    "latitude": 36.44221,
+    "longtitude": 127.31358
+  },
+  {
+    "id": 34015,
+    "bus_stop": "금천1리",
+    "latitude": 36.4421,
+    "longtitude": 127.31367
+  },
+  {
+    "id": 34014,
+    "bus_stop": "금천1리",
+    "latitude": 36.44227,
+    "longtitude": 127.31377
+  },
+  {
+    "id": 34020,
+    "bus_stop": "남곡리마을회관",
+    "latitude": 36.47028,
+    "longtitude": 127.31391
+  },
+  {
+    "id": 34017,
+    "bus_stop": "금천1리마을회관",
+    "latitude": 36.4421,
+    "longtitude": 127.3155
+  },
+  {
+    "id": 34016,
+    "bus_stop": "금천1리마을회관",
+    "latitude": 36.44226,
+    "longtitude": 127.3156
+  },
+  {
+    "id": 34101,
+    "bus_stop": "황용2리",
+    "latitude": 36.4745,
+    "longtitude": 127.3184
+  },
+  {
+    "id": 34018,
+    "bus_stop": "금천2리마을회관",
+    "latitude": 36.43823,
+    "longtitude": 127.31981
+  },
+  {
+    "id": 34064,
+    "bus_stop": "새나루마을1단지",
+    "latitude": 36.48595,
+    "longtitude": 127.32072
+  },
+  {
+    "id": 34097,
+    "bus_stop": "황용리(황용1교)",
+    "latitude": 36.47964,
+    "longtitude": 127.32127
+  },
+  {
+    "id": 34013,
+    "bus_stop": "새나루마을8단지",
+    "latitude": 36.4892,
+    "longtitude": 127.32362
+  },
+  {
+    "id": 34012,
+    "bus_stop": "새나루마을8단지",
+    "latitude": 36.48908,
+    "longtitude": 127.32385
+  },
+  {
+    "id": 34066,
+    "bus_stop": "새나루마을9단지",
+    "latitude": 36.4908651,
+    "longtitude": 127.3243797
+  },
+  {
+    "id": 34067,
+    "bus_stop": "새나루마을9단지",
+    "latitude": 36.4908357,
+    "longtitude": 127.3247427
+  },
+  {
+    "id": 34103,
+    "bus_stop": "황용교",
+    "latitude": 36.481796,
+    "longtitude": 127.323949
+  },
+  {
+    "id": 34102,
+    "bus_stop": "황용교",
+    "latitude": 36.482016,
+    "longtitude": 127.324181
+  },
+  {
+    "id": 34107,
+    "bus_stop": "황용리",
+    "latitude": 36.48062,
+    "longtitude": 127.32678
+  },
+  {
+    "id": 34058,
+    "bus_stop": "산학연클러스터",
+    "latitude": 36.497241,
+    "longtitude": 127.330506
+  },
+  {
+    "id": 34055,
+    "bus_stop": "세종이음학교",
+    "latitude": 36.4988902,
+    "longtitude": 127.3363593
+  },
+  {
+    "id": 34106,
+    "bus_stop": "황용리삼성복지회관",
+    "latitude": 36.48021,
+    "longtitude": 127.32967
+  },
+  {
+    "id": 34056,
+    "bus_stop": "세종이음학교",
+    "latitude": 36.4991726,
+    "longtitude": 127.3365082
+  },
+  {
+    "id": 33034,
+    "bus_stop": "부강삼거리",
+    "latitude": 36.52776,
+    "longtitude": 127.37218
+  },
+  {
+    "id": 33053,
+    "bus_stop": "행산리",
+    "latitude": 36.55633,
+    "longtitude": 127.37314
+  },
+  {
+    "id": 33052,
+    "bus_stop": "행산리(미건산업입구)",
+    "latitude": 36.5575,
+    "longtitude": 127.37354
+  },
+  {
+    "id": 33031,
+    "bus_stop": "부강면생활체육관",
+    "latitude": 36.52758,
+    "longtitude": 127.37381
+  },
+  {
+    "id": 33022,
+    "bus_stop": "문곡1리",
+    "latitude": 36.52709,
+    "longtitude": 127.37805
+  },
+  {
+    "id": 33042,
+    "bus_stop": "문곡1리",
+    "latitude": 36.52727,
+    "longtitude": 127.37843
+  },
+  {
+    "id": 33048,
+    "bus_stop": "등곡3리(충광농원)",
+    "latitude": 36.51333,
+    "longtitude": 127.38231
+  },
+  {
+    "id": 33049,
+    "bus_stop": "등곡3리(충광농원)",
+    "latitude": 36.51325,
+    "longtitude": 127.3826
+  },
+  {
+    "id": 33023,
+    "bus_stop": "세종미래고등학교",
+    "latitude": 36.52808,
+    "longtitude": 127.3833
+  },
+  {
+    "id": 33043,
+    "bus_stop": "세종미래고등학교",
+    "latitude": 36.52812,
+    "longtitude": 127.38392
+  },
+  {
+    "id": 33020,
+    "bus_stop": "등곡리",
+    "latitude": 36.50773,
+    "longtitude": 127.38487
+  },
+  {
+    "id": 33019,
+    "bus_stop": "등곡리",
+    "latitude": 36.50735,
+    "longtitude": 127.38499
+  },
+  {
+    "id": 33025,
+    "bus_stop": "문곡3리",
+    "latitude": 36.52847,
+    "longtitude": 127.38761
+  },
+  {
+    "id": 33024,
+    "bus_stop": "문곡3리",
+    "latitude": 36.52858,
+    "longtitude": 127.38782
+  },
+  {
+    "id": 33016,
+    "bus_stop": "매포역(노호2리)",
+    "latitude": 36.49753,
+    "longtitude": 127.39272
+  },
+  {
+    "id": 33021,
+    "bus_stop": "매포역(노호2리)",
+    "latitude": 36.49737,
+    "longtitude": 127.39305
+  },
+  {
+    "id": 33012,
+    "bus_stop": "문곡2리",
+    "latitude": 36.52978,
+    "longtitude": 127.39637
+  },
+  {
+    "id": 33013,
+    "bus_stop": "문곡2리",
+    "latitude": 36.52966,
+    "longtitude": 127.39645
+  },
+  {
+    "id": 33015,
+    "bus_stop": "노호1리",
+    "latitude": 36.49517,
+    "longtitude": 127.39858
+  },
+  {
+    "id": 33014,
+    "bus_stop": "노호1리",
+    "latitude": 36.495,
+    "longtitude": 127.39872
+  },
+  {
+    "id": 33018,
+    "bus_stop": "등곡2리",
+    "latitude": 36.49376,
+    "longtitude": 127.40229
+  },
+  {
+    "id": 33017,
+    "bus_stop": "등곡2리",
+    "latitude": 36.49386,
+    "longtitude": 127.40245
+  },
+  {
+    "id": 39009,
+    "bus_stop": "소정3리",
+    "latitude": 36.7121,
+    "longtitude": 127.14863
+  },
+  {
+    "id": 39022,
+    "bus_stop": "운당2리",
+    "latitude": 36.7057756,
+    "longtitude": 127.1489661
+  },
+  {
+    "id": 39008,
+    "bus_stop": "소정2리(넉바위)",
+    "latitude": 36.7169634,
+    "longtitude": 127.1506341
+  },
+  {
+    "id": 39023,
+    "bus_stop": "운당1리",
+    "latitude": 36.6979,
+    "longtitude": 127.15261
+  },
+  {
+    "id": 39001,
+    "bus_stop": "KCC앞",
+    "latitude": 36.70867,
+    "longtitude": 127.15287
+  },
+  {
+    "id": 39017,
+    "bus_stop": "소정면우체국",
+    "latitude": 36.71422,
+    "longtitude": 127.15471
+  },
+  {
+    "id": 39018,
+    "bus_stop": "소정면우체국",
+    "latitude": 36.7143,
+    "longtitude": 127.15486
+  },
+  {
+    "id": 39013,
+    "bus_stop": "소정리역",
+    "latitude": 36.71895,
+    "longtitude": 127.1566
+  },
+  {
+    "id": 39015,
+    "bus_stop": "소정면사무소",
+    "latitude": 36.72173,
+    "longtitude": 127.15762
+  },
+  {
+    "id": 39016,
+    "bus_stop": "소정면사무소",
+    "latitude": 36.72149,
+    "longtitude": 127.15766
+  },
+  {
+    "id": 39011,
+    "bus_stop": "소정리입구",
+    "latitude": 36.712119,
+    "longtitude": 127.153895
+  },
+  {
+    "id": 39025,
+    "bus_stop": "소정리",
+    "latitude": 36.72478,
+    "longtitude": 127.15813
+  },
+  {
+    "id": 39006,
+    "bus_stop": "대곡4리",
+    "latitude": 36.72556,
+    "longtitude": 127.15982
+  },
+  {
+    "id": 39014,
+    "bus_stop": "소정육교(맹골)",
+    "latitude": 36.72646,
+    "longtitude": 127.16173
+  },
+  {
+    "id": 39020,
+    "bus_stop": "소정육교(맹골)",
+    "latitude": 36.7271,
+    "longtitude": 127.16202
+  },
+  {
+    "id": 39019,
+    "bus_stop": "소정육교",
+    "latitude": 36.72718,
+    "longtitude": 127.16312
+  },
+  {
+    "id": 39003,
+    "bus_stop": "고등1리마을회관",
+    "latitude": 36.71543,
+    "longtitude": 127.19507
+  },
+  {
+    "id": 39002,
+    "bus_stop": "고등1리마을회관",
+    "latitude": 36.71551,
+    "longtitude": 127.19521
+  },
+  {
+    "id": 31026,
+    "bus_stop": "수산리",
+    "latitude": 36.5408579,
+    "longtitude": 127.2307892
+  },
+  {
+    "id": 31028,
+    "bus_stop": "수산리(방아다리)",
+    "latitude": 36.54452,
+    "longtitude": 127.23693
+  },
+  {
+    "id": 31010,
+    "bus_stop": "눌왕2리",
+    "latitude": 36.54384,
+    "longtitude": 127.24391
+  },
+  {
+    "id": 31012,
+    "bus_stop": "눌왕2리",
+    "latitude": 36.54346,
+    "longtitude": 127.24441
+  },
+  {
+    "id": 31008,
+    "bus_stop": "눌왕2리마을회관",
+    "latitude": 36.5442,
+    "longtitude": 127.24662
+  },
+  {
+    "id": 31009,
+    "bus_stop": "눌왕2리(푸른농원)",
+    "latitude": 36.54602,
+    "longtitude": 127.24922
+  },
+  {
+    "id": 31013,
+    "bus_stop": "눌왕2리(푸른농원)",
+    "latitude": 36.54592,
+    "longtitude": 127.24938
+  },
+  {
+    "id": 11002,
+    "bus_stop": "고려대학교",
+    "latitude": 36.61076,
+    "longtitude": 127.29344
+  },
+  {
+    "id": 11038,
+    "bus_stop": "조치원청사",
+    "latitude": 36.59287,
+    "longtitude": 127.29349
+  },
+  {
+    "id": 11084,
+    "bus_stop": "침산리",
+    "latitude": 36.60717,
+    "longtitude": 127.29378
+  },
+  {
+    "id": 11037,
+    "bus_stop": "조치원청사",
+    "latitude": 36.59201,
+    "longtitude": 127.2938
+  },
+  {
+    "id": 11083,
+    "bus_stop": "침산리",
+    "latitude": 36.60684,
+    "longtitude": 127.29397
+  },
+  {
+    "id": 11004,
+    "bus_stop": "세무서 출장민원실",
+    "latitude": 36.60607,
+    "longtitude": 127.29412
+  },
+  {
+    "id": 11016,
+    "bus_stop": "번암삼거리",
+    "latitude": 36.58365,
+    "longtitude": 127.29409
+  },
+  {
+    "id": 11015,
+    "bus_stop": "번암삼거리",
+    "latitude": 36.58401,
+    "longtitude": 127.29416
+  },
+  {
+    "id": 11030,
+    "bus_stop": "새주막거리",
+    "latitude": 36.61256,
+    "longtitude": 127.29455
+  },
+  {
+    "id": 11057,
+    "bus_stop": "욱일아파트",
+    "latitude": 36.60238,
+    "longtitude": 127.29482
+  },
+  {
+    "id": 11055,
+    "bus_stop": "조치원역뒤편",
+    "latitude": 36.599727,
+    "longtitude": 127.2951059
+  },
+  {
+    "id": 11085,
+    "bus_stop": "조치원역뒤편",
+    "latitude": 36.60061,
+    "longtitude": 127.29509
+  },
+  {
+    "id": 11077,
+    "bus_stop": "죽림리",
+    "latitude": 36.59645,
+    "longtitude": 127.2957
+  },
+  {
+    "id": 11078,
+    "bus_stop": "죽림리",
+    "latitude": 36.59662,
+    "longtitude": 127.29091
+  },
+  {
+    "id": 11017,
+    "bus_stop": "번암아파트",
+    "latitude": 36.58577,
+    "longtitude": 127.29582
+  },
+  {
+    "id": 11018,
+    "bus_stop": "번암아파트",
+    "latitude": 36.5866993,
+    "longtitude": 127.2971748
+  },
+  {
+    "id": 11035,
+    "bus_stop": "세종고등학교",
+    "latitude": 36.61024,
+    "longtitude": 127.29666
+  },
+  {
+    "id": 11040,
+    "bus_stop": "신동아아파트",
+    "latitude": 36.59199,
+    "longtitude": 127.29667
+  },
+  {
+    "id": 11034,
+    "bus_stop": "세종고등학교",
+    "latitude": 36.61017,
+    "longtitude": 127.2968
+  },
+  {
+    "id": 11041,
+    "bus_stop": "신동아아파트",
+    "latitude": 36.59221,
+    "longtitude": 127.29698
+  },
+  {
+    "id": 11069,
+    "bus_stop": "세종중학교",
+    "latitude": 36.60591,
+    "longtitude": 127.29721
+  },
+  {
+    "id": 11070,
+    "bus_stop": "세종중학교",
+    "latitude": 36.60578,
+    "longtitude": 127.29741
+  },
+  {
+    "id": 11039,
+    "bus_stop": "세종우체국",
+    "latitude": 36.60296,
+    "longtitude": 127.29789
+  },
+  {
+    "id": 11062,
+    "bus_stop": "조치원전통시장",
+    "latitude": 36.599942,
+    "longtitude": 127.29819
+  },
+  {
+    "id": 11063,
+    "bus_stop": "조치원전통시장",
+    "latitude": 36.59898,
+    "longtitude": 127.29861
+  },
+  {
+    "id": 11075,
+    "bus_stop": "죽림리",
+    "latitude": 36.59078,
+    "longtitude": 127.29892
+  },
+  {
+    "id": 11076,
+    "bus_stop": "죽림리",
+    "latitude": 36.59127,
+    "longtitude": 127.29897
+  },
+  {
+    "id": 11072,
+    "bus_stop": "조치원버스터미널",
+    "latitude": 36.6024592,
+    "longtitude": 127.3035236
+  },
+  {
+    "id": 35016,
+    "bus_stop": "봉안리(다름고개)",
+    "latitude": 36.4990185,
+    "longtitude": 127.2291006
+  },
+  {
+    "id": 34035,
+    "bus_stop": "도남리",
+    "latitude": 36.44575,
+    "longtitude": 127.23259
+  },
+  {
+    "id": 34034,
+    "bus_stop": "도남리",
+    "latitude": 36.44587,
+    "longtitude": 127.23284
+  },
+  {
+    "id": 34036,
+    "bus_stop": "금강수목원(산림박물관)",
+    "latitude": 36.43782,
+    "longtitude": 127.23549
+  },
+  {
+    "id": 34037,
+    "bus_stop": "금강수목원(산림박물관)",
+    "latitude": 36.4378,
+    "longtitude": 127.23567
+  },
+  {
+    "id": 34087,
+    "bus_stop": "원봉1리",
+    "latitude": 36.44815,
+    "longtitude": 127.23738
+  },
+  {
+    "id": 34086,
+    "bus_stop": "원봉1리",
+    "latitude": 36.45007,
+    "longtitude": 127.23924
+  },
+  {
+    "id": 34089,
+    "bus_stop": "원봉2리",
+    "latitude": 36.44738,
+    "longtitude": 127.24399
+  },
+  {
+    "id": 34090,
+    "bus_stop": "원봉2리마을회관",
+    "latitude": 36.44547,
+    "longtitude": 127.2468
+  },
+  {
+    "id": 34069,
+    "bus_stop": "성강리",
+    "latitude": 36.42239,
+    "longtitude": 127.25092
+  },
+  {
+    "id": 34071,
+    "bus_stop": "성강리마을회관",
+    "latitude": 36.41316,
+    "longtitude": 127.25331
+  },
+  {
+    "id": 34077,
+    "bus_stop": "영곡2리",
+    "latitude": 36.45872,
+    "longtitude": 127.2553
+  },
+  {
+    "id": 34076,
+    "bus_stop": "영곡2리",
+    "latitude": 36.44812,
+    "longtitude": 127.25838
+  },
+  {
+    "id": 34078,
+    "bus_stop": "영곡리",
+    "latitude": 36.45172,
+    "longtitude": 127.26405
+  },
+  {
+    "id": 34072,
+    "bus_stop": "성덕1리",
+    "latitude": 36.46097,
+    "longtitude": 127.26644
+  },
+  {
+    "id": 34001,
+    "bus_stop": "국곡리32사단",
+    "latitude": 36.427,
+    "longtitude": 127.26875
+  },
+  {
+    "id": 34007,
+    "bus_stop": "국곡리",
+    "latitude": 36.42802,
+    "longtitude": 127.27674
+  },
+  {
+    "id": 34008,
+    "bus_stop": "국곡리",
+    "latitude": 36.42818,
+    "longtitude": 127.27676
+  },
+  {
+    "id": 11051,
+    "bus_stop": "봉산리(국제기계)",
+    "latitude": 36.61816,
+    "longtitude": 127.27034
+  },
+  {
+    "id": 11050,
+    "bus_stop": "봉산리(국제기계)",
+    "latitude": 36.61812,
+    "longtitude": 127.27049
+  },
+  {
+    "id": 11028,
+    "bus_stop": "봉산리(윗말)",
+    "latitude": 36.61172,
+    "longtitude": 127.27374
+  },
+  {
+    "id": 11009,
+    "bus_stop": "봉산리(윗말)",
+    "latitude": 36.61174,
+    "longtitude": 127.27389
+  },
+  {
+    "id": 11023,
+    "bus_stop": "봉산리(중뜸)",
+    "latitude": 36.60959,
+    "longtitude": 127.27518
+  },
+  {
+    "id": 11020,
+    "bus_stop": "봉산리(중뜸)",
+    "latitude": 36.60936,
+    "longtitude": 127.27516
+  },
+  {
+    "id": 11012,
+    "bus_stop": "방축골(갑부농원)",
+    "latitude": 36.60075,
+    "longtitude": 127.27606
+  },
+  {
+    "id": 11022,
+    "bus_stop": "봉산1리",
+    "latitude": 36.60484,
+    "longtitude": 127.27739
+  },
+  {
+    "id": 11021,
+    "bus_stop": "봉산1리",
+    "latitude": 36.60486,
+    "longtitude": 127.27756
+  },
+  {
+    "id": 11025,
+    "bus_stop": "봉산1리마을회관",
+    "latitude": 36.60681,
+    "longtitude": 127.27801
+  },
+  {
+    "id": 11024,
+    "bus_stop": "봉산1리마을회관",
+    "latitude": 36.60694,
+    "longtitude": 127.27798
+  },
+  {
+    "id": 11026,
+    "bus_stop": "봉산리",
+    "latitude": 36.6061,
+    "longtitude": 127.28081
+  },
+  {
+    "id": 11027,
+    "bus_stop": "봉산리",
+    "latitude": 36.60621,
+    "longtitude": 127.28092
+  },
+  {
+    "id": 11087,
+    "bus_stop": "한마음효요양병원",
+    "latitude": 36.63375,
+    "longtitude": 127.28309
+  },
+  {
+    "id": 11086,
+    "bus_stop": "한마음효요양병원",
+    "latitude": 36.63387,
+    "longtitude": 127.28325
+  },
+  {
+    "id": 11031,
+    "bus_stop": "서창리",
+    "latitude": 36.60512,
+    "longtitude": 127.28421
+  },
+  {
+    "id": 11032,
+    "bus_stop": "서창리",
+    "latitude": 36.60526,
+    "longtitude": 127.28432
+  },
+  {
+    "id": 11052,
+    "bus_stop": "세종시민체육관",
+    "latitude": 36.59455,
+    "longtitude": 127.28477
+  },
+  {
+    "id": 11036,
+    "bus_stop": "세종시민체육관",
+    "latitude": 36.59468,
+    "longtitude": 127.28478
+  },
+  {
+    "id": 11049,
+    "bus_stop": "신안리마을회관",
+    "latitude": 36.61655,
+    "longtitude": 127.28695
+  },
+  {
+    "id": 11033,
+    "bus_stop": "신안리마을회관",
+    "latitude": 36.61637,
+    "longtitude": 127.28719
+  },
+  {
+    "id": 11066,
+    "bus_stop": "세종여자고등학교",
+    "latitude": 36.60638,
+    "longtitude": 127.28828
+  },
+  {
+    "id": 11065,
+    "bus_stop": "세종여자고등학교",
+    "latitude": 36.60653,
+    "longtitude": 127.28837
+  },
+  {
+    "id": 39021,
+    "bus_stop": "운당2리",
+    "latitude": 36.7058276,
+    "longtitude": 127.1497944
+  },
+  {
+    "id": 11073,
+    "bus_stop": "조형아파트",
+    "latitude": 36.63471,
+    "longtitude": 127.28878
+  },
+  {
+    "id": 11074,
+    "bus_stop": "조형아파트",
+    "latitude": 36.63441,
+    "longtitude": 127.28884
+  },
+  {
+    "id": 11005,
+    "bus_stop": "구렁말",
+    "latitude": 36.61737,
+    "longtitude": 127.28887
+  },
+  {
+    "id": 11047,
+    "bus_stop": "신안2리입구",
+    "latitude": 36.62874,
+    "longtitude": 127.28909
+  },
+  {
+    "id": 11048,
+    "bus_stop": "신안2리입구",
+    "latitude": 36.62926,
+    "longtitude": 127.28909
+  },
+  {
+    "id": 11080,
+    "bus_stop": "중앙요양병원",
+    "latitude": 36.614,
+    "longtitude": 127.2894
+  },
+  {
+    "id": 11079,
+    "bus_stop": "중앙요양병원",
+    "latitude": 36.61411,
+    "longtitude": 127.28953
+  },
+  {
+    "id": 11043,
+    "bus_stop": "신봉초등학교",
+    "latitude": 36.60283,
+    "longtitude": 127.28966
+  },
+  {
+    "id": 11053,
+    "bus_stop": "신흥주공아파트",
+    "latitude": 36.5951,
+    "longtitude": 127.28973
+  },
+  {
+    "id": 11054,
+    "bus_stop": "신흥주공아파트",
+    "latitude": 36.59523,
+    "longtitude": 127.28973
+  },
+  {
+    "id": 11067,
+    "bus_stop": "세종여자고등학교입구",
+    "latitude": 36.6070144,
+    "longtitude": 127.2912647
+  },
+  {
+    "id": 11011,
+    "bus_stop": "세종시문화예술회관",
+    "latitude": 36.59869,
+    "longtitude": 127.29035
+  },
+  {
+    "id": 11089,
+    "bus_stop": "홍익대학교",
+    "latitude": 36.62188,
+    "longtitude": 127.29056
+  },
+  {
+    "id": 11010,
+    "bus_stop": "세종시문화예술회관",
+    "latitude": 36.598,
+    "longtitude": 127.29075
+  },
+  {
+    "id": 11061,
+    "bus_stop": "자이아파트정문",
+    "latitude": 36.58832,
+    "longtitude": 127.29073
+  },
+  {
+    "id": 11044,
+    "bus_stop": "신안1리",
+    "latitude": 36.61865,
+    "longtitude": 127.29091
+  },
+  {
+    "id": 11088,
+    "bus_stop": "홍익대학교",
+    "latitude": 36.62178,
+    "longtitude": 127.29072
+  },
+  {
+    "id": 11045,
+    "bus_stop": "신안1리입구",
+    "latitude": 36.61353,
+    "longtitude": 127.29121
+  },
+  {
+    "id": 11068,
+    "bus_stop": "세종여자고등학교입구",
+    "latitude": 36.6068434,
+    "longtitude": 127.2914161
+  },
+  {
+    "id": 11059,
+    "bus_stop": "자이아파트",
+    "latitude": 36.59083,
+    "longtitude": 127.29173
+  },
+  {
+    "id": 11058,
+    "bus_stop": "자이아파트",
+    "latitude": 36.59085,
+    "longtitude": 127.29192
+  },
+  {
+    "id": 11001,
+    "bus_stop": "고려대학교",
+    "latitude": 36.6108381,
+    "longtitude": 127.2930928
+  },
+  {
+    "id": 11093,
+    "bus_stop": "조치원역",
+    "latitude": 36.6013323,
+    "longtitude": 127.2970784
+  },
+  {
+    "id": 34082,
+    "bus_stop": "용담1리(옹기마을)",
+    "latitude": 36.42655,
+    "longtitude": 127.28053
+  },
+  {
+    "id": 34083,
+    "bus_stop": "용담1리(옹기마을)",
+    "latitude": 36.4267,
+    "longtitude": 127.28061
+  },
+  {
+    "id": 34010,
+    "bus_stop": "금남면사무소",
+    "latitude": 36.46423,
+    "longtitude": 127.28098
+  },
+  {
+    "id": 34011,
+    "bus_stop": "금남면사무소",
+    "latitude": 36.46472,
+    "longtitude": 127.28097
+  },
+  {
+    "id": 34033,
+    "bus_stop": "용포리",
+    "latitude": 36.46842,
+    "longtitude": 127.2813
+  },
+  {
+    "id": 34045,
+    "bus_stop": "두만리",
+    "latitude": 36.43423,
+    "longtitude": 127.28279
+  },
+  {
+    "id": 34044,
+    "bus_stop": "두만리",
+    "latitude": 36.4342,
+    "longtitude": 127.28305
+  },
+  {
+    "id": 34053,
+    "bus_stop": "발산리",
+    "latitude": 36.45638,
+    "longtitude": 127.28405
+  },
+  {
+    "id": 34054,
+    "bus_stop": "발산리",
+    "latitude": 36.45648,
+    "longtitude": 127.28418
+  },
+  {
+    "id": 32056,
+    "bus_stop": "응암2리",
+    "latitude": 36.55719,
+    "longtitude": 127.34201
+  },
+  {
+    "id": 32055,
+    "bus_stop": "응암1리마을회관",
+    "latitude": 36.54295,
+    "longtitude": 127.34252
+  },
+  {
+    "id": 32069,
+    "bus_stop": "합강2리",
+    "latitude": 36.51809,
+    "longtitude": 127.34261
+  },
+  {
+    "id": 32021,
+    "bus_stop": "명학1리",
+    "latitude": 36.5372,
+    "longtitude": 127.34346
+  },
+  {
+    "id": 32061,
+    "bus_stop": "응암4리",
+    "latitude": 36.55802,
+    "longtitude": 127.34467
+  },
+  {
+    "id": 32060,
+    "bus_stop": "응암4리",
+    "latitude": 36.55812,
+    "longtitude": 127.3448
+  },
+  {
+    "id": 32054,
+    "bus_stop": "응암리(가마골)",
+    "latitude": 36.54116,
+    "longtitude": 127.34694
+  },
+  {
+    "id": 32045,
+    "bus_stop": "용운사",
+    "latitude": 36.51858,
+    "longtitude": 127.347
+  },
+  {
+    "id": 32036,
+    "bus_stop": "명학리",
+    "latitude": 36.53567,
+    "longtitude": 127.34787
+  },
+  {
+    "id": 32019,
+    "bus_stop": "명학리",
+    "latitude": 36.5355203,
+    "longtitude": 127.3492298
+  },
+  {
+    "id": 32016,
+    "bus_stop": "명학2리(황룡사)",
+    "latitude": 36.52683,
+    "longtitude": 127.35145
+  },
+  {
+    "id": 32066,
+    "bus_stop": "청정아파트",
+    "latitude": 36.52924,
+    "longtitude": 127.35153
+  },
+  {
+    "id": 32075,
+    "bus_stop": "명학2리(황룡사)",
+    "latitude": 36.52685,
+    "longtitude": 127.35158
+  },
+  {
+    "id": 32017,
+    "bus_stop": "명학3리",
+    "latitude": 36.53454,
+    "longtitude": 127.35168
+  },
+  {
+    "id": 32067,
+    "bus_stop": "청정아파트",
+    "latitude": 36.52908,
+    "longtitude": 127.35172
+  },
+  {
+    "id": 32064,
+    "bus_stop": "청봉사",
+    "latitude": 36.52218,
+    "longtitude": 127.3536
+  },
+  {
+    "id": 32058,
+    "bus_stop": "응암3리입구",
+    "latitude": 36.54687,
+    "longtitude": 127.35382
+  },
+  {
+    "id": 32057,
+    "bus_stop": "응암3리입구",
+    "latitude": 36.54694,
+    "longtitude": 127.35395
+  },
+  {
+    "id": 32059,
+    "bus_stop": "응암3리입구",
+    "latitude": 36.54658,
+    "longtitude": 127.35398
+  },
+  {
+    "id": 32015,
+    "bus_stop": "명학2리(용당)",
+    "latitude": 36.52015,
+    "longtitude": 127.35409
+  },
+  {
+    "id": 36115,
+    "bus_stop": "청라리",
+    "latitude": 36.58827,
+    "longtitude": 127.19832
+  },
+  {
+    "id": 36114,
+    "bus_stop": "청라2리",
+    "latitude": 36.5926304,
+    "longtitude": 127.2092889
+  },
+  {
+    "id": 36113,
+    "bus_stop": "청라2리",
+    "latitude": 36.5928335,
+    "longtitude": 127.2093887
+  },
+  {
+    "id": 36065,
+    "bus_stop": "쌍류보건진료소",
+    "latitude": 36.59453,
+    "longtitude": 127.21345
+  },
+  {
+    "id": 36067,
+    "bus_stop": "쌍류보건진료소",
+    "latitude": 36.59467,
+    "longtitude": 127.21372
+  },
+  {
+    "id": 36066,
+    "bus_stop": "쌍류리",
+    "latitude": 36.5989,
+    "longtitude": 127.22171
+  },
+  {
+    "id": 36020,
+    "bus_stop": "기룡리",
+    "latitude": 36.57124,
+    "longtitude": 127.22424
+  },
+  {
+    "id": 36085,
+    "bus_stop": "와촌3리(은암)",
+    "latitude": 36.55599,
+    "longtitude": 127.22458
+  },
+  {
+    "id": 36107,
+    "bus_stop": "와촌3리(은암)",
+    "latitude": 36.55608,
+    "longtitude": 127.22474
+  },
+  {
+    "id": 36096,
+    "bus_stop": "용암삼거리",
+    "latitude": 36.5995848,
+    "longtitude": 127.227268
+  },
+  {
+    "id": 36094,
+    "bus_stop": "용암리(금단마을)",
+    "latitude": 36.5944128,
+    "longtitude": 127.227644
+  },
+  {
+    "id": 36093,
+    "bus_stop": "고복저수지",
+    "latitude": 36.60423,
+    "longtitude": 127.22974
+  },
+  {
+    "id": 36095,
+    "bus_stop": "고복저수지",
+    "latitude": 36.60408,
+    "longtitude": 127.2298
+  },
+  {
+    "id": 36019,
+    "bus_stop": "금박골",
+    "latitude": 36.55686,
+    "longtitude": 127.22988
+  },
+  {
+    "id": 36092,
+    "bus_stop": "용암리입구",
+    "latitude": 36.60881,
+    "longtitude": 127.23234
+  },
+  {
+    "id": 36023,
+    "bus_stop": "기룡정미소",
+    "latitude": 36.5727,
+    "longtitude": 127.23243
+  },
+  {
+    "id": 36030,
+    "bus_stop": "기룡리정미소",
+    "latitude": 36.57266,
+    "longtitude": 127.23264
+  },
+  {
+    "id": 36086,
+    "bus_stop": "와촌3리",
+    "latitude": 36.55658,
+    "longtitude": 127.2332
+  },
+  {
+    "id": 36059,
+    "bus_stop": "신대2리(송적골)",
+    "latitude": 36.59008,
+    "longtitude": 127.2332
+  },
+  {
+    "id": 36060,
+    "bus_stop": "신대2리(송적골)",
+    "latitude": 36.59011,
+    "longtitude": 127.2335
+  },
+  {
+    "id": 36021,
+    "bus_stop": "기룡리복지회관",
+    "latitude": 36.57314,
+    "longtitude": 127.23419
+  },
+  {
+    "id": 36025,
+    "bus_stop": "대륙테크놀로지",
+    "latitude": 36.55642,
+    "longtitude": 127.23748
+  },
+  {
+    "id": 36026,
+    "bus_stop": "대륙테크놀로지",
+    "latitude": 36.55656,
+    "longtitude": 127.2375
+  },
+  {
+    "id": 36116,
+    "bus_stop": "평전",
+    "latitude": 36.57384,
+    "longtitude": 127.23765
+  },
+  {
+    "id": 36117,
+    "bus_stop": "평전",
+    "latitude": 36.57382,
+    "longtitude": 127.23827
+  },
+  {
+    "id": 36112,
+    "bus_stop": "조치원노인전문병원",
+    "latitude": 36.61157,
+    "longtitude": 127.23862
+  },
+  {
+    "id": 36082,
+    "bus_stop": "영동부화장",
+    "latitude": 36.57468,
+    "longtitude": 127.24063
+  },
+  {
+    "id": 36081,
+    "bus_stop": "영동부화장",
+    "latitude": 36.57498,
+    "longtitude": 127.24087
+  },
+  {
+    "id": 36005,
+    "bus_stop": "고복2리",
+    "latitude": 36.61318,
+    "longtitude": 127.24315
+  },
+  {
+    "id": 36004,
+    "bus_stop": "고복2리",
+    "latitude": 36.61349,
+    "longtitude": 127.24327
+  },
+  {
+    "id": 36118,
+    "bus_stop": "기룡리(효교동)",
+    "latitude": 36.57669,
+    "longtitude": 127.24638
+  },
+  {
+    "id": 36089,
+    "bus_stop": "와촌보건진료소",
+    "latitude": 36.55668,
+    "longtitude": 127.24644
+  },
+  {
+    "id": 36090,
+    "bus_stop": "와촌보건진료소",
+    "latitude": 36.55657,
+    "longtitude": 127.24644
+  },
+  {
+    "id": 36109,
+    "bus_stop": "고복리조각공원",
+    "latitude": 36.61279,
+    "longtitude": 127.24778
+  },
+  {
+    "id": 36062,
+    "bus_stop": "신대2리마을회관",
+    "latitude": 36.58474,
+    "longtitude": 127.24801
+  },
+  {
+    "id": 36061,
+    "bus_stop": "신대2리마을회관",
+    "latitude": 36.58454,
+    "longtitude": 127.24817
+  },
+  {
+    "id": 36007,
+    "bus_stop": "고복저수지입구",
+    "latitude": 36.60976,
+    "longtitude": 127.24836
+  },
+  {
+    "id": 36088,
+    "bus_stop": "와촌리(기와말)",
+    "latitude": 36.55682,
+    "longtitude": 127.2488
+  },
+  {
+    "id": 36087,
+    "bus_stop": "와촌리(기와말)",
+    "latitude": 36.55695,
+    "longtitude": 127.24885
+  },
+  {
+    "id": 36009,
+    "bus_stop": "고복리",
+    "latitude": 36.60692,
+    "longtitude": 127.25073
+  },
+  {
+    "id": 36058,
+    "bus_stop": "신대1리마을회관",
+    "latitude": 36.58112,
+    "longtitude": 127.25147
+  },
+  {
+    "id": 36057,
+    "bus_stop": "신대1리",
+    "latitude": 36.57817,
+    "longtitude": 127.25147
+  },
+  {
+    "id": 36063,
+    "bus_stop": "신대1리마을회관",
+    "latitude": 36.5814876,
+    "longtitude": 127.2513956
+  },
+  {
+    "id": 36056,
+    "bus_stop": "신대1리",
+    "latitude": 36.57801,
+    "longtitude": 127.25158
+  },
+  {
+    "id": 36055,
+    "bus_stop": "신대1리",
+    "latitude": 36.57811,
+    "longtitude": 127.25175
+  },
+  {
+    "id": 36051,
+    "bus_stop": "세종기숙학원",
+    "latitude": 36.55689,
+    "longtitude": 127.252
+  },
+  {
+    "id": 35036,
+    "bus_stop": "용암2리입구",
+    "latitude": 36.5522218,
+    "longtitude": 127.2158015
+  },
+  {
+    "id": 35017,
+    "bus_stop": "봉안리(부일가든)",
+    "latitude": 36.50016,
+    "longtitude": 127.21592
+  },
+  {
+    "id": 35002,
+    "bus_stop": "금암삼거리",
+    "latitude": 36.43837,
+    "longtitude": 127.21848
+  },
+  {
+    "id": 35008,
+    "bus_stop": "금암삼거리",
+    "latitude": 36.4382,
+    "longtitude": 127.2185
+  },
+  {
+    "id": 35019,
+    "bus_stop": "산학리",
+    "latitude": 36.49191,
+    "longtitude": 127.22186
+  },
+  {
+    "id": 35020,
+    "bus_stop": "산학리",
+    "latitude": 36.49187,
+    "longtitude": 127.22221
+  },
+  {
+    "id": 35015,
+    "bus_stop": "봉안리",
+    "latitude": 36.49892,
+    "longtitude": 127.22398
+  },
+  {
+    "id": 35013,
+    "bus_stop": "동원주식회사",
+    "latitude": 36.4881,
+    "longtitude": 127.22658
+  },
+  {
+    "id": 35014,
+    "bus_stop": "동원주식회사",
+    "latitude": 36.4889,
+    "longtitude": 127.22667
+  },
+  {
+    "id": 35021,
+    "bus_stop": "영평사입구",
+    "latitude": 36.47582,
+    "longtitude": 127.23838
+  },
+  {
+    "id": 35031,
+    "bus_stop": "영평사입구",
+    "latitude": 36.47564,
+    "longtitude": 127.23857
+  },
+  {
+    "id": 38012,
+    "bus_stop": "베어트리파크",
+    "latitude": 36.67207,
+    "longtitude": 127.21071
+  },
+  {
+    "id": 38013,
+    "bus_stop": "베어트리파크",
+    "latitude": 36.67203,
+    "longtitude": 127.21089
+  },
+  {
+    "id": 38035,
+    "bus_stop": "흥진레미콘",
+    "latitude": 36.65236,
+    "longtitude": 127.21365
+  },
+  {
+    "id": 38033,
+    "bus_stop": "송성1리입구",
+    "latitude": 36.6495494,
+    "longtitude": 127.2134708
+  },
+  {
+    "id": 38036,
+    "bus_stop": "송성1리입구",
+    "latitude": 36.6496282,
+    "longtitude": 127.2136204
+  },
+  {
+    "id": 38085,
+    "bus_stop": "흥진레미콘",
+    "latitude": 36.65265,
+    "longtitude": 127.21388
+  },
+  {
+    "id": 38037,
+    "bus_stop": "송성2리입구",
+    "latitude": 36.66242,
+    "longtitude": 127.21428
+  },
+  {
+    "id": 38038,
+    "bus_stop": "송성2리입구",
+    "latitude": 36.66261,
+    "longtitude": 127.21437
+  },
+  {
+    "id": 38040,
+    "bus_stop": "송성3리마을회관",
+    "latitude": 36.6379094,
+    "longtitude": 127.2172513
+  },
+  {
+    "id": 38010,
+    "bus_stop": "미곡리",
+    "latitude": 36.66429,
+    "longtitude": 127.21949
+  },
+  {
+    "id": 38011,
+    "bus_stop": "미곡리",
+    "latitude": 36.66418,
+    "longtitude": 127.21964
+  },
+  {
+    "id": 38002,
+    "bus_stop": "개미고개",
+    "latitude": 36.65799,
+    "longtitude": 127.22055
+  },
+  {
+    "id": 38001,
+    "bus_stop": "개미고개",
+    "latitude": 36.65797,
+    "longtitude": 127.22078
+  },
+  {
+    "id": 38073,
+    "bus_stop": "청람리입구",
+    "latitude": 36.6615,
+    "longtitude": 127.23251
+  },
+  {
+    "id": 38047,
+    "bus_stop": "송정리",
+    "latitude": 36.62505,
+    "longtitude": 127.2325
+  },
+  {
+    "id": 38074,
+    "bus_stop": "청람리",
+    "latitude": 36.65163,
+    "longtitude": 127.23286
+  },
+  {
+    "id": 38072,
+    "bus_stop": "청람1리마을회관",
+    "latitude": 36.65495,
+    "longtitude": 127.23318
+  },
+  {
+    "id": 38071,
+    "bus_stop": "청람1리마을회관",
+    "latitude": 36.65476,
+    "longtitude": 127.23347
+  },
+  {
+    "id": 38048,
+    "bus_stop": "송정2리(구리골)",
+    "latitude": 36.62602,
+    "longtitude": 127.23617
+  },
+  {
+    "id": 38050,
+    "bus_stop": "송정리(행골)",
+    "latitude": 36.6274,
+    "longtitude": 127.24115
+  },
+  {
+    "id": 38051,
+    "bus_stop": "송정리(행골)",
+    "latitude": 36.62748,
+    "longtitude": 127.24134
+  },
+  {
+    "id": 38043,
+    "bus_stop": "송정1리(상소골)",
+    "latitude": 36.62739,
+    "longtitude": 127.24411
+  },
+  {
+    "id": 38046,
+    "bus_stop": "송정1리(상소골)",
+    "latitude": 36.62752,
+    "longtitude": 127.24412
+  },
+  {
+    "id": 38083,
+    "bus_stop": "아람달동림권역체험관",
+    "latitude": 36.6656,
+    "longtitude": 127.24464
+  },
+  {
+    "id": 38041,
+    "bus_stop": "송정1리",
+    "latitude": 36.6278,
+    "longtitude": 127.24617
+  },
+  {
+    "id": 38042,
+    "bus_stop": "송정1리",
+    "latitude": 36.62792,
+    "longtitude": 127.24628
+  },
+  {
+    "id": 38045,
+    "bus_stop": "송정1리(권고조경)",
+    "latitude": 36.62849,
+    "longtitude": 127.25058
+  },
+  {
+    "id": 38044,
+    "bus_stop": "송정1리(권고조경)",
+    "latitude": 36.62871,
+    "longtitude": 127.25064
+  },
+  {
+    "id": 38077,
+    "bus_stop": "청송산업단지입구",
+    "latitude": 36.66366,
+    "longtitude": 127.25556
+  },
+  {
+    "id": 38020,
+    "bus_stop": "석곡리",
+    "latitude": 36.6587466,
+    "longtitude": 127.2560505
+  },
+  {
+    "id": 38030,
+    "bus_stop": "송곡2리(능골)",
+    "latitude": 36.62956,
+    "longtitude": 127.25671
+  },
+  {
+    "id": 38021,
+    "bus_stop": "석곡리",
+    "latitude": 36.6591135,
+    "longtitude": 127.2569277
+  },
+  {
+    "id": 38031,
+    "bus_stop": "송곡2리(능골)",
+    "latitude": 36.62967,
+    "longtitude": 127.25687
+  },
+  {
+    "id": 38016,
+    "bus_stop": "보덕2리마을회관",
+    "latitude": 36.64401,
+    "longtitude": 127.25738
+  },
+  {
+    "id": 38079,
+    "bus_stop": "청송리",
+    "latitude": 36.66181,
+    "longtitude": 127.25736
+  },
+  {
+    "id": 38081,
+    "bus_stop": "석곡리입구",
+    "latitude": 36.65908,
+    "longtitude": 127.25977
+  },
+  {
+    "id": 38028,
+    "bus_stop": "송곡2리",
+    "latitude": 36.63014,
+    "longtitude": 127.26023
+  },
+  {
+    "id": 38029,
+    "bus_stop": "송곡2리",
+    "latitude": 36.63007,
+    "longtitude": 127.26045
+  },
+  {
+    "id": 38019,
+    "bus_stop": "봉대리(평말)",
+    "latitude": 36.68073,
+    "longtitude": 127.26314
+  },
+  {
+    "id": 38018,
+    "bus_stop": "봉대리(평말)",
+    "latitude": 36.68098,
+    "longtitude": 127.26305
+  },
+  {
+    "id": 38063,
+    "bus_stop": "전동 복컴·면사무소·초등학교",
+    "latitude": 36.65549,
+    "longtitude": 127.26387
+  },
+  {
+    "id": 38062,
+    "bus_stop": "전동 복컴·면사무소·초등학교",
+    "latitude": 36.65526,
+    "longtitude": 127.26404
+  },
+  {
+    "id": 38052,
+    "bus_stop": "봉대리",
+    "latitude": 36.68337,
+    "longtitude": 127.26512
+  },
+  {
+    "id": 38017,
+    "bus_stop": "봉대리",
+    "latitude": 36.68345,
+    "longtitude": 127.26529
+  },
+  {
+    "id": 38068,
+    "bus_stop": "전동역",
+    "latitude": 36.65419,
+    "longtitude": 127.26593
+  },
+  {
+    "id": 38025,
+    "bus_stop": "송곡1리",
+    "latitude": 36.6306,
+    "longtitude": 127.26601
+  },
+  {
+    "id": 38023,
+    "bus_stop": "송곡1리",
+    "latitude": 36.63073,
+    "longtitude": 127.26613
+  },
+  {
+    "id": 38067,
+    "bus_stop": "전동삼거리",
+    "latitude": 36.65346,
+    "longtitude": 127.26687
+  },
+  {
+    "id": 38064,
+    "bus_stop": "전동삼거리",
+    "latitude": 36.65378,
+    "longtitude": 127.2669
+  },
+  {
+    "id": 38066,
+    "bus_stop": "전동삼거리",
+    "latitude": 36.65356,
+    "longtitude": 127.26695
+  },
+  {
+    "id": 38065,
+    "bus_stop": "전동삼거리",
+    "latitude": 36.65369,
+    "longtitude": 127.26701
+  },
+  {
+    "id": 38027,
+    "bus_stop": "송곡1리(예비군훈련장)",
+    "latitude": 36.62553,
+    "longtitude": 127.26835
+  },
+  {
+    "id": 38026,
+    "bus_stop": "송곡1리(예비군훈련장)",
+    "latitude": 36.62545,
+    "longtitude": 127.26847
+  },
+  {
+    "id": 38024,
+    "bus_stop": "송곡보건진료소",
+    "latitude": 36.63065,
+    "longtitude": 127.26908
+  },
+  {
+    "id": 38008,
+    "bus_stop": "노장농공단지",
+    "latitude": 36.66071,
+    "longtitude": 127.27012
+  },
+  {
+    "id": 38007,
+    "bus_stop": "노장농공단지",
+    "latitude": 36.6609,
+    "longtitude": 127.27033
+  },
+  {
+    "id": 38069,
+    "bus_stop": "조치원낚시터",
+    "latitude": 36.67308,
+    "longtitude": 127.2706
+  },
+  {
+    "id": 38070,
+    "bus_stop": "조치원낚시터",
+    "latitude": 36.67291,
+    "longtitude": 127.27078
+  },
+  {
+    "id": 38057,
+    "bus_stop": "심중2리입구",
+    "latitude": 36.64988,
+    "longtitude": 127.27101
+  },
+  {
+    "id": 38060,
+    "bus_stop": "심중2리입구",
+    "latitude": 36.64999,
+    "longtitude": 127.27104
+  },
+  {
+    "id": 38089,
+    "bus_stop": "세종시공원묘원",
+    "latitude": 36.69282,
+    "longtitude": 127.27229
+  },
+  {
+    "id": 38088,
+    "bus_stop": "세종시공원묘원",
+    "latitude": 36.69279,
+    "longtitude": 127.27243
+  },
+  {
+    "id": 38005,
+    "bus_stop": "노장3리",
+    "latitude": 36.66938,
+    "longtitude": 127.2725
+  },
+  {
+    "id": 38004,
+    "bus_stop": "노장2리",
+    "latitude": 36.66327,
+    "longtitude": 127.27263
+  },
+  {
+    "id": 38003,
+    "bus_stop": "노장2리",
+    "latitude": 36.66316,
+    "longtitude": 127.27271
+  },
+  {
+    "id": 38015,
+    "bus_stop": "보덕1리",
+    "latitude": 36.6326,
+    "longtitude": 127.27317
+  },
+  {
+    "id": 38014,
+    "bus_stop": "보덕1리",
+    "latitude": 36.63252,
+    "longtitude": 127.2733
+  },
+  {
+    "id": 38054,
+    "bus_stop": "심중1리",
+    "latitude": 36.64451,
+    "longtitude": 127.27593
+  },
+  {
+    "id": 38053,
+    "bus_stop": "심중1리",
+    "latitude": 36.64456,
+    "longtitude": 127.27603
+  },
+  {
+    "id": 38055,
+    "bus_stop": "심중2리입구",
+    "latitude": 36.6575,
+    "longtitude": 127.28108
+  },
+  {
+    "id": 38056,
+    "bus_stop": "심중2리",
+    "latitude": 36.66544,
+    "longtitude": 127.29221
+  },
+  {
+    "id": 38058,
+    "bus_stop": "심중2리",
+    "latitude": 36.66531,
+    "longtitude": 127.29224
+  },
+  {
+    "id": 38061,
+    "bus_stop": "심중리시민스포츠센터",
+    "latitude": 36.6704,
+    "longtitude": 127.29874
+  },
+  {
+    "id": 37002,
+    "bus_stop": "KCC앞",
+    "latitude": 36.70852,
+    "longtitude": 127.15296
+  },
+  {
+    "id": 37070,
+    "bus_stop": "유천리(어천)",
+    "latitude": 36.68803,
+    "longtitude": 127.16612
+  },
+  {
+    "id": 37069,
+    "bus_stop": "유천리(어천)",
+    "latitude": 36.6879,
+    "longtitude": 127.16612
+  },
+  {
+    "id": 36108,
+    "bus_stop": "전당골",
+    "latitude": 36.58242,
+    "longtitude": 127.26832
+  },
+  {
+    "id": 39027,
+    "bus_stop": "대곡리",
+    "latitude": 36.7298387,
+    "longtitude": 127.1667903
+  },
+  {
+    "id": 51060,
+    "bus_stop": "가재마을9, 10단지",
+    "latitude": 36.5018101,
+    "longtitude": 127.2525964
+  },
+  {
+    "id": 51061,
+    "bus_stop": "종촌종합복지센터",
+    "latitude": 36.5021148,
+    "longtitude": 127.2463449
+  },
+  {
+    "id": 51062,
+    "bus_stop": "종촌초등학교(가재마을1,2단지)",
+    "latitude": 36.5020819,
+    "longtitude": 127.2425959
+  },
+  {
+    "id": 51063,
+    "bus_stop": "고운중학교",
+    "latitude": 36.5068832,
+    "longtitude": 127.2367283
+  },
+  {
+    "id": 51064,
+    "bus_stop": "고운중학교",
+    "latitude": 36.5060786,
+    "longtitude": 127.2377584
+  },
+  {
+    "id": 51065,
+    "bus_stop": "종촌초등학교(가재마을1,2단지)",
+    "latitude": 36.5018836,
+    "longtitude": 127.2425854
+  },
+  {
+    "id": 51066,
+    "bus_stop": "종촌종합복지센터",
+    "latitude": 36.5019154,
+    "longtitude": 127.246929
+  },
+  {
+    "id": 51067,
+    "bus_stop": "가재마을9, 10단지",
+    "latitude": 36.5015892,
+    "longtitude": 127.2525636
+  },
+  {
+    "id": 53017,
+    "bus_stop": "가락마을12,14단지",
+    "latitude": 36.51301,
+    "longtitude": 127.2331115
+  },
+  {
+    "id": 53018,
+    "bus_stop": "가락마을12,14단지",
+    "latitude": 36.5129521,
+    "longtitude": 127.2334076
+  },
+  {
+    "id": 52051,
+    "bus_stop": "도램마을20단지",
+    "latitude": 36.5174087,
+    "longtitude": 127.2649161
+  },
+  {
+    "id": 52052,
+    "bus_stop": "도램마을8,10단지",
+    "latitude": 36.5119283,
+    "longtitude": 127.2595385
+  },
+  {
+    "id": 52053,
+    "bus_stop": "도램마을8,10단지",
+    "latitude": 36.5121473,
+    "longtitude": 127.2599592
+  },
+  {
+    "id": 53019,
+    "bus_stop": "온빛초등학교",
+    "latitude": 36.5142997,
+    "longtitude": 127.2394674
+  },
+  {
+    "id": 53020,
+    "bus_stop": "온빛초등학교",
+    "latitude": 36.5140109,
+    "longtitude": 127.239312
+  },
+  {
+    "id": 53021,
+    "bus_stop": "가락마을17,18단지",
+    "latitude": 36.5197921,
+    "longtitude": 127.2346313
+  },
+  {
+    "id": 53022,
+    "bus_stop": "가락마을17,18단지",
+    "latitude": 36.5195051,
+    "longtitude": 127.2347603
+  },
+  {
+    "id": 53023,
+    "bus_stop": "두루고등학교",
+    "latitude": 36.5173734,
+    "longtitude": 127.2311308
+  },
+  {
+    "id": 53024,
+    "bus_stop": "두루고등학교",
+    "latitude": 36.5172342,
+    "longtitude": 127.2313602
+  },
+  {
+    "id": 53025,
+    "bus_stop": "가락마을10,13단지",
+    "latitude": 36.5134794,
+    "longtitude": 127.2293797
+  },
+  {
+    "id": 53026,
+    "bus_stop": "가락마을10,13단지",
+    "latitude": 36.513498,
+    "longtitude": 127.2296588
+  },
+  {
+    "id": 53027,
+    "bus_stop": "가락마을9,11단지",
+    "latitude": 36.5106813,
+    "longtitude": 127.229892
+  },
+  {
+    "id": 53028,
+    "bus_stop": "가락마을9,11단지",
+    "latitude": 36.5105636,
+    "longtitude": 127.2296299
+  },
+  {
+    "id": 53029,
+    "bus_stop": "으뜸초등학교",
+    "latitude": 36.5071605,
+    "longtitude": 127.2317021
+  },
+  {
+    "id": 53030,
+    "bus_stop": "으뜸초등학교",
+    "latitude": 36.5070383,
+    "longtitude": 127.231468
+  },
+  {
+    "id": 53031,
+    "bus_stop": "고운동커뮤니티센터남측",
+    "latitude": 36.5042791,
+    "longtitude": 127.2352687
+  },
+  {
+    "id": 53032,
+    "bus_stop": "고운동커뮤니티센터남측",
+    "latitude": 36.5043276,
+    "longtitude": 127.2347772
+  },
+  {
+    "id": 53033,
+    "bus_stop": "가재마을7단지",
+    "latitude": 36.5049528,
+    "longtitude": 127.248745
+  },
+  {
+    "id": 35091,
+    "bus_stop": "가락마을16,20단지",
+    "latitude": 36.5156107,
+    "longtitude": 127.2391559
+  },
+  {
+    "id": 53046,
+    "bus_stop": "가락마을16,20단지",
+    "latitude": 36.5155932,
+    "longtitude": 127.2394128
+  },
+  {
+    "id": 53047,
+    "bus_stop": "시립도서관,대법원등기정보센터",
+    "latitude": 36.5114233,
+    "longtitude": 127.2412918
+  },
+  {
+    "id": 53048,
+    "bus_stop": "시립도서관,대법원등기정보센터",
+    "latitude": 36.511388,
+    "longtitude": 127.241627
+  },
+  {
+    "id": 53049,
+    "bus_stop": "가락마을7,8단지",
+    "latitude": 36.5051871,
+    "longtitude": 127.240274
+  },
+  {
+    "id": 57011,
+    "bus_stop": "법원.검찰청,경찰청",
+    "latitude": 36.4869234,
+    "longtitude": 127.3019122
+  },
+  {
+    "id": 57012,
+    "bus_stop": "법원.검찰청,경찰청",
+    "latitude": 36.4870803,
+    "longtitude": 127.3013703
+  },
+  {
+    "id": 57013,
+    "bus_stop": "국책연구단지남측",
+    "latitude": 36.4910378,
+    "longtitude": 127.3040175
+  },
+  {
+    "id": 57014,
+    "bus_stop": "국책연구단지남측",
+    "latitude": 36.492314,
+    "longtitude": 127.3043101
+  },
+  {
+    "id": 11097,
+    "bus_stop": "번암아파트후문",
+    "latitude": 36.5876866,
+    "longtitude": 127.2920412
+  },
+  {
+    "id": 51102,
+    "bus_stop": "호려울마을8,9단지",
+    "latitude": 36.4796473,
+    "longtitude": 127.2960085
+  },
+  {
+    "id": 51103,
+    "bus_stop": "호려울마을8,9단지",
+    "latitude": 36.4797747,
+    "longtitude": 127.296745
+  },
+  {
+    "id": 51104,
+    "bus_stop": "새샘마을1,2단지",
+    "latitude": 36.4807836,
+    "longtitude": 127.298936
+  },
+  {
+    "id": 51105,
+    "bus_stop": "새샘마을1,2단지",
+    "latitude": 36.480853,
+    "longtitude": 127.299974
+  },
+  {
+    "id": 31066,
+    "bus_stop": "방공학교",
+    "latitude": 36.5518391,
+    "longtitude": 127.2780081
+  },
+  {
+    "id": 51107,
+    "bus_stop": "보람동.대평동",
+    "latitude": 36.4749413,
+    "longtitude": 127.2807336
+  },
+  {
+    "id": 51108,
+    "bus_stop": "보람동(해들마을)",
+    "latitude": 36.4746524,
+    "longtitude": 127.2805
+  },
+  {
+    "id": 51109,
+    "bus_stop": "보람동(호려울마을)",
+    "latitude": 36.4757635,
+    "longtitude": 127.2817304
+  },
+  {
+    "id": 51110,
+    "bus_stop": "보람동.대평동",
+    "latitude": 36.4756055,
+    "longtitude": 127.2816359
+  },
+  {
+    "id": 51111,
+    "bus_stop": "시청,시의회,교육청,세무서",
+    "latitude": 36.478356,
+    "longtitude": 127.288188
+  },
+  {
+    "id": 51112,
+    "bus_stop": "시청,시의회,교육청,세무서",
+    "latitude": 36.478674,
+    "longtitude": 127.288769
+  },
+  {
+    "id": 51113,
+    "bus_stop": "글벗중학교(새샘마을9단지)",
+    "latitude": 36.4906457,
+    "longtitude": 127.2986202
+  },
+  {
+    "id": 51114,
+    "bus_stop": "글벗중학교(새샘마을9단지)",
+    "latitude": 36.4898882,
+    "longtitude": 127.2984603
+  },
+  {
+    "id": 51115,
+    "bus_stop": "소담동 새샘마을",
+    "latitude": 36.4824576,
+    "longtitude": 127.2972683
+  },
+  {
+    "id": 51116,
+    "bus_stop": "소담동(새샘마을)",
+    "latitude": 36.4823772,
+    "longtitude": 127.2977039
+  },
+  {
+    "id": 51117,
+    "bus_stop": "소담동 새샘마을",
+    "latitude": 36.4826387,
+    "longtitude": 127.2977367
+  },
+  {
+    "id": 51118,
+    "bus_stop": "소담동(새샘마을)",
+    "latitude": 36.4827102,
+    "longtitude": 127.2973234
+  },
+  {
+    "id": 51119,
+    "bus_stop": "KDI(한국개발연구원)",
+    "latitude": 36.4808749,
+    "longtitude": 127.3078442
+  },
+  {
+    "id": 51120,
+    "bus_stop": "한국개발연구원(KDI)",
+    "latitude": 36.4809787,
+    "longtitude": 127.3078831
+  },
+  {
+    "id": 11098,
+    "bus_stop": "세무서 출장민원실",
+    "latitude": 36.6059319,
+    "longtitude": 127.2939937
+  },
+  {
+    "id": 34112,
+    "bus_stop": "성덕교차로",
+    "latitude": 36.4606374,
+    "longtitude": 127.2776489
+  },
+  {
+    "id": 34113,
+    "bus_stop": "성덕교차로",
+    "latitude": 36.4607591,
+    "longtitude": 127.2776151
+  },
+  {
+    "id": 33056,
+    "bus_stop": "부용농공단지",
+    "latitude": 36.4922149,
+    "longtitude": 127.3624753
+  },
+  {
+    "id": 33057,
+    "bus_stop": "부용농공단지",
+    "latitude": 36.4923814,
+    "longtitude": 127.3622573
+  },
+  {
+    "id": 57015,
+    "bus_stop": "세종고속시외버스터미널",
+    "latitude": 36.4684658,
+    "longtitude": 127.2750069
+  },
+  {
+    "id": 57016,
+    "bus_stop": "세종고속시외버스터미널",
+    "latitude": 36.4682311,
+    "longtitude": 127.2748401
+  },
+  {
+    "id": 52055,
+    "bus_stop": "세종소방서",
+    "latitude": 36.5061458,
+    "longtitude": 127.2723231
+  },
+  {
+    "id": 51100,
+    "bus_stop": "세종우체국(남부서,보람초)",
+    "latitude": 36.4802554,
+    "longtitude": 127.2931435
+  },
+  {
+    "id": 51101,
+    "bus_stop": "세종우체국(남부서,보람초)",
+    "latitude": 36.4805387,
+    "longtitude": 127.2927688
+  },
+  {
+    "id": 31065,
+    "bus_stop": "은하수공원",
+    "latitude": 36.5326753,
+    "longtitude": 127.2453565
+  },
+  {
+    "id": 53050,
+    "bus_stop": "가락마을20,21단지",
+    "latitude": 36.5175074,
+    "longtitude": 127.2407913
+  },
+  {
+    "id": 53051,
+    "bus_stop": "가락마을20,21단지",
+    "latitude": 36.5172956,
+    "longtitude": 127.240792
+  },
+  {
+    "id": 32084,
+    "bus_stop": "예양2리",
+    "latitude": 36.5809703,
+    "longtitude": 127.3172654
+  },
+  {
+    "id": 32085,
+    "bus_stop": "노송1리",
+    "latitude": 36.5668063,
+    "longtitude": 127.3304159
+  },
+  {
+    "id": 35082,
+    "bus_stop": "장군면복지회관",
+    "latitude": 36.4991636,
+    "longtitude": 127.2080709
+  },
+  {
+    "id": 35083,
+    "bus_stop": "장군면복지회관",
+    "latitude": 36.4990494,
+    "longtitude": 127.2081953
+  },
+  {
+    "id": 35084,
+    "bus_stop": "평기리",
+    "latitude": 36.5230569,
+    "longtitude": 127.1992142
+  },
+  {
+    "id": 35085,
+    "bus_stop": "평기리",
+    "latitude": 36.5230746,
+    "longtitude": 127.1990689
+  },
+  {
+    "id": 35086,
+    "bus_stop": "송학리입구",
+    "latitude": 36.5356909,
+    "longtitude": 127.1932746
+  },
+  {
+    "id": 51106,
+    "bus_stop": "다정동(장기로)",
+    "latitude": 36.4998106,
+    "longtitude": 127.2345693
+  },
+  {
+    "id": 35087,
+    "bus_stop": "대전공원묘역입구",
+    "latitude": 36.4531706,
+    "longtitude": 127.2246903
+  },
+  {
+    "id": 35088,
+    "bus_stop": "대전공원묘역입구",
+    "latitude": 36.452883,
+    "longtitude": 127.2250763
+  },
+  {
+    "id": 35089,
+    "bus_stop": "도남삼거리",
+    "latitude": 36.4413461,
+    "longtitude": 127.2242355
+  },
+  {
+    "id": 35090,
+    "bus_stop": "도남삼거리",
+    "latitude": 36.4412701,
+    "longtitude": 127.2245036
+  },
+  {
+    "id": 33060,
+    "bus_stop": "금호리",
+    "latitude": 36.4937086,
+    "longtitude": 127.3696419
+  },
+  {
+    "id": 36006,
+    "bus_stop": "고복저수지입구",
+    "latitude": 36.60938,
+    "longtitude": 127.24855
+  },
+  {
+    "id": 36010,
+    "bus_stop": "고복리",
+    "latitude": 36.607,
+    "longtitude": 127.25112
+  },
+  {
+    "id": 38039,
+    "bus_stop": "송성3리(솔티)",
+    "latitude": 36.63605,
+    "longtitude": 127.2174
+  },
+  {
+    "id": 38009,
+    "bus_stop": "청람리(동막골)",
+    "latitude": 36.64433,
+    "longtitude": 127.23168
+  },
+  {
+    "id": 38076,
+    "bus_stop": "청람리",
+    "latitude": 36.65165,
+    "longtitude": 127.23274
+  },
+  {
+    "id": 38049,
+    "bus_stop": "송정2리(구리골)",
+    "latitude": 36.62618,
+    "longtitude": 127.23619
+  },
+  {
+    "id": 38082,
+    "bus_stop": "아람달동림권역체험관",
+    "latitude": 36.66548,
+    "longtitude": 127.2448
+  },
+  {
+    "id": 38078,
+    "bus_stop": "청송산업단지입구",
+    "latitude": 36.6638,
+    "longtitude": 127.25523
+  },
+  {
+    "id": 38080,
+    "bus_stop": "청송리",
+    "latitude": 36.66176,
+    "longtitude": 127.25721
+  },
+  {
+    "id": 38006,
+    "bus_stop": "노장3리",
+    "latitude": 36.66932,
+    "longtitude": 127.2727
+  },
+  {
+    "id": 38059,
+    "bus_stop": "심중2리입구",
+    "latitude": 36.65736,
+    "longtitude": 127.2811
+  },
+  {
+    "id": 38084,
+    "bus_stop": "충정사",
+    "latitude": 36.64,
+    "longtitude": 127.21725
+  },
+  {
+    "id": 37067,
+    "bus_stop": "유천리",
+    "latitude": 36.68628,
+    "longtitude": 127.16919
+  },
+  {
+    "id": 37015,
+    "bus_stop": "다방2리마을회관",
+    "latitude": 36.59749,
+    "longtitude": 127.17442
+  },
+  {
+    "id": 37032,
+    "bus_stop": "부거실(아랫마을)",
+    "latitude": 36.62598,
+    "longtitude": 127.19015
+  },
+  {
+    "id": 37027,
+    "bus_stop": "덕고개",
+    "latitude": 36.6803,
+    "longtitude": 127.19145
+  },
+  {
+    "id": 37086,
+    "bus_stop": "한국콜마",
+    "latitude": 36.68079,
+    "longtitude": 127.19353
+  },
+  {
+    "id": 37073,
+    "bus_stop": "전의중학교",
+    "latitude": 36.68047,
+    "longtitude": 127.19682
+  },
+  {
+    "id": 37065,
+    "bus_stop": "원성리(죽근마을)",
+    "latitude": 36.67609,
+    "longtitude": 127.19916
+  },
+  {
+    "id": 37043,
+    "bus_stop": "성호아파트",
+    "latitude": 36.68191,
+    "longtitude": 127.20441
+  },
+  {
+    "id": 37045,
+    "bus_stop": "신방2리마을회관",
+    "latitude": 36.676,
+    "longtitude": 127.20598
+  },
+  {
+    "id": 36015,
+    "bus_stop": "국촌2리마을회관",
+    "latitude": 36.57578,
+    "longtitude": 127.26507
+  },
+  {
+    "id": 36069,
+    "bus_stop": "쌍전리(우리요양원)",
+    "latitude": 36.57809,
+    "longtitude": 127.26937
+  },
+  {
+    "id": 36012,
+    "bus_stop": "국촌1리",
+    "latitude": 36.57319,
+    "longtitude": 127.27255
+  },
+  {
+    "id": 36035,
+    "bus_stop": "대원아파트",
+    "latitude": 36.55839,
+    "longtitude": 127.27835
+  },
+  {
+    "id": 36033,
+    "bus_stop": "대원아파트후문",
+    "latitude": 36.56134,
+    "longtitude": 127.28143
+  },
+  {
+    "id": 36024,
+    "bus_stop": "농업기술센터",
+    "latitude": 36.57213,
+    "longtitude": 127.28354
+  },
+  {
+    "id": 36075,
+    "bus_stop": "봉암2리마을회관",
+    "latitude": 36.55973,
+    "longtitude": 127.28701
+  },
+  {
+    "id": 35054,
+    "bus_stop": "평기리(아랫말)",
+    "latitude": 36.50652,
+    "longtitude": 127.19951
+  },
+  {
+    "id": 35040,
+    "bus_stop": "용현리",
+    "latitude": 36.54313,
+    "longtitude": 127.20479
+  },
+  {
+    "id": 35058,
+    "bus_stop": "평촌입구",
+    "latitude": 36.54716,
+    "longtitude": 127.20595
+  },
+  {
+    "id": 35032,
+    "bus_stop": "용암1리마을회관",
+    "latitude": 36.54893,
+    "longtitude": 127.20846
+  },
+  {
+    "id": 35063,
+    "bus_stop": "영상마을아파트",
+    "latitude": 36.44304,
+    "longtitude": 127.20993
+  },
+  {
+    "id": 35005,
+    "bus_stop": "금암리(솔정자)",
+    "latitude": 36.4553,
+    "longtitude": 127.21109
+  },
+  {
+    "id": 35035,
+    "bus_stop": "용암2리마을회관",
+    "latitude": 36.56213,
+    "longtitude": 127.21282
+  },
+  {
+    "id": 31025,
+    "bus_stop": "세종호수공원",
+    "latitude": 36.50234,
+    "longtitude": 127.27744
+  },
+  {
+    "id": 31035,
+    "bus_stop": "양화2리",
+    "latitude": 36.51038,
+    "longtitude": 127.28438
+  },
+  {
+    "id": 31047,
+    "bus_stop": "진의리",
+    "latitude": 36.50488,
+    "longtitude": 127.28533
+  },
+  {
+    "id": 31040,
+    "bus_stop": "양화리",
+    "latitude": 36.50364,
+    "longtitude": 127.29214
+  },
+  {
+    "id": 31030,
+    "bus_stop": "시청별관입구",
+    "latitude": 36.52985,
+    "longtitude": 127.29481
+  },
+  {
+    "id": 32029,
+    "bus_stop": "송용3리",
+    "latitude": 36.56038,
+    "longtitude": 127.30372
+  },
+  {
+    "id": 32032,
+    "bus_stop": "송용3리(신촌)",
+    "latitude": 36.568869,
+    "longtitude": 127.308161
+  },
+  {
+    "id": 32053,
+    "bus_stop": "용호동(구판장)",
+    "latitude": 36.539243,
+    "longtitude": 127.31153
+  },
+  {
+    "id": 51019,
+    "bus_stop": "신촌리",
+    "latitude": 36.47375,
+    "longtitude": 127.28835
+  },
+  {
+    "id": 34019,
+    "bus_stop": "장영실고등학교,호탄리(안터)",
+    "latitude": 36.47755,
+    "longtitude": 127.29868
+  },
+  {
+    "id": 51027,
+    "bus_stop": "장재1리",
+    "latitude": 36.479397,
+    "longtitude": 127.308355
+  },
+  {
+    "id": 52047,
+    "bus_stop": "범지기마을6,11단지",
+    "latitude": 36.51045,
+    "longtitude": 127.2498
+  },
+  {
+    "id": 52017,
+    "bus_stop": "어진중학교(한뜰마을4단지)",
+    "latitude": 36.4989327,
+    "longtitude": 127.2549113
+  },
+  {
+    "id": 52032,
+    "bus_stop": "정부세종청사남측",
+    "latitude": 36.5016046,
+    "longtitude": 127.2601032
+  },
+  {
+    "id": 52035,
+    "bus_stop": "정부세종청사북측",
+    "latitude": 36.5051501,
+    "longtitude": 127.261382
+  },
+  {
+    "id": 11046,
+    "bus_stop": "신안1리입구",
+    "latitude": 36.61372,
+    "longtitude": 127.29104
+  },
+  {
+    "id": 11019,
+    "bus_stop": "번암아파트후문",
+    "latitude": 36.58772,
+    "longtitude": 127.29233
+  },
+  {
+    "id": 34063,
+    "bus_stop": "영치리",
+    "latitude": 36.45043,
+    "longtitude": 127.30817
+  },
+  {
+    "id": 34021,
+    "bus_stop": "남곡리마을회관",
+    "latitude": 36.4704,
+    "longtitude": 127.31377
+  },
+  {
+    "id": 34100,
+    "bus_stop": "황용2리",
+    "latitude": 36.47452,
+    "longtitude": 127.31857
+  },
+  {
+    "id": 34065,
+    "bus_stop": "새나루마을1단지",
+    "latitude": 36.48592,
+    "longtitude": 127.32104
+  },
+  {
+    "id": 34104,
+    "bus_stop": "황용리",
+    "latitude": 36.48109,
+    "longtitude": 127.3239
+  },
+  {
+    "id": 34057,
+    "bus_stop": "산학연클러스터",
+    "latitude": 36.497569,
+    "longtitude": 127.33027
+  },
+  {
+    "id": 34105,
+    "bus_stop": "황용리삼성복지회관",
+    "latitude": 36.48012,
+    "longtitude": 127.32997
+  },
+  {
+    "id": 34052,
+    "bus_stop": "박산리",
+    "latitude": 36.47721,
+    "longtitude": 127.3546
+  },
+  {
+    "id": 34050,
+    "bus_stop": "박산고개",
+    "latitude": 36.47503,
+    "longtitude": 127.36245
+  },
+  {
+    "id": 33006,
+    "bus_stop": "금호2리공단입구",
+    "latitude": 36.5038391,
+    "longtitude": 127.3578931
+  },
+  {
+    "id": 33047,
+    "bus_stop": "저산리",
+    "latitude": 36.56182,
+    "longtitude": 127.36194
+  },
+  {
+    "id": 33046,
+    "bus_stop": "저산2리",
+    "latitude": 36.56219,
+    "longtitude": 127.36536
+  },
+  {
+    "id": 33026,
+    "bus_stop": "부강면",
+    "latitude": 36.529988,
+    "longtitude": 127.3660445
+  },
+  {
+    "id": 33028,
+    "bus_stop": "부강9리",
+    "latitude": 36.51915,
+    "longtitude": 127.36818
+  },
+  {
+    "id": 33004,
+    "bus_stop": "금호리",
+    "latitude": 36.49383,
+    "longtitude": 127.36967
+  },
+  {
+    "id": 32011,
+    "bus_stop": "노송1리(노리미)",
+    "latitude": 36.5693111,
+    "longtitude": 127.3281964
+  },
+  {
+    "id": 32062,
+    "bus_stop": "응암농공단지",
+    "latitude": 36.5457,
+    "longtitude": 127.33441
+  },
+  {
+    "id": 32026,
+    "bus_stop": "명학산업단지",
+    "latitude": 36.53905,
+    "longtitude": 127.34013
+  },
+  {
+    "id": 32070,
+    "bus_stop": "합강2리",
+    "latitude": 36.51823,
+    "longtitude": 127.3428
+  },
+  {
+    "id": 32044,
+    "bus_stop": "용운사",
+    "latitude": 36.51838,
+    "longtitude": 127.34674
+  },
+  {
+    "id": 32020,
+    "bus_stop": "명학리",
+    "latitude": 36.53579,
+    "longtitude": 127.34803
+  },
+  {
+    "id": 32018,
+    "bus_stop": "명학3리",
+    "latitude": 36.53472,
+    "longtitude": 127.35163
+  },
+  {
+    "id": 32065,
+    "bus_stop": "청봉사",
+    "latitude": 36.52228,
+    "longtitude": 127.35368
+  },
+  {
+    "id": 36120,
+    "bus_stop": "효방동",
+    "latitude": 36.55671,
+    "longtitude": 127.23311
+  },
+  {
+    "id": 36022,
+    "bus_stop": "기룡리복지회관",
+    "latitude": 36.57304,
+    "longtitude": 127.23437
+  },
+  {
+    "id": 36111,
+    "bus_stop": "조치원노인전문병원",
+    "latitude": 36.61154,
+    "longtitude": 127.23835
+  },
+  {
+    "id": 36119,
+    "bus_stop": "기룡리(효교동)",
+    "latitude": 36.57654,
+    "longtitude": 127.24621
+  },
+  {
+    "id": 36110,
+    "bus_stop": "고복리조각공원",
+    "latitude": 36.61275,
+    "longtitude": 127.2476
+  },
+  {
+    "id": 52039,
+    "bus_stop": "성금교차로(세종포스트빌딩)",
+    "latitude": 36.5079451,
+    "longtitude": 127.2615354
+  },
+  {
+    "id": 52001,
+    "bus_stop": "도램마을9단지",
+    "latitude": 36.5084834,
+    "longtitude": 127.2624829
+  },
+  {
+    "id": 52013,
+    "bus_stop": "문화체육관광부",
+    "latitude": 36.49815,
+    "longtitude": 127.2644
+  },
+  {
+    "id": 52012,
+    "bus_stop": "문화체육관광부",
+    "latitude": 36.49931,
+    "longtitude": 127.26472
+  },
+  {
+    "id": 52038,
+    "bus_stop": "정부세종청사 중앙동",
+    "latitude": 36.50222,
+    "longtitude": 127.26608
+  },
+  {
+    "id": 52037,
+    "bus_stop": "정부세종청사 중앙동",
+    "latitude": 36.50168,
+    "longtitude": 127.26609
+  },
+  {
+    "id": 52003,
+    "bus_stop": "공정거래위원회",
+    "latitude": 36.50435,
+    "longtitude": 127.26735
+  },
+  {
+    "id": 52005,
+    "bus_stop": "양지중학교(한뜰마을1,2단지)",
+    "latitude": 36.50712,
+    "longtitude": 127.26767
+  },
+  {
+    "id": 52044,
+    "bus_stop": "국무조정실(한뜰마을3단지)",
+    "latitude": 36.50408,
+    "longtitude": 127.27115
+  },
+  {
+    "id": 52045,
+    "bus_stop": "국무조정실(한뜰마을3단지)",
+    "latitude": 36.50383,
+    "longtitude": 127.27132
+  },
+  {
+    "id": 52002,
+    "bus_stop": "공정거래위원회",
+    "latitude": 36.504461,
+    "longtitude": 127.267198
+  },
+  {
+    "id": 52041,
+    "bus_stop": "가재마을5단지.가온마을6단지",
+    "latitude": 36.49915,
+    "longtitude": 127.24736
+  },
+  {
+    "id": 52042,
+    "bus_stop": "가재마을5단지.가온마을6단지",
+    "latitude": 36.4994482,
+    "longtitude": 127.2466099
+  },
+  {
+    "id": 52046,
+    "bus_stop": "가재마을11,12단지",
+    "latitude": 36.50441,
+    "longtitude": 127.25174
+  },
+  {
+    "id": 51043,
+    "bus_stop": "첫마을5단지",
+    "latitude": 36.4777,
+    "longtitude": 127.25004
+  },
+  {
+    "id": 51040,
+    "bus_stop": "첫마을4단지",
+    "latitude": 36.48019,
+    "longtitude": 127.2516
+  },
+  {
+    "id": 51041,
+    "bus_stop": "첫마을4단지",
+    "latitude": 36.47998,
+    "longtitude": 127.25203
+  },
+  {
+    "id": 51044,
+    "bus_stop": "첫마을6단지",
+    "latitude": 36.47542,
+    "longtitude": 127.25308
+  },
+  {
+    "id": 51046,
+    "bus_stop": "한솔중학교(첫마을7단지)",
+    "latitude": 36.47538,
+    "longtitude": 127.25558
+  },
+  {
+    "id": 51047,
+    "bus_stop": "한솔중학교(첫마을7단지)",
+    "latitude": 36.47491,
+    "longtitude": 127.2557
+  },
+  {
+    "id": 51035,
+    "bus_stop": "첫마을1단지",
+    "latitude": 36.48334,
+    "longtitude": 127.25863
+  },
+  {
+    "id": 51038,
+    "bus_stop": "첫마을3단지",
+    "latitude": 36.47821,
+    "longtitude": 127.26117
+  },
+  {
+    "id": 37074,
+    "bus_stop": "전의산업단지",
+    "latitude": 36.70105,
+    "longtitude": 127.21057
+  },
+  {
+    "id": 37029,
+    "bus_stop": "동교리",
+    "latitude": 36.67077,
+    "longtitude": 127.21704
+  },
+  {
+    "id": 37085,
+    "bus_stop": "하노곡",
+    "latitude": 36.701999,
+    "longtitude": 127.2295429
+  },
+  {
+    "id": 51024,
+    "bus_stop": "열병합발전소",
+    "latitude": 36.46547,
+    "longtitude": 127.24502
+  },
+  {
+    "id": 51026,
+    "bus_stop": "가람동(이마트앞)",
+    "latitude": 36.47062,
+    "longtitude": 127.25208
+  },
+  {
+    "id": 51009,
+    "bus_stop": "새롬동.나성동",
+    "latitude": 36.48771,
+    "longtitude": 127.25729
+  },
+  {
+    "id": 38075,
+    "bus_stop": "청람리입구",
+    "latitude": 36.66142,
+    "longtitude": 127.23228
+  },
+  {
+    "id": 37021,
+    "bus_stop": "달전1리",
+    "latitude": 36.63112,
+    "longtitude": 127.1745
+  },
+  {
+    "id": 34024,
+    "bus_stop": "달전리마을회관",
+    "latitude": 36.46223,
+    "longtitude": 127.34918
+  },
+  {
+    "id": 36002,
+    "bus_stop": "고복1리마을회관",
+    "latitude": 36.60506,
+    "longtitude": 127.25748
+  },
+  {
+    "id": 31052,
+    "bus_stop": "해밀동,산울동",
+    "latitude": 36.5285405,
+    "longtitude": 127.2639687
+  },
+  {
+    "id": 31051,
+    "bus_stop": "해밀동,산울동",
+    "latitude": 36.5296733,
+    "longtitude": 127.2646746
+  },
+  {
+    "id": 31055,
+    "bus_stop": "해밀동,산울동",
+    "latitude": 36.52963,
+    "longtitude": 127.26478
+  },
+  {
+    "id": 31001,
+    "bus_stop": "연기산업단지",
+    "latitude": 36.54369,
+    "longtitude": 127.26673
+  },
+  {
+    "id": 31002,
+    "bus_stop": "연기산업단지",
+    "latitude": 36.54374,
+    "longtitude": 127.26691
+  },
+  {
+    "id": 31045,
+    "bus_stop": "세종소방서",
+    "latitude": 36.5064705,
+    "longtitude": 127.2724317
+  },
+  {
+    "id": 31043,
+    "bus_stop": "연기면사무소",
+    "latitude": 36.5423,
+    "longtitude": 127.27405
+  },
+  {
+    "id": 31042,
+    "bus_stop": "연기면사무소",
+    "latitude": 36.5415,
+    "longtitude": 127.27434
+  },
+  {
+    "id": 31044,
+    "bus_stop": "연기면사무소",
+    "latitude": 36.54241,
+    "longtitude": 127.2744
+  },
+  {
+    "id": 31004,
+    "bus_stop": "한별동",
+    "latitude": 36.5340119,
+    "longtitude": 127.275216
+  },
+  {
+    "id": 31054,
+    "bus_stop": "한별동",
+    "latitude": 36.53377,
+    "longtitude": 127.27527
+  },
+  {
+    "id": 31053,
+    "bus_stop": "한별동",
+    "latitude": 36.5341,
+    "longtitude": 127.27661
+  },
+  {
+    "id": 31003,
+    "bus_stop": "한별동",
+    "latitude": 36.5338388,
+    "longtitude": 127.2766576
+  },
+  {
+    "id": 31020,
+    "bus_stop": "연기리",
+    "latitude": 36.54431,
+    "longtitude": 127.27681
+  },
+  {
+    "id": 31021,
+    "bus_stop": "연기리",
+    "latitude": 36.54482,
+    "longtitude": 127.27714
+  },
+  {
+    "id": 31032,
+    "bus_stop": "실광주유소",
+    "latitude": 36.55443,
+    "longtitude": 127.27724
+  },
+  {
+    "id": 31016,
+    "bus_stop": "실광주유소",
+    "latitude": 36.55361,
+    "longtitude": 127.27738
+  },
+  {
+    "id": 31015,
+    "bus_stop": "실광주유소",
+    "latitude": 36.55469,
+    "longtitude": 127.27737
+  },
+  {
+    "id": 31024,
+    "bus_stop": "세종호수공원",
+    "latitude": 36.50216,
+    "longtitude": 127.27738
+  },
+  {
+    "id": 31017,
+    "bus_stop": "방공학교",
+    "latitude": 36.55202,
+    "longtitude": 127.27817
+  },
+  {
+    "id": 31019,
+    "bus_stop": "보통2리",
+    "latitude": 36.54867,
+    "longtitude": 127.27837
+  },
+  {
+    "id": 31018,
+    "bus_stop": "보통2리",
+    "latitude": 36.54869,
+    "longtitude": 127.27849
+  },
+  {
+    "id": 31041,
+    "bus_stop": "연기2리마을회관",
+    "latitude": 36.54216,
+    "longtitude": 127.28017
+  },
+  {
+    "id": 31036,
+    "bus_stop": "양화2리",
+    "latitude": 36.5102,
+    "longtitude": 127.28444
+  },
+  {
+    "id": 31048,
+    "bus_stop": "진의리",
+    "latitude": 36.50483,
+    "longtitude": 127.28517
+  },
+  {
+    "id": 31050,
+    "bus_stop": "진의리입구",
+    "latitude": 36.5042,
+    "longtitude": 127.28513
+  },
+  {
+    "id": 31037,
+    "bus_stop": "양화3리",
+    "latitude": 36.50477,
+    "longtitude": 127.2868
+  },
+  {
+    "id": 31038,
+    "bus_stop": "양화3리",
+    "latitude": 36.5049,
+    "longtitude": 127.28698
+  },
+  {
+    "id": 31014,
+    "bus_stop": "보통1리마을회관",
+    "latitude": 36.54493,
+    "longtitude": 127.29008
+  },
+  {
+    "id": 31039,
+    "bus_stop": "양화리",
+    "latitude": 36.50375,
+    "longtitude": 127.29226
+  },
+  {
+    "id": 31022,
+    "bus_stop": "세종시청별관",
+    "latitude": 36.52665,
+    "longtitude": 127.29451
+  },
+  {
+    "id": 31023,
+    "bus_stop": "세종시청별관",
+    "latitude": 36.52647,
+    "longtitude": 127.29468
+  },
+  {
+    "id": 31031,
+    "bus_stop": "시청별관입구",
+    "latitude": 36.52952,
+    "longtitude": 127.29547
+  },
+  {
+    "id": 31034,
+    "bus_stop": "양화1리",
+    "latitude": 36.5031,
+    "longtitude": 127.29554
+  },
+  {
+    "id": 31046,
+    "bus_stop": "월산리",
+    "latitude": 36.519178,
+    "longtitude": 127.31163
+  },
+  {
+    "id": 32030,
+    "bus_stop": "송용3리",
+    "latitude": 36.560329,
+    "longtitude": 127.303813
+  },
+  {
+    "id": 32001,
+    "bus_stop": "예양2리(강촌)",
+    "latitude": 36.57658,
+    "longtitude": 127.308
+  },
+  {
+    "id": 32031,
+    "bus_stop": "송용3리(신촌)",
+    "latitude": 36.56901,
+    "longtitude": 127.30807
+  },
+  {
+    "id": 32002,
+    "bus_stop": "예양2리(강촌)",
+    "latitude": 36.576819,
+    "longtitude": 127.308115
+  },
+  {
+    "id": 32047,
+    "bus_stop": "용호1리",
+    "latitude": 36.53951,
+    "longtitude": 127.30896
+  },
+  {
+    "id": 32046,
+    "bus_stop": "용호1리",
+    "latitude": 36.539621,
+    "longtitude": 127.309043
+  },
+  {
+    "id": 32022,
+    "bus_stop": "문주리",
+    "latitude": 36.5469871,
+    "longtitude": 127.3103846
+  },
+  {
+    "id": 32052,
+    "bus_stop": "용호동",
+    "latitude": 36.53916,
+    "longtitude": 127.31142
+  },
+  {
+    "id": 32038,
+    "bus_stop": "예양리(강촌입구)",
+    "latitude": 36.580326,
+    "longtitude": 127.312387
+  },
+  {
+    "id": 32049,
+    "bus_stop": "용호2리",
+    "latitude": 36.5373,
+    "longtitude": 127.31352
+  },
+  {
+    "id": 51017,
+    "bus_stop": "다정동(대성고등학교)",
+    "latitude": 36.4938571,
+    "longtitude": 127.2561857
+  },
+  {
+    "id": 51015,
+    "bus_stop": "다정동",
+    "latitude": 36.4939251,
+    "longtitude": 127.2563976
+  },
+  {
+    "id": 51011,
+    "bus_stop": "세종고속시외버스터미널(지상)",
+    "latitude": 36.469265,
+    "longtitude": 127.2738136
+  },
+  {
+    "id": 51012,
+    "bus_stop": "세종고속시외버스터미널(지상)",
+    "latitude": 36.4693014,
+    "longtitude": 127.2740033
+  },
+  {
+    "id": 52010,
+    "bus_stop": "도담동(도램마을)",
+    "latitude": 36.5149714,
+    "longtitude": 127.2587943
+  },
+  {
+    "id": 52009,
+    "bus_stop": "도담동",
+    "latitude": 36.51483,
+    "longtitude": 127.25896
+  },
+  {
+    "id": 52008,
+    "bus_stop": "도담동",
+    "latitude": 36.5140662,
+    "longtitude": 127.259188
+  },
+  {
+    "id": 52007,
+    "bus_stop": "도담동(도램마을)",
+    "latitude": 36.514017,
+    "longtitude": 127.2593948
+  },
+  {
+    "id": 52040,
+    "bus_stop": "성금교차로(도램마을9단지)",
+    "latitude": 36.5091666,
+    "longtitude": 127.2615149
+  },
+  {
+    "id": 52006,
+    "bus_stop": "도담초,중,고등학교",
+    "latitude": 36.51335,
+    "longtitude": 127.26347
+  },
+  {
+    "id": 52021,
+    "bus_stop": "도램마을14,15단지",
+    "latitude": 36.51233,
+    "longtitude": 127.2668
+  },
+  {
+    "id": 52026,
+    "bus_stop": "양지중학교",
+    "latitude": 36.50843,
+    "longtitude": 127.26785
+  },
+  {
+    "id": 51032,
+    "bus_stop": "한국조세재정연구원",
+    "latitude": 36.49277,
+    "longtitude": 127.30037
+  },
+  {
+    "id": 51033,
+    "bus_stop": "한국조세재정연구원",
+    "latitude": 36.49285,
+    "longtitude": 127.30063
+  },
+  {
+    "id": 51031,
+    "bus_stop": "장재리(태련암입구)",
+    "latitude": 36.480076,
+    "longtitude": 127.312459
+  },
+  {
+    "id": 51030,
+    "bus_stop": "장재리(태련암입구)",
+    "latitude": 36.480213,
+    "longtitude": 127.312432
+  },
+  {
+    "id": 51006,
+    "bus_stop": "장재리(길재고개)",
+    "latitude": 36.48083,
+    "longtitude": 127.31665
+  },
+  {
+    "id": 51005,
+    "bus_stop": "장재리(길재고개)",
+    "latitude": 36.48096,
+    "longtitude": 127.31679
+  },
+  {
+    "id": 51003,
+    "bus_stop": "금남초등학교",
+    "latitude": 36.47133,
+    "longtitude": 127.28601
+  },
+  {
+    "id": 51020,
+    "bus_stop": "금남초등학교",
+    "latitude": 36.47197,
+    "longtitude": 127.28629
+  },
+  {
+    "id": 51018,
+    "bus_stop": "신촌리",
+    "latitude": 36.47344,
+    "longtitude": 127.28809
+  },
+  {
+    "id": 51050,
+    "bus_stop": "호탄리",
+    "latitude": 36.47643,
+    "longtitude": 127.29645
+  },
+  {
+    "id": 51051,
+    "bus_stop": "호탄리",
+    "latitude": 36.47625,
+    "longtitude": 127.29646
+  },
+  {
+    "id": 51004,
+    "bus_stop": "장영실고등학교,호탄리(안터)",
+    "latitude": 36.47765,
+    "longtitude": 127.29841
+  },
+  {
+    "id": 51028,
+    "bus_stop": "장재리",
+    "latitude": 36.4787,
+    "longtitude": 127.30443
+  },
+  {
+    "id": 51029,
+    "bus_stop": "장재리",
+    "latitude": 36.47855,
+    "longtitude": 127.30451
+  },
+  {
+    "id": 51002,
+    "bus_stop": "한국개발연구원(KDI)",
+    "latitude": 36.48246,
+    "longtitude": 127.30716
+  },
+  {
+    "id": 51001,
+    "bus_stop": "한국개발연구원(KDI)",
+    "latitude": 36.4825782,
+    "longtitude": 127.3074549
+  },
+  {
+    "id": 52024,
+    "bus_stop": "아름중학교",
+    "latitude": 36.5147556,
+    "longtitude": 127.2447664
+  },
+  {
+    "id": 52023,
+    "bus_stop": "아름동커뮤니티센터",
+    "latitude": 36.51182,
+    "longtitude": 127.24733
+  },
+  {
+    "id": 52043,
+    "bus_stop": "범지기마을4단지",
+    "latitude": 36.5083875,
+    "longtitude": 127.2499679
+  },
+  {
+    "id": 52025,
+    "bus_stop": "아름초등학교",
+    "latitude": 36.5147,
+    "longtitude": 127.25062
+  },
+  {
+    "id": 52020,
+    "bus_stop": "범지기마을10단지",
+    "latitude": 36.51879,
+    "longtitude": 127.25226
+  },
+  {
+    "id": 52014,
+    "bus_stop": "연양초등학교",
+    "latitude": 36.50352,
+    "longtitude": 127.25584
+  },
+  {
+    "id": 52019,
+    "bus_stop": "어진중학교(한뜰마을4단지)",
+    "latitude": 36.4986553,
+    "longtitude": 127.2550362
+  },
+  {
+    "id": 52018,
+    "bus_stop": "다정동",
+    "latitude": 36.49491,
+    "longtitude": 127.25649
+  },
+  {
+    "id": 52031,
+    "bus_stop": "정부세종청사남측",
+    "latitude": 36.5008322,
+    "longtitude": 127.2593406
+  },
+  {
+    "id": 52030,
+    "bus_stop": "정부세종청사남측",
+    "latitude": 36.50173,
+    "longtitude": 127.25991
+  },
+  {
+    "id": 52016,
+    "bus_stop": "중소벤처기업부",
+    "latitude": 36.49753,
+    "longtitude": 127.26038
+  },
+  {
+    "id": 52015,
+    "bus_stop": "중소벤처기업부",
+    "latitude": 36.49776,
+    "longtitude": 127.2605
+  },
+  {
+    "id": 52033,
+    "bus_stop": "정부세종청사북측",
+    "latitude": 36.504176,
+    "longtitude": 127.2611617
+  },
+  {
+    "id": 52034,
+    "bus_stop": "정부세종청사북측",
+    "latitude": 36.5048938,
+    "longtitude": 127.2616877
+  },
+  {
+    "id": 52036,
+    "bus_stop": "정부세종청사북측",
+    "latitude": 36.5050692,
+    "longtitude": 127.2615051
+  },
+  {
+    "id": 36123,
+    "bus_stop": "연서초등학교",
+    "latitude": 36.58198663,
+    "longtitude": 127.2537284
+  },
+  {
+    "id": 35067,
+    "bus_stop": "송문리(원송정)",
+    "latitude": 36.513646,
+    "longtitude": 127.190932
+  },
+  {
+    "id": 39010,
+    "bus_stop": "소정리입구",
+    "latitude": 36.71191,
+    "longtitude": 127.15392
+  },
+  {
+    "id": 39012,
+    "bus_stop": "소정리역",
+    "latitude": 36.71885,
+    "longtitude": 127.1567
+  },
+  {
+    "id": 39005,
+    "bus_stop": "대곡1리",
+    "latitude": 36.72607,
+    "longtitude": 127.15941
+  },
+  {
+    "id": 39007,
+    "bus_stop": "대곡리",
+    "latitude": 36.7296,
+    "longtitude": 127.16673
+  },
+  {
+    "id": 31027,
+    "bus_stop": "수산리(방아다리)",
+    "latitude": 36.54436,
+    "longtitude": 127.23691
+  },
+  {
+    "id": 31011,
+    "bus_stop": "눌왕2리마을회관",
+    "latitude": 36.54452,
+    "longtitude": 127.24683
+  },
+  {
+    "id": 11071,
+    "bus_stop": "조치원역",
+    "latitude": 36.60099,
+    "longtitude": 127.29713
+  },
+  {
+    "id": 11014,
+    "bus_stop": "번암리",
+    "latitude": 36.5884,
+    "longtitude": 127.29841
+  },
+  {
+    "id": 11090,
+    "bus_stop": "효성세종병원",
+    "latitude": 36.59705,
+    "longtitude": 127.29895
+  },
+  {
+    "id": 34038,
+    "bus_stop": "도남리마을회관",
+    "latitude": 36.44309,
+    "longtitude": 127.23341
+  },
+  {
+    "id": 35072,
+    "bus_stop": "봉안리(다름고개)",
+    "latitude": 36.4992393,
+    "longtitude": 127.2290775
+  },
+  {
+    "id": 31061,
+    "bus_stop": "은하수공원",
+    "latitude": 36.5325085,
+    "longtitude": 127.2453325
+  },
+  {
+    "id": 32083,
+    "bus_stop": "문주리",
+    "latitude": 36.5469422,
+    "longtitude": 127.310502
+  },
+  {
+    "id": 34088,
+    "bus_stop": "원봉1리마을회관",
+    "latitude": 36.45129,
+    "longtitude": 127.23931
+  },
+  {
+    "id": 34070,
+    "bus_stop": "성강리마을회관",
+    "latitude": 36.41255,
+    "longtitude": 127.25409
+  },
+  {
+    "id": 34073,
+    "bus_stop": "성덕2리",
+    "latitude": 36.45575,
+    "longtitude": 127.26691
+  },
+  {
+    "id": 11006,
+    "bus_stop": "구렁말",
+    "latitude": 36.61749,
+    "longtitude": 127.28889
+  },
+  {
+    "id": 11082,
+    "bus_stop": "신안2리(안터)",
+    "latitude": 36.62652,
+    "longtitude": 127.28975
+  },
+  {
+    "id": 11081,
+    "bus_stop": "신안2리(안터)",
+    "latitude": 36.62633,
+    "longtitude": 127.28994
+  },
+  {
+    "id": 51057,
+    "bus_stop": "가재마을7,12단지",
+    "latitude": 36.50648333,
+    "longtitude": 127.2496233
+  },
+  {
+    "id": 51056,
+    "bus_stop": "도램마을16,19단지",
+    "latitude": 36.51484,
+    "longtitude": 127.2660717
+  },
+  {
+    "id": 51053,
+    "bus_stop": "세종고속시외버스터미널",
+    "latitude": 36.46881,
+    "longtitude": 127.2735046
+  },
+  {
+    "id": 37099,
+    "bus_stop": "읍내리",
+    "latitude": 36.68155663,
+    "longtitude": 127.2041234
+  },
+  {
+    "id": 37092,
+    "bus_stop": "사관정",
+    "latitude": 36.69893829,
+    "longtitude": 127.2101017
+  },
+  {
+    "id": 37090,
+    "bus_stop": "달전2리입구",
+    "latitude": 36.62688996,
+    "longtitude": 127.17495
+  },
+  {
+    "id": 38087,
+    "bus_stop": "심중2리입구",
+    "latitude": 36.64964163,
+    "longtitude": 127.2714234
+  },
+  {
+    "id": 38086,
+    "bus_stop": "보덕리입구",
+    "latitude": 36.64441163,
+    "longtitude": 127.2608067
+  },
+  {
+    "id": 35070,
+    "bus_stop": "용현리(효도마을)",
+    "latitude": 36.54025333,
+    "longtitude": 127.202295
+  },
+  {
+    "id": 35069,
+    "bus_stop": "송학리입구",
+    "latitude": 36.5357227,
+    "longtitude": 127.1933862
+  },
+  {
+    "id": 35068,
+    "bus_stop": "송문리(원송정)",
+    "latitude": 36.513728,
+    "longtitude": 127.190959
+  },
+  {
+    "id": 35066,
+    "bus_stop": "송문리",
+    "latitude": 36.51766839,
+    "longtitude": 127.1936835
+  },
+  {
+    "id": 35065,
+    "bus_stop": "송문리",
+    "latitude": 36.51757353,
+    "longtitude": 127.1937051
+  },
+  {
+    "id": 36122,
+    "bus_stop": "신대리",
+    "latitude": 36.58100729,
+    "longtitude": 127.2516982
+  },
+  {
+    "id": 32082,
+    "bus_stop": "합강1리",
+    "latitude": 36.52139333,
+    "longtitude": 127.327515
+  },
+  {
+    "id": 32081,
+    "bus_stop": "합강1리",
+    "latitude": 36.52139329,
+    "longtitude": 127.327515
+  },
+  {
+    "id": 32080,
+    "bus_stop": "용호3리입구",
+    "latitude": 36.5377094,
+    "longtitude": 127.3213164
+  },
+  {
+    "id": 32078,
+    "bus_stop": "삼성전기",
+    "latitude": 36.53729,
+    "longtitude": 127.33576
+  },
+  {
+    "id": 32077,
+    "bus_stop": "북측환승터미널",
+    "latitude": 36.53712333,
+    "longtitude": 127.3039467
+  },
+  {
+    "id": 32076,
+    "bus_stop": "북측환승터미널",
+    "latitude": 36.53678667,
+    "longtitude": 127.3038433
+  },
+  {
+    "id": 31059,
+    "bus_stop": "누리동",
+    "latitude": 36.53432833,
+    "longtitude": 127.2880267
+  },
+  {
+    "id": 31058,
+    "bus_stop": "누리동",
+    "latitude": 36.53436,
+    "longtitude": 127.2870167
+  },
+  {
+    "id": 31057,
+    "bus_stop": "누리동",
+    "latitude": 36.5341,
+    "longtitude": 127.292158
+  },
+  {
+    "id": 33055,
+    "bus_stop": "행산리입구",
+    "latitude": 36.560275,
+    "longtitude": 127.3725783
+  },
+  {
+    "id": 33054,
+    "bus_stop": "산수리",
+    "latitude": 36.55633667,
+    "longtitude": 127.3581367
+  },
+  {
+    "id": 34108,
+    "bus_stop": "황용리(황용1교)",
+    "latitude": 36.4797727,
+    "longtitude": 127.3214339
+  },
+  {
+    "id": 11092,
+    "bus_stop": "죽림리",
+    "latitude": 36.5966487,
+    "longtitude": 127.2958117
+  },
+  {
+    "id": 11091,
+    "bus_stop": "조치원버스터미널",
+    "latitude": 36.6026983,
+    "longtitude": 127.3036683
+  },
+  {
+    "id": 37077,
+    "bus_stop": "재동아파트",
+    "latitude": 36.67954,
+    "longtitude": 127.20667
+  },
+  {
+    "id": 37035,
+    "bus_stop": "사관정",
+    "latitude": 36.69888,
+    "longtitude": 127.21024
+  },
+  {
+    "id": 37007,
+    "bus_stop": "상대부(쌍태울)",
+    "latitude": 36.71258,
+    "longtitude": 127.21146
+  },
+  {
+    "id": 37009,
+    "bus_stop": "중대부",
+    "latitude": 36.70502,
+    "longtitude": 127.21236
+  },
+  {
+    "id": 37008,
+    "bus_stop": "중대부",
+    "latitude": 36.70488,
+    "longtitude": 127.21246
+  },
+  {
+    "id": 37028,
+    "bus_stop": "동교리",
+    "latitude": 36.67078,
+    "longtitude": 127.21719
+  },
+  {
+    "id": 37050,
+    "bus_stop": "신정2리",
+    "latitude": 36.69472,
+    "longtitude": 127.21988
+  },
+  {
+    "id": 37001,
+    "bus_stop": "달계리",
+    "latitude": 36.69794,
+    "longtitude": 127.22103
+  },
+  {
+    "id": 37083,
+    "bus_stop": "종성골",
+    "latitude": 36.69603,
+    "longtitude": 127.22178
+  },
+  {
+    "id": 37084,
+    "bus_stop": "하노곡",
+    "latitude": 36.7020569,
+    "longtitude": 127.2293252
+  },
+  {
+    "id": 37013,
+    "bus_stop": "노곡리종점",
+    "latitude": 36.70046,
+    "longtitude": 127.23454
+  },
+  {
+    "id": 51022,
+    "bus_stop": "열병합발전소",
+    "latitude": 36.46506,
+    "longtitude": 127.24523
+  },
+  {
+    "id": 51021,
+    "bus_stop": "열병합발전소",
+    "latitude": 36.46513,
+    "longtitude": 127.246
+  },
+  {
+    "id": 51023,
+    "bus_stop": "열병합발전소",
+    "latitude": 36.4654,
+    "longtitude": 127.24613
+  },
+  {
+    "id": 51025,
+    "bus_stop": "가람동(이마트앞)",
+    "latitude": 36.47061,
+    "longtitude": 127.2518
+  },
+  {
+    "id": 52028,
+    "bus_stop": "은하수공원",
+    "latitude": 36.53181,
+    "longtitude": 127.244421
+  },
+  {
+    "id": 52027,
+    "bus_stop": "은하수공원",
+    "latitude": 36.532563,
+    "longtitude": 127.243964
+  },
+  {
+    "id": 51016,
+    "bus_stop": "다정동(대성고등학교)",
+    "latitude": 36.4938489,
+    "longtitude": 127.2565765
+  },
+  {
+    "id": 51010,
+    "bus_stop": "새롬동,나성동(청소년센터)",
+    "latitude": 36.4877395,
+    "longtitude": 127.2571293
+  },
+  {
+    "id": 51007,
+    "bus_stop": "새롬동,나성동(청소년센터)",
+    "latitude": 36.48685,
+    "longtitude": 127.25785
+  },
+  {
+    "id": 51008,
+    "bus_stop": "새롬동.나성동",
+    "latitude": 36.4868848,
+    "longtitude": 127.2579693
+  },
+  {
+    "id": 51034,
+    "bus_stop": "첫마을1단지",
+    "latitude": 36.48385,
+    "longtitude": 127.2592
+  },
+  {
+    "id": 51049,
+    "bus_stop": "한솔동",
+    "latitude": 36.4810822,
+    "longtitude": 127.2617829
+  },
+  {
+    "id": 51048,
+    "bus_stop": "한솔동",
+    "latitude": 36.48034,
+    "longtitude": 127.26243
+  },
+  {
+    "id": 11029,
+    "bus_stop": "새주막거리",
+    "latitude": 36.61236,
+    "longtitude": 127.29459
+  },
+  {
+    "id": 52029,
+    "bus_stop": "정부세종청사남측",
+    "latitude": 36.5008869,
+    "longtitude": 127.2596196
+  },
+  {
+    "id": 51042,
+    "bus_stop": "첫마을5단지",
+    "latitude": 36.47762,
+    "longtitude": 127.24973
+  },
+  {
+    "id": 51045,
+    "bus_stop": "첫마을6단지",
+    "latitude": 36.47503,
+    "longtitude": 127.25326
+  },
+  {
+    "id": 51039,
+    "bus_stop": "첫마을3단지",
+    "latitude": 36.478,
+    "longtitude": 127.26135
+  },
+  {
+    "id": 34032,
+    "bus_stop": "용포리",
+    "latitude": 36.46863,
+    "longtitude": 127.28135
+  },
+  {
+    "id": 51055,
+    "bus_stop": "도램마을16,19단지",
+    "latitude": 36.51532,
+    "longtitude": 127.2659733
+  },
+  {
+    "id": 37091,
+    "bus_stop": "대추리",
+    "latitude": 36.69343329,
+    "longtitude": 127.2057917
+  },
+  {
+    "id": 35071,
+    "bus_stop": "용현리(효도마을)",
+    "latitude": 36.5403123,
+    "longtitude": 127.2022621
+  },
+  {
+    "id": 35064,
+    "bus_stop": "봉안리",
+    "latitude": 36.4990546,
+    "longtitude": 127.2213088
+  },
+  {
+    "id": 32079,
+    "bus_stop": "용호3리입구",
+    "latitude": 36.5376101,
+    "longtitude": 127.3212384
+  },
+  {
+    "id": 31060,
+    "bus_stop": "연기3리(개골)",
+    "latitude": 36.53776333,
+    "longtitude": 127.2849333
+  },
+  {
+    "id": 34109,
+    "bus_stop": "두만2리",
+    "latitude": 36.42572663,
+    "longtitude": 127.2919517
+  },
+  {
+    "id": 64008,
+    "bus_stop": "조치원전통시장북측",
+    "latitude": 36.6014294,
+    "longtitude": 127.3000769
+  },
+  {
+    "id": 51094,
+    "bus_stop": "국책연구단지북측",
+    "latitude": 36.4955579,
+    "longtitude": 127.3033473
+  },
+  {
+    "id": 51095,
+    "bus_stop": "국책연구단지북측",
+    "latitude": 36.4959817,
+    "longtitude": 127.3034244
+  },
+  {
+    "id": 51096,
+    "bus_stop": "시청,시의회,교육청,세무서",
+    "latitude": 36.478188,
+    "longtitude": 127.288035
+  },
+  {
+    "id": 51097,
+    "bus_stop": "시청,시의회,교육청,세무서",
+    "latitude": 36.478828,
+    "longtitude": 127.288963
+  },
+  {
+    "id": 36131,
+    "bus_stop": "세종기숙학원",
+    "latitude": 36.5568692,
+    "longtitude": 127.2522366
+  },
+  {
+    "id": 37097,
+    "bus_stop": "달전리",
+    "latitude": 36.633804,
+    "longtitude": 127.1755319
+  },
+  {
+    "id": 37098,
+    "bus_stop": "달전리",
+    "latitude": 36.6336684,
+    "longtitude": 127.1754206
+  },
+  {
+    "id": 53034,
+    "bus_stop": "가재마을5,8단지",
+    "latitude": 36.5004747,
+    "longtitude": 127.2498627
+  },
+  {
+    "id": 53035,
+    "bus_stop": "가재마을5,8단지",
+    "latitude": 36.5009207,
+    "longtitude": 127.2497831
+  },
+  {
+    "id": 51071,
+    "bus_stop": "세종충남대병원",
+    "latitude": 36.5186505,
+    "longtitude": 127.2570215
+  },
+  {
+    "id": 51072,
+    "bus_stop": "세종충남대병원",
+    "latitude": 36.5187208,
+    "longtitude": 127.2561613
+  },
+  {
+    "id": 51073,
+    "bus_stop": "아름중학교",
+    "latitude": 36.5149519,
+    "longtitude": 127.2450874
+  },
+  {
+    "id": 53037,
+    "bus_stop": "고운동커뮤니티센터북측",
+    "latitude": 36.5203767,
+    "longtitude": 127.2376669
+  },
+  {
+    "id": 53038,
+    "bus_stop": "대법원등기정보센터",
+    "latitude": 36.5121017,
+    "longtitude": 127.2423505
+  },
+  {
+    "id": 51098,
+    "bus_stop": "다정동(장기로)",
+    "latitude": 36.4999845,
+    "longtitude": 127.2345564
+  },
+  {
+    "id": 53039,
+    "bus_stop": "다빛초등학교(가재마을1단지)",
+    "latitude": 36.4997313,
+    "longtitude": 127.2424127
+  },
+  {
+    "id": 51099,
+    "bus_stop": "다빛초등학교(가온마을3단지)",
+    "latitude": 36.4995152,
+    "longtitude": 127.2425474
+  },
+  {
+    "id": 53015,
+    "bus_stop": "고운초,중학교",
+    "latitude": 36.5041088,
+    "longtitude": 127.2377428
+  },
+  {
+    "id": 53016,
+    "bus_stop": "고운초,중학교",
+    "latitude": 36.50409,
+    "longtitude": 127.237419
+  },
+  {
+    "id": 53040,
+    "bus_stop": "범지기마을1단지",
+    "latitude": 36.5089857,
+    "longtitude": 127.242171
+  },
+  {
+    "id": 53041,
+    "bus_stop": "범지기마을1단지",
+    "latitude": 36.5087261,
+    "longtitude": 127.2430206
+  },
+  {
+    "id": 53042,
+    "bus_stop": "대법원등기정보센터",
+    "latitude": 36.5118935,
+    "longtitude": 127.2423344
+  },
+  {
+    "id": 53043,
+    "bus_stop": "가재마을11단지",
+    "latitude": 36.5043789,
+    "longtitude": 127.2501706
+  },
+  {
+    "id": 51125,
+    "bus_stop": "가온마을4,7단지",
+    "latitude": 36.4912295,
+    "longtitude": 127.2498109
+  },
+  {
+    "id": 51126,
+    "bus_stop": "새뜸마을7,10단지",
+    "latitude": 36.4898819,
+    "longtitude": 127.2499045
+  },
+  {
+    "id": 51127,
+    "bus_stop": "새롬동커뮤니티센터",
+    "latitude": 36.4858496,
+    "longtitude": 127.2508553
+  },
+  {
+    "id": 51128,
+    "bus_stop": "새롬동커뮤니티센터",
+    "latitude": 36.4851331,
+    "longtitude": 127.2509413
+  },
+  {
+    "id": 51129,
+    "bus_stop": "새뜸마을5,8단지",
+    "latitude": 36.4825015,
+    "longtitude": 127.2535174
+  },
+  {
+    "id": 51130,
+    "bus_stop": "새뜸마을5,8단지",
+    "latitude": 36.4823928,
+    "longtitude": 127.2532777
+  },
+  {
+    "id": 53014,
+    "bus_stop": "범지기마을10단지북측",
+    "latitude": 36.5190968,
+    "longtitude": 127.2483697
+  },
+  {
+    "id": 52050,
+    "bus_stop": "도담초,중,고등학교",
+    "latitude": 36.5129599,
+    "longtitude": 127.2627351
+  },
+  {
+    "id": 35076,
+    "bus_stop": "김종서장군묘",
+    "latitude": 36.5202519,
+    "longtitude": 127.2110666
+  },
+  {
+    "id": 35077,
+    "bus_stop": "김종서장군묘",
+    "latitude": 36.5202432,
+    "longtitude": 127.211223
+  },
+  {
+    "id": 37011,
+    "bus_stop": "금사리",
+    "latitude": 36.60976,
+    "longtitude": 127.17305
+  },
+  {
+    "id": 36097,
+    "bus_stop": "용암삼거리",
+    "latitude": 36.59958,
+    "longtitude": 127.2271
+  },
+  {
+    "id": 51054,
+    "bus_stop": "도램마을20단지",
+    "latitude": 36.517445,
+    "longtitude": 127.264615
+  },
+  {
+    "id": 11056,
+    "bus_stop": "욱일아파트",
+    "latitude": 36.6013523,
+    "longtitude": 127.2948263
+  },
+  {
+    "id": 33045,
+    "bus_stop": "아시아제지기숙사",
+    "latitude": 36.49114,
+    "longtitude": 127.36665
+  },
+  {
+    "id": 35042,
+    "bus_stop": "은용1리",
+    "latitude": 36.49338,
+    "longtitude": 127.21585
+  },
+  {
+    "id": 37049,
+    "bus_stop": "신정1리",
+    "latitude": 36.69158,
+    "longtitude": 127.21464
+  },
+  {
+    "id": 37046,
+    "bus_stop": "신방2리마을회관",
+    "latitude": 36.67611,
+    "longtitude": 127.2063
+  },
+  {
+    "id": 35004,
+    "bus_stop": "금암리(사기정골)",
+    "latitude": 36.45775,
+    "longtitude": 127.21181
+  },
+  {
+    "id": 31049,
+    "bus_stop": "진의리입구",
+    "latitude": 36.50418,
+    "longtitude": 127.28527
+  },
+  {
+    "id": 32014,
+    "bus_stop": "명학1리",
+    "latitude": 36.53703,
+    "longtitude": 127.34345
+  },
+  {
+    "id": 39024,
+    "bus_stop": "운당1리",
+    "latitude": 36.69865,
+    "longtitude": 127.15205
+  },
+  {
+    "id": 11013,
+    "bus_stop": "방축골(갑부농원)",
+    "latitude": 36.60033,
+    "longtitude": 127.27599
+  },
+  {
+    "id": 52022,
+    "bus_stop": "아름동커뮤니티센터",
+    "latitude": 36.51163,
+    "longtitude": 127.24741
+  },
+  {
+    "id": 38032,
+    "bus_stop": "송곡보건진료소",
+    "latitude": 36.63079,
+    "longtitude": 127.26911
+  },
+  {
+    "id": 51052,
+    "bus_stop": "세종고속시외버스터미널",
+    "latitude": 36.4689905,
+    "longtitude": 127.2735878
+  },
+  {
+    "id": 34040,
+    "bus_stop": "도암리",
+    "latitude": 36.4457,
+    "longtitude": 127.27562
+  },
+  {
+    "id": 34042,
+    "bus_stop": "도암리마을회관",
+    "latitude": 36.44374,
+    "longtitude": 127.27825
+  },
+  {
+    "id": 36064,
+    "bus_stop": "쌍류리",
+    "latitude": 36.59901,
+    "longtitude": 127.22186
+  },
+  {
+    "id": 36043,
+    "bus_stop": "성제2리",
+    "latitude": 36.5914,
+    "longtitude": 127.26196
+  },
+  {
+    "id": 38034,
+    "bus_stop": "송성1리",
+    "latitude": 36.6450778,
+    "longtitude": 127.2168302
+  },
+  {
+    "id": 37012,
+    "bus_stop": "노곡리",
+    "latitude": 36.70061,
+    "longtitude": 127.23461
+  },
+  {
+    "id": 33009,
+    "bus_stop": "금호3리",
+    "latitude": 36.5095,
+    "longtitude": 127.3651
+  },
+  {
+    "id": 32050,
+    "bus_stop": "용호3리",
+    "latitude": 36.53647,
+    "longtitude": 127.31757
+  },
+  {
+    "id": 35012,
+    "bus_stop": "대교리",
+    "latitude": 36.50109,
+    "longtitude": 127.21121
+  },
+  {
+    "id": 31033,
+    "bus_stop": "양화1리",
+    "latitude": 36.50295,
+    "longtitude": 127.29549
+  },
+  {
+    "id": 37037,
+    "bus_stop": "서정1리마을회관",
+    "latitude": 36.68799,
+    "longtitude": 127.19201
+  },
+  {
+    "id": 11042,
+    "bus_stop": "신봉초등학교",
+    "latitude": 36.60169,
+    "longtitude": 127.29016
+  },
+  {
+    "id": 38022,
+    "bus_stop": "석곡리입구",
+    "latitude": 36.65926,
+    "longtitude": 127.25977
+  },
+  {
+    "id": 39004,
+    "bus_stop": "고등2리",
+    "latitude": 36.70594,
+    "longtitude": 127.18845
+  },
+  {
+    "id": 36091,
+    "bus_stop": "용암리입구",
+    "latitude": 36.60879,
+    "longtitude": 127.23249
+  },
+  {
+    "id": 51058,
+    "bus_stop": "정부세종청사스포츠센터",
+    "latitude": 36.5063018,
+    "longtitude": 127.2584839
+  },
+  {
+    "id": 51070,
+    "bus_stop": "국책연구단지동측",
+    "latitude": 36.4962106,
+    "longtitude": 127.3055955
+  },
+  {
+    "id": 51074,
+    "bus_stop": "범지기마을8,12단지",
+    "latitude": 36.5125038,
+    "longtitude": 127.2504125
+  },
+  {
+    "id": 51075,
+    "bus_stop": "아름초등학교",
+    "latitude": 36.5153587,
+    "longtitude": 127.2511516
+  },
+  {
+    "id": 51076,
+    "bus_stop": "범지기마을10단지",
+    "latitude": 36.5185438,
+    "longtitude": 127.2524761
+  },
+  {
+    "id": 51077,
+    "bus_stop": "국책연구단지동측",
+    "latitude": 36.496012,
+    "longtitude": 127.3054286
+  },
+  {
+    "id": 34114,
+    "bus_stop": "봉암리",
+    "latitude": 36.4164076,
+    "longtitude": 127.2771281
+  },
+  {
+    "id": 34115,
+    "bus_stop": "봉암리",
+    "latitude": 36.4164799,
+    "longtitude": 127.2772171
+  },
+  {
+    "id": 34116,
+    "bus_stop": "송곡2리",
+    "latitude": 36.4126903,
+    "longtitude": 127.2684388
+  },
+  {
+    "id": 34117,
+    "bus_stop": "송곡2리",
+    "latitude": 36.4126093,
+    "longtitude": 127.2685171
+  },
+  {
+    "id": 35078,
+    "bus_stop": "송학1리(전원마을)",
+    "latitude": 36.5277745,
+    "longtitude": 127.1842189
+  },
+  {
+    "id": 35079,
+    "bus_stop": "송학1리(전원마을)",
+    "latitude": 36.5276983,
+    "longtitude": 127.1843756
+  },
+  {
+    "id": 35080,
+    "bus_stop": "송학삼거리",
+    "latitude": 36.5349806,
+    "longtitude": 127.192272
+  },
+  {
+    "id": 35081,
+    "bus_stop": "송학삼거리",
+    "latitude": 36.534972,
+    "longtitude": 127.1924396
+  },
+  {
+    "id": 53036,
+    "bus_stop": "고운동커뮤니티센터북측",
+    "latitude": 36.5200871,
+    "longtitude": 127.2377731
+  },
+  {
+    "id": 35074,
+    "bus_stop": "대교1리경로당",
+    "latitude": 36.5167477,
+    "longtitude": 127.2084717
+  },
+  {
+    "id": 35075,
+    "bus_stop": "대교1리경로당",
+    "latitude": 36.5167791,
+    "longtitude": 127.2083934
+  },
+  {
+    "id": 53002,
+    "bus_stop": "고운고등학교",
+    "latitude": 36.5089377,
+    "longtitude": 127.2342422
+  },
+  {
+    "id": 53003,
+    "bus_stop": "가락초등학교",
+    "latitude": 36.5156123,
+    "longtitude": 127.2337503
+  },
+  {
+    "id": 53004,
+    "bus_stop": "가락초등학교",
+    "latitude": 36.5156976,
+    "longtitude": 127.233616
+  },
+  {
+    "id": 53005,
+    "bus_stop": "두루중학교",
+    "latitude": 36.5173305,
+    "longtitude": 127.2381952
+  },
+  {
+    "id": 53006,
+    "bus_stop": "두루중학교",
+    "latitude": 36.5174909,
+    "longtitude": 127.2373346
+  },
+  {
+    "id": 53007,
+    "bus_stop": "두루초,중학교",
+    "latitude": 36.5191814,
+    "longtitude": 127.2394622
+  },
+  {
+    "id": 53008,
+    "bus_stop": "두루초,중학교",
+    "latitude": 36.5187165,
+    "longtitude": 127.2391789
+  },
+  {
+    "id": 53009,
+    "bus_stop": "가락마을22단지",
+    "latitude": 36.5200447,
+    "longtitude": 127.2405762
+  },
+  {
+    "id": 53010,
+    "bus_stop": "가락마을22단지",
+    "latitude": 36.5201811,
+    "longtitude": 127.2411119
+  },
+  {
+    "id": 53011,
+    "bus_stop": "범지기3,9단지(청소년센터)",
+    "latitude": 36.518782,
+    "longtitude": 127.2444672
+  },
+  {
+    "id": 53012,
+    "bus_stop": "범지기3,9단지(청소년센터)",
+    "latitude": 36.5189667,
+    "longtitude": 127.2449384
+  },
+  {
+    "id": 53013,
+    "bus_stop": "범지기마을10단지북측",
+    "latitude": 36.5189898,
+    "longtitude": 127.2489006
+  },
+  {
+    "id": 53001,
+    "bus_stop": "고운고등학교",
+    "latitude": 36.509267,
+    "longtitude": 127.2343639
+  },
+  {
+    "id": 11099,
+    "bus_stop": "조치원전통시장북측",
+    "latitude": 36.6015602,
+    "longtitude": 127.2996293
+  },
+  {
+    "id": 33058,
+    "bus_stop": "복지회관",
+    "latitude": 36.5271885,
+    "longtitude": 127.3698136
+  },
+  {
+    "id": 33059,
+    "bus_stop": "가톨릭꽃동네대학교",
+    "latitude": 36.5243046,
+    "longtitude": 127.3986812
+  },
+  {
+    "id": 31064,
+    "bus_stop": "월산리",
+    "latitude": 36.5191921,
+    "longtitude": 127.3118028
+  },
+  {
+    "id": 53044,
+    "bus_stop": "가락마을7,8단지",
+    "latitude": 36.5055858,
+    "longtitude": 127.2395189
+  },
+  {
+    "id": 53045,
+    "bus_stop": "어진동커뮤니티센터",
+    "latitude": 36.5018632,
+    "longtitude": 127.2569568
+  },
+  {
+    "id": 52054,
+    "bus_stop": "어진동커뮤니티센터",
+    "latitude": 36.5018096,
+    "longtitude": 127.2571579
+  },
+  {
+    "id": 35013,
+    "bus_stop": "대교리",
+    "latitude": 36.5009348,
+    "longtitude": 127.210551
+  },
+  {
+    "id": 35015,
+    "bus_stop": "대교리(정계)",
+    "latitude": 36.50918708,
+    "longtitude": 127.2175111
+  },
+  {
+    "id": 36142,
+    "bus_stop": "금박골",
+    "latitude": 36.556931,
+    "longtitude": 127.22984
+  },
+  {
+    "id": 36151,
+    "bus_stop": "쌍전리",
+    "latitude": 36.5750779,
+    "longtitude": 127.2726146
+  },
+  {
+    "id": 39020,
+    "bus_stop": "소정육교(맹골)",
+    "latitude": 36.72712998,
+    "longtitude": 127.1620038
+  },
+  {
+    "id": 59028,
+    "bus_stop": "보건복지부 고용노동부",
+    "latitude": 36.5024356,
+    "longtitude": 127.2609046
+  },
+  {
+    "id": 59029,
+    "bus_stop": "보건복지부 고용노동부",
+    "latitude": 36.5022146,
+    "longtitude": 127.2608383
+  },
+  {
+    "id": 39031,
+    "bus_stop": "고등2리",
+    "latitude": 36.7060526,
+    "longtitude": 127.1885841
+  },
+  {
+    "id": 11413,
+    "bus_stop": "신안2리(안터)",
+    "latitude": 36.6255593,
+    "longtitude": 127.2898368
+  },
+  {
+    "id": 11414,
+    "bus_stop": "신안2리(안터)",
+    "latitude": 36.6256268,
+    "longtitude": 127.2897583
+  },
+  {
+    "id": 35063,
+    "bus_stop": "영상마을아파트",
+    "latitude": 36.4951389,
+    "longtitude": 127.1890242
+  },
+  {
+    "id": 35064,
+    "bus_stop": "하봉저수지",
+    "latitude": 36.4950082,
+    "longtitude": 127.1890582
+  },
+  {
+    "id": 59030,
+    "bus_stop": "반곡동(수루배마을)",
+    "latitude": 36.497338,
+    "longtitude": 127.310767
+  },
+  {
+    "id": 59031,
+    "bus_stop": "반곡동(수루배마을)",
+    "latitude": 36.497847,
+    "longtitude": 127.312253
+  },
+  {
+    "id": 51132,
+    "bus_stop": "국무조정실,공정거래위원회",
+    "latitude": 36.503297,
+    "longtitude": 127.269712
+  },
+  {
+    "id": 51133,
+    "bus_stop": "기획재정부,농림축산식품부",
+    "latitude": 36.505439,
+    "longtitude": 127.266501
+  },
+  {
+    "id": 38094,
+    "bus_stop": "깊은내길",
+    "latitude": 36.646477,
+    "longtitude": 127.268761
+  },
+  {
+    "id": 39032,
+    "bus_stop": "동산산업",
+    "latitude": 36.710329,
+    "longtitude": 127.147243
+  },
+  {
+    "id": 39033,
+    "bus_stop": "운당교차로",
+    "latitude": 36.705806,
+    "longtitude": 127.148932
+  },
+  {
+    "id": 39034,
+    "bus_stop": "동산산업",
+    "latitude": 36.710519,
+    "longtitude": 127.147184
+  },
+  {
+    "id": 38095,
+    "bus_stop": "깊은내길",
+    "latitude": 36.646415,
+    "longtitude": 127.268755
+  },
+  {
+    "id": 11094,
+    "bus_stop": "신흥사거리",
+    "latitude": 36.5944736,
+    "longtitude": 127.2912907
+  },
+  {
+    "id": 11095,
+    "bus_stop": "신흥사거리",
+    "latitude": 36.5944686,
+    "longtitude": 127.2909665
+  },
+  {
+    "id": 11096,
+    "bus_stop": "효성세종병원",
+    "latitude": 36.5972495,
+    "longtitude": 127.2987069
+  },
+  {
+    "id": 36124,
+    "bus_stop": "용암리",
+    "latitude": 36.601508,
+    "longtitude": 127.2278203
+  },
+  {
+    "id": 36125,
+    "bus_stop": "용암리",
+    "latitude": 36.6015212,
+    "longtitude": 127.2276693
+  },
+  {
+    "id": 36126,
+    "bus_stop": "쌍류리입구",
+    "latitude": 36.5966178,
+    "longtitude": 127.2183175
+  },
+  {
+    "id": 36127,
+    "bus_stop": "쌍류리입구",
+    "latitude": 36.5968888,
+    "longtitude": 127.2185402
+  },
+  {
+    "id": 36128,
+    "bus_stop": "봉암3리",
+    "latitude": 36.5561346,
+    "longtitude": 127.2726712
+  },
+  {
+    "id": 36129,
+    "bus_stop": "봉암3리",
+    "latitude": 36.5557656,
+    "longtitude": 127.2729852
+  },
+  {
+    "id": 31062,
+    "bus_stop": "눌왕리(새터말)",
+    "latitude": 36.5454681,
+    "longtitude": 127.2625687
+  },
+  {
+    "id": 31063,
+    "bus_stop": "눌왕리(새터말)",
+    "latitude": 36.5453054,
+    "longtitude": 127.2623793
+  },
+  {
+    "id": 36132,
+    "bus_stop": "방축골",
+    "latitude": 36.5945295,
+    "longtitude": 127.2773157
+  },
+  {
+    "id": 36133,
+    "bus_stop": "신대2리(의넘어)",
+    "latitude": 36.5891565,
+    "longtitude": 127.2395123
+  },
+  {
+    "id": 36134,
+    "bus_stop": "신대2리(의넘어)",
+    "latitude": 36.589008,
+    "longtitude": 127.2396078
+  },
+  {
+    "id": 36135,
+    "bus_stop": "신대1리마을회관",
+    "latitude": 36.581362,
+    "longtitude": 127.2516833
+  },
+  {
+    "id": 36136,
+    "bus_stop": "쌍전리(창현)",
+    "latitude": 36.5800984,
+    "longtitude": 127.2808446
+  },
+  {
+    "id": 11102,
+    "bus_stop": "삼일아파트",
+    "latitude": 36.5950425,
+    "longtitude": 127.2970189
+  },
+  {
+    "id": 36137,
+    "bus_stop": "성제삼거리",
+    "latitude": 36.5888707,
+    "longtitude": 127.2646493
+  },
+  {
+    "id": 11103,
+    "bus_stop": "번암아파트정문",
+    "latitude": 36.586875,
+    "longtitude": 127.2944691
+  },
+  {
+    "id": 37100,
+    "bus_stop": "상교동입구",
+    "latitude": 36.6782443,
+    "longtitude": 127.2091842
+  },
+  {
+    "id": 37101,
+    "bus_stop": "상교동입구",
+    "latitude": 36.6783788,
+    "longtitude": 127.2089207
+  },
+  {
+    "id": 36138,
+    "bus_stop": "세종장례식장",
+    "latitude": 36.5713742,
+    "longtitude": 127.2821434
+  },
+  {
+    "id": 34120,
+    "bus_stop": "성강리입구",
+    "latitude": 36.4074242,
+    "longtitude": 127.2521543
+  },
+  {
+    "id": 34121,
+    "bus_stop": "성강리입구",
+    "latitude": 36.4073699,
+    "longtitude": 127.2520597
+  },
+  {
+    "id": 51036,
+    "bus_stop": "한솔동(첫마을)",
+    "latitude": 36.4811358,
+    "longtitude": 127.2615539
+  },
+  {
+    "id": 51037,
+    "bus_stop": "한솔동(첫마을)",
+    "latitude": 36.4812897,
+    "longtitude": 127.2618716
+  },
+  {
+    "id": 31067,
+    "bus_stop": "보통1리마을회관",
+    "latitude": 36.5447598,
+    "longtitude": 127.2901082
+  },
+  {
+    "id": 32086,
+    "bus_stop": "응암3리",
+    "latitude": 36.5479716,
+    "longtitude": 127.3532034
+  },
+  {
+    "id": 33061,
+    "bus_stop": "행산1리",
+    "latitude": 36.5525825,
+    "longtitude": 127.3725366
+  },
+  {
+    "id": 36139,
+    "bus_stop": "생천경로당",
+    "latitude": 36.6055624,
+    "longtitude": 127.2171389
+  },
+  {
+    "id": 51123,
+    "bus_stop": "대평동(해들마을)",
+    "latitude": 36.4723006,
+    "longtitude": 127.2763096
+  },
+  {
+    "id": 51124,
+    "bus_stop": "대평동(해들마을)",
+    "latitude": 36.4719176,
+    "longtitude": 127.2763944
+  },
+  {
+    "id": 39026,
+    "bus_stop": "고등리",
+    "latitude": 36.7076303,
+    "longtitude": 127.1920888
+  },
+  {
+    "id": 37094,
+    "bus_stop": "관정리(현대농원)",
+    "latitude": 36.7015233,
+    "longtitude": 127.1975653
+  },
+  {
+    "id": 37095,
+    "bus_stop": "유천리",
+    "latitude": 36.6883326,
+    "longtitude": 127.161675
+  },
+  {
+    "id": 37096,
+    "bus_stop": "유천리",
+    "latitude": 36.6884408,
+    "longtitude": 127.1616745
+  },
+  {
+    "id": 51078,
+    "bus_stop": "도램마을1단지",
+    "latitude": 36.5078138,
+    "longtitude": 127.2572564
+  },
+  {
+    "id": 51079,
+    "bus_stop": "범지기마을4단지",
+    "latitude": 36.507833,
+    "longtitude": 127.2490874
+  },
+  {
+    "id": 51080,
+    "bus_stop": "가락마을8단지",
+    "latitude": 36.5089327,
+    "longtitude": 127.2405854
+  },
+  {
+    "id": 51081,
+    "bus_stop": "종촌고(가재마을3,4단지)",
+    "latitude": 36.5050718,
+    "longtitude": 127.2436524
+  },
+  {
+    "id": 51082,
+    "bus_stop": "문화체육관광부",
+    "latitude": 36.4966718,
+    "longtitude": 127.2666425
+  },
+  {
+    "id": 51083,
+    "bus_stop": "국립세종도서관정문",
+    "latitude": 36.4991217,
+    "longtitude": 127.2678021
+  },
+  {
+    "id": 51084,
+    "bus_stop": "국립세종도서관",
+    "latitude": 36.5001938,
+    "longtitude": 127.2674639
+  },
+  {
+    "id": 51085,
+    "bus_stop": "문화체육관광부(남측)",
+    "latitude": 36.4960299,
+    "longtitude": 127.2657345
+  },
+  {
+    "id": 36130,
+    "bus_stop": "쌍전리",
+    "latitude": 36.5751655,
+    "longtitude": 127.2727272
+  },
+  {
+    "id": 37093,
+    "bus_stop": "전의산업단지(유상)",
+    "latitude": 36.6975439,
+    "longtitude": 127.2180449
+  },
+  {
+    "id": 51086,
+    "bus_stop": "연양초등학교",
+    "latitude": 36.5036909,
+    "longtitude": 127.2557674
+  },
+  {
+    "id": 51087,
+    "bus_stop": "가재마을12단지",
+    "latitude": 36.5048084,
+    "longtitude": 127.2512077
+  },
+  {
+    "id": 51088,
+    "bus_stop": "가재마을7단지",
+    "latitude": 36.5051417,
+    "longtitude": 127.2489733
+  },
+  {
+    "id": 51089,
+    "bus_stop": "종촌고(가재마을3,4단지)",
+    "latitude": 36.5052447,
+    "longtitude": 127.2443833
+  },
+  {
+    "id": 51090,
+    "bus_stop": "가락마을8단지",
+    "latitude": 36.5087662,
+    "longtitude": 127.2407144
+  },
+  {
+    "id": 51091,
+    "bus_stop": "가재마을12단지",
+    "latitude": 36.5073176,
+    "longtitude": 127.2505017
+  },
+  {
+    "id": 51092,
+    "bus_stop": "도램마을1단지",
+    "latitude": 36.5075751,
+    "longtitude": 127.2573298
+  },
+  {
+    "id": 51093,
+    "bus_stop": "도램마을14,15단지",
+    "latitude": 36.5108082,
+    "longtitude": 127.2669854
+  },
+  {
+    "id": 11105,
+    "bus_stop": "삼일아파트",
+    "latitude": 36.5949557,
+    "longtitude": 127.2969118
+  },
+  {
+    "id": 36140,
+    "bus_stop": "봉암리",
+    "latitude": 36.5612298,
+    "longtitude": 127.2844356
+  },
+  {
+    "id": 36141,
+    "bus_stop": "봉암리",
+    "latitude": 36.5618059,
+    "longtitude": 127.2851678
+  },
+  {
+    "id": 0,
+    "bus_stop": "금강자연휴양림",
+    "latitude": 36.43773994,
+    "longtitude": 127.2328047
+  },
+  {
+    "id": 0,
+    "bus_stop": "금강자연휴양림",
+    "latitude": 36.43784356,
+    "longtitude": 127.2328269
+  },
+  {
+    "id": 35092,
+    "bus_stop": "봉안리",
+    "latitude": 36.49935893,
+    "longtitude": 127.2190046
+  },
+  {
+    "id": 35093,
+    "bus_stop": "봉안리",
+    "latitude": 36.49926399,
+    "longtitude": 127.2190617
+  },
+  {
+    "id": 39037,
+    "bus_stop": "금암리(웅대원룸)",
+    "latitude": 36.44176087,
+    "longtitude": 127.2088036
+  },
+  {
+    "id": 39036,
+    "bus_stop": "금암리(어반스테이)",
+    "latitude": 36.44601649,
+    "longtitude": 127.2106385
+  },
+  {
+    "id": 39035,
+    "bus_stop": "금암리(그린원룸)",
+    "latitude": 36.45112248,
+    "longtitude": 127.2105076
+  },
+  {
+    "id": 38098,
+    "bus_stop": "금암리(솔정자)",
+    "latitude": 36.45532047,
+    "longtitude": 127.2112425
+  },
+  {
+    "id": 38092,
+    "bus_stop": "송정리.세종요양병원",
+    "latitude": 36.50214695,
+    "longtitude": 127.1785737
+  },
+  {
+    "id": 57020,
+    "bus_stop": "법원.검찰청,경찰청",
+    "latitude": 36.486842,
+    "longtitude": 127.301429
+  },
+  {
+    "id": 57021,
+    "bus_stop": "국책연구단지",
+    "latitude": 36.4913263,
+    "longtitude": 127.304
+  },
+  {
+    "id": 57023,
+    "bus_stop": "반곡동(수루배마을)",
+    "latitude": 36.497739,
+    "longtitude": 127.312279
+  },
+  {
+    "id": 57024,
+    "bus_stop": "반곡동(수루배마을)",
+    "latitude": 36.497535,
+    "longtitude": 127.310959
+  },
+  {
+    "id": 11106,
+    "bus_stop": "조치원버스터미널",
+    "latitude": 36.6018992,
+    "longtitude": 127.3028932
+  },
+  {
+    "id": 11107,
+    "bus_stop": "조치원버스터미널",
+    "latitude": 36.6018765,
+    "longtitude": 127.3027591
+  },
+  {
+    "id": 34122,
+    "bus_stop": "감성리",
+    "latitude": 36.440161,
+    "longtitude": 127.288359
+  },
+  {
+    "id": 34123,
+    "bus_stop": "박산리(작약골)",
+    "latitude": 36.4770044,
+    "longtitude": 127.3519196
+  },
+  {
+    "id": 34124,
+    "bus_stop": "황용리",
+    "latitude": 36.481345,
+    "longtitude": 127.323838
+  },
+  {
+    "id": 57019,
+    "bus_stop": "법원.검찰청,경찰청",
+    "latitude": 36.487095,
+    "longtitude": 127.301744
+  },
+  {
+    "id": 32093,
+    "bus_stop": "노송2리",
+    "latitude": 36.57114,
+    "longtitude": 127.3261292
+  },
+  {
+    "id": 32094,
+    "bus_stop": "응암2리",
+    "latitude": 36.5572604,
+    "longtitude": 127.3416481
+  },
+  {
+    "id": 38099,
+    "bus_stop": "금암리(사기정골)",
+    "latitude": 36.45776728,
+    "longtitude": 127.2119781
+  },
+  {
+    "id": 35014,
+    "bus_stop": "대교리(정계)",
+    "latitude": 36.50926645,
+    "longtitude": 127.2175266
+  },
+  {
+    "id": 57025,
+    "bus_stop": "국책연구단지",
+    "latitude": 36.492195,
+    "longtitude": 127.304331
+  },
+  {
+    "id": 52057,
+    "bus_stop": "과학기술정보통신부",
+    "latitude": 36.496085,
+    "longtitude": 127.2630356
+  },
+  {
+    "id": 52058,
+    "bus_stop": "과학기술정보통신부",
+    "latitude": 36.4959777,
+    "longtitude": 127.2634881
+  },
+  {
+    "id": 35094,
+    "bus_stop": "장기초등학교",
+    "latitude": 36.4968405,
+    "longtitude": 127.2073985
+  },
+  {
+    "id": 32095,
+    "bus_stop": "응암3리",
+    "latitude": 36.5479444,
+    "longtitude": 127.3530917
+  },
+  {
+    "id": 32096,
+    "bus_stop": "노송1리",
+    "latitude": 36.5668778,
+    "longtitude": 127.3305923
+  },
+  {
+    "id": 33062,
+    "bus_stop": "부강면생활체육관",
+    "latitude": 36.5266749,
+    "longtitude": 127.374268
+  },
+  {
+    "id": 32097,
+    "bus_stop": "송용1리마을회관",
+    "latitude": 36.5641491,
+    "longtitude": 127.3263516
+  },
+  {
+    "id": 32098,
+    "bus_stop": "송용1리마을회관",
+    "latitude": 36.5642304,
+    "longtitude": 127.3264129
+  },
+  {
+    "id": 32099,
+    "bus_stop": "송용리",
+    "latitude": 36.5616519,
+    "longtitude": 127.3232337
+  },
+  {
+    "id": 32100,
+    "bus_stop": "송용리",
+    "latitude": 36.5617961,
+    "longtitude": 127.3232222
+  },
+  {
+    "id": 32101,
+    "bus_stop": "응암1리마을회관",
+    "latitude": 36.5428916,
+    "longtitude": 127.3426439
+  },
+  {
+    "id": 32102,
+    "bus_stop": "응암리(영모재)",
+    "latitude": 36.5422497,
+    "longtitude": 127.3447065
+  },
+  {
+    "id": 32103,
+    "bus_stop": "응암리(가마골)",
+    "latitude": 36.5411841,
+    "longtitude": 127.3467866
+  },
+  {
+    "id": 32104,
+    "bus_stop": "응암리(우리종묘)",
+    "latitude": 36.539663,
+    "longtitude": 127.3451417
+  },
+  {
+    "id": 32105,
+    "bus_stop": "응암리(영모재)",
+    "latitude": 36.5423399,
+    "longtitude": 127.3447566
+  },
+  {
+    "id": 32106,
+    "bus_stop": "응암리(우리종묘)",
+    "latitude": 36.5395955,
+    "longtitude": 127.3452983
+  },
+  {
+    "id": 32107,
+    "bus_stop": "명학2리(용당)",
+    "latitude": 36.5202645,
+    "longtitude": 127.3539706
+  },
+  {
+    "id": 32108,
+    "bus_stop": "문주리입구",
+    "latitude": 36.5481921,
+    "longtitude": 127.3112811
+  },
+  {
+    "id": 32109,
+    "bus_stop": "문주리입구",
+    "latitude": 36.5482424,
+    "longtitude": 127.3111782
+  },
+  {
+    "id": 32110,
+    "bus_stop": "예양2리",
+    "latitude": 36.580917,
+    "longtitude": 127.3165926
+  },
+  {
+    "id": 32111,
+    "bus_stop": "예양2리",
+    "latitude": 36.5808035,
+    "longtitude": 127.3166622
+  },
+  {
+    "id": 32112,
+    "bus_stop": "예양리(강촌입구)",
+    "latitude": 36.5804101,
+    "longtitude": 127.3123797
+  },
+  {
+    "id": 32113,
+    "bus_stop": "노송리",
+    "latitude": 36.5626625,
+    "longtitude": 127.3358785
+  },
+  {
+    "id": 33063,
+    "bus_stop": "부강산업단지입구",
+    "latitude": 36.500533,
+    "longtitude": 127.3622629
+  },
+  {
+    "id": 32114,
+    "bus_stop": "노송리",
+    "latitude": 36.5627078,
+    "longtitude": 127.3360404
+  },
+  {
+    "id": 33064,
+    "bus_stop": "부강산업단지입구",
+    "latitude": 36.5008976,
+    "longtitude": 127.3618379
+  },
+  {
+    "id": 33065,
+    "bus_stop": "부강산업단지",
+    "latitude": 36.4983679,
+    "longtitude": 127.3649243
+  },
+  {
+    "id": 33066,
+    "bus_stop": "부강산업단지",
+    "latitude": 36.4982057,
+    "longtitude": 127.3650027
+  },
+  {
+    "id": 33067,
+    "bus_stop": "금호2리공단입구",
+    "latitude": 36.5040207,
+    "longtitude": 127.3582188
+  },
+  {
+    "id": 33068,
+    "bus_stop": "갈산1리",
+    "latitude": 36.5436985,
+    "longtitude": 127.3646969
+  },
+  {
+    "id": 61035,
+    "bus_stop": "새롬고등학교(새뜸마을7단지)",
+    "latitude": 36.4869507,
+    "longtitude": 127.2492943
+  },
+  {
+    "id": 61036,
+    "bus_stop": "새롬고등학교(새뜸마을7단지)",
+    "latitude": 36.4871399,
+    "longtitude": 127.2492546
+  },
+  {
+    "id": 37102,
+    "bus_stop": "다방1리마을회관",
+    "latitude": 36.6031132,
+    "longtitude": 127.189307
+  },
+  {
+    "id": 36143,
+    "bus_stop": "쌍류초등학교",
+    "latitude": 36.597535,
+    "longtitude": 127.208638
+  },
+  {
+    "id": 36144,
+    "bus_stop": "쌍류초등학교",
+    "latitude": 36.5976715,
+    "longtitude": 127.208475
+  },
+  {
+    "id": 37103,
+    "bus_stop": "신흥리(사사)",
+    "latitude": 36.669438,
+    "longtitude": 127.194232
+  },
+  {
+    "id": 36145,
+    "bus_stop": "쌍류리(월정마을)",
+    "latitude": 36.5952236,
+    "longtitude": 127.2177077
+  },
+  {
+    "id": 36146,
+    "bus_stop": "쌍류리(월정마을)",
+    "latitude": 36.5952411,
+    "longtitude": 127.2174952
+  },
+  {
+    "id": 36147,
+    "bus_stop": "용암리(금단마을)",
+    "latitude": 36.5944763,
+    "longtitude": 127.2278058
+  },
+  {
+    "id": 36148,
+    "bus_stop": "고복저수지",
+    "latitude": 36.5977479,
+    "longtitude": 127.2274533
+  },
+  {
+    "id": 51059,
+    "bus_stop": "정부세종청사스포츠센터",
+    "latitude": 36.5063112,
+    "longtitude": 127.2586961
+  },
+  {
+    "id": 36149,
+    "bus_stop": "고복저수지",
+    "latitude": 36.5977251,
+    "longtitude": 127.2273249
+  },
+  {
+    "id": 35097,
+    "bus_stop": "용암2리",
+    "latitude": 36.5599723,
+    "longtitude": 127.2125067
+  },
+  {
+    "id": 35098,
+    "bus_stop": "용암2리",
+    "latitude": 36.5599682,
+    "longtitude": 127.2126743
+  },
+  {
+    "id": 39028,
+    "bus_stop": "세종첨단산업단지",
+    "latitude": 36.7191773,
+    "longtitude": 127.1955466
+  },
+  {
+    "id": 39029,
+    "bus_stop": "대교에이스",
+    "latitude": 36.7177679,
+    "longtitude": 127.2003627
+  },
+  {
+    "id": 32115,
+    "bus_stop": "행정리",
+    "latitude": 36.6885967,
+    "longtitude": 127.1575524
+  },
+  {
+    "id": 32116,
+    "bus_stop": "행정리",
+    "latitude": 36.6887542,
+    "longtitude": 127.1574677
+  },
+  {
+    "id": 35099,
+    "bus_stop": "용암2리입구",
+    "latitude": 36.5523608,
+    "longtitude": 127.2154937
+  },
+  {
+    "id": 32117,
+    "bus_stop": "내판2리",
+    "latitude": 36.5526956,
+    "longtitude": 127.3252308
+  },
+  {
+    "id": 32118,
+    "bus_stop": "내판2리",
+    "latitude": 36.5525517,
+    "longtitude": 127.3254602
+  },
+  {
+    "id": 32119,
+    "bus_stop": "연동중학교",
+    "latitude": 36.5527497,
+    "longtitude": 127.3283481
+  },
+  {
+    "id": 32120,
+    "bus_stop": "연동중학교",
+    "latitude": 36.55293,
+    "longtitude": 127.3282919
+  },
+  {
+    "id": 60018,
+    "bus_stop": "대평동커뮤니티센터",
+    "latitude": 36.4724194,
+    "longtitude": 127.2790898
+  },
+  {
+    "id": 60019,
+    "bus_stop": "대평동커뮤니티센터",
+    "latitude": 36.4722476,
+    "longtitude": 127.2788336
+  },
+  {
+    "id": 53502,
+    "bus_stop": "국민건강보험공단",
+    "latitude": 36.5136059,
+    "longtitude": 127.2416967
+  },
+  {
+    "id": 53503,
+    "bus_stop": "국민건강보험공단",
+    "latitude": 36.5137042,
+    "longtitude": 127.2413334
+  },
+  {
+    "id": 52060,
+    "bus_stop": "도램마을9단지",
+    "latitude": 36.5086909,
+    "longtitude": 127.2625493
+  },
+  {
+    "id": 62001,
+    "bus_stop": "소담고등학교(새샘마을5단지)",
+    "latitude": 36.4815502,
+    "longtitude": 127.3045326
+  },
+  {
+    "id": 62002,
+    "bus_stop": "소담고등학교(새샘마을1단지)",
+    "latitude": 36.4815428,
+    "longtitude": 127.3027743
+  },
+  {
+    "id": 62003,
+    "bus_stop": "새샘마을6단지",
+    "latitude": 36.4852332,
+    "longtitude": 127.3036516
+  },
+  {
+    "id": 62004,
+    "bus_stop": "새샘마을6단지",
+    "latitude": 36.4848875,
+    "longtitude": 127.3033124
+  },
+  {
+    "id": 61042,
+    "bus_stop": "다정중학교(가온마을4단지)",
+    "latitude": 36.4937133,
+    "longtitude": 127.2477261
+  },
+  {
+    "id": 61043,
+    "bus_stop": "다정중학교(가온마을4단지)",
+    "latitude": 36.4936286,
+    "longtitude": 127.2481842
+  },
+  {
+    "id": 61044,
+    "bus_stop": "새뜸마을14단지",
+    "latitude": 36.4911744,
+    "longtitude": 127.2558346
+  },
+  {
+    "id": 61045,
+    "bus_stop": "새뜸마을14단지",
+    "latitude": 36.4909023,
+    "longtitude": 127.2550427
+  },
+  {
+    "id": 61046,
+    "bus_stop": "가온마을4,7단지",
+    "latitude": 36.4915533,
+    "longtitude": 127.2494805
+  },
+  {
+    "id": 61047,
+    "bus_stop": "새뜸마을10단지",
+    "latitude": 36.4905735,
+    "longtitude": 127.2508178
+  },
+  {
+    "id": 61048,
+    "bus_stop": "다정고등학교(가온마을1단지)",
+    "latitude": 36.4929776,
+    "longtitude": 127.2430447
+  },
+  {
+    "id": 61049,
+    "bus_stop": "다정고등학교(가온마을1단지)",
+    "latitude": 36.4927929,
+    "longtitude": 127.2431235
+  },
+  {
+    "id": 61050,
+    "bus_stop": "가온마을2,3단지",
+    "latitude": 36.4960541,
+    "longtitude": 127.2420575
+  },
+  {
+    "id": 61051,
+    "bus_stop": "가온마을2,3단지",
+    "latitude": 36.4961754,
+    "longtitude": 127.2418338
+  },
+  {
+    "id": 61052,
+    "bus_stop": "한결초등학교",
+    "latitude": 36.4958942,
+    "longtitude": 127.2473673
+  },
+  {
+    "id": 61053,
+    "bus_stop": "한결초등학교",
+    "latitude": 36.4960562,
+    "longtitude": 127.2472552
+  },
+  {
+    "id": 62005,
+    "bus_stop": "수루배마을8,9단지",
+    "latitude": 36.4981635,
+    "longtitude": 127.317689
+  },
+  {
+    "id": 62006,
+    "bus_stop": "수루배마을8,9단지",
+    "latitude": 36.498118,
+    "longtitude": 127.3173877
+  },
+  {
+    "id": 62007,
+    "bus_stop": "반곡초,중학교",
+    "latitude": 36.50145,
+    "longtitude": 127.3122098
+  },
+  {
+    "id": 62008,
+    "bus_stop": "반곡초,중학교",
+    "latitude": 36.5012202,
+    "longtitude": 127.312255
+  },
+  {
+    "id": 62009,
+    "bus_stop": "수루배마을1단지",
+    "latitude": 36.498989,
+    "longtitude": 127.306082
+  },
+  {
+    "id": 62010,
+    "bus_stop": "수루배마을1단지",
+    "latitude": 36.498904,
+    "longtitude": 127.306358
+  },
+  {
+    "id": 52061,
+    "bus_stop": "문화체육관광부",
+    "latitude": 36.4967463,
+    "longtitude": 127.2664681
+  },
+  {
+    "id": 39030,
+    "bus_stop": "소정리",
+    "latitude": 36.7245035,
+    "longtitude": 127.1581344
+  },
+  {
+    "id": 61054,
+    "bus_stop": "새뜸마을1,2단지",
+    "latitude": 36.4828783,
+    "longtitude": 127.2461704
+  },
+  {
+    "id": 61021,
+    "bus_stop": "가온마을6,9단지",
+    "latitude": 36.498607,
+    "longtitude": 127.24896
+  },
+  {
+    "id": 61022,
+    "bus_stop": "다정동커뮤니티센터",
+    "latitude": 36.495506,
+    "longtitude": 127.249035
+  },
+  {
+    "id": 61023,
+    "bus_stop": "다정동커뮤니티센터",
+    "latitude": 36.494341,
+    "longtitude": 127.248799
+  },
+  {
+    "id": 52059,
+    "bus_stop": "국립세종도서관정문",
+    "latitude": 36.4991764,
+    "longtitude": 127.26764
+  },
+  {
+    "id": 61028,
+    "bus_stop": "가온마을6,9단지",
+    "latitude": 36.4986116,
+    "longtitude": 127.2491786
+  },
+  {
+    "id": 61029,
+    "bus_stop": "새뜸마을5,6단지",
+    "latitude": 36.4832363,
+    "longtitude": 127.2513939
+  },
+  {
+    "id": 61030,
+    "bus_stop": "새뜸마을5,6단지",
+    "latitude": 36.4833939,
+    "longtitude": 127.2512762
+  },
+  {
+    "id": 61031,
+    "bus_stop": "새뜸마을1,2단지",
+    "latitude": 36.4826015,
+    "longtitude": 127.2474552
+  },
+  {
+    "id": 61032,
+    "bus_stop": "새뜸마을1,2단지",
+    "latitude": 36.4827907,
+    "longtitude": 127.2474155
+  },
+  {
+    "id": 61033,
+    "bus_stop": "가득초등학교(새뜸마을3,4단지)",
+    "latitude": 36.4854282,
+    "longtitude": 127.2455481
+  },
+  {
+    "id": 61034,
+    "bus_stop": "가득초등학교(새뜸마을3,4단지)",
+    "latitude": 36.4853374,
+    "longtitude": 127.2452246
+  },
+  {
+    "id": 37104,
+    "bus_stop": "신정1리",
+    "latitude": 36.6915871,
+    "longtitude": 127.2147544
+  },
+  {
+    "id": 37105,
+    "bus_stop": "신정2리",
+    "latitude": 36.6946059,
+    "longtitude": 127.219943
+  },
+  {
+    "id": 37106,
+    "bus_stop": "종성골",
+    "latitude": 36.6959446,
+    "longtitude": 127.2218636
+  },
+  {
+    "id": 37107,
+    "bus_stop": "(주)레이크엘이디앞",
+    "latitude": 36.6980972,
+    "longtitude": 127.2210106
+  },
+  {
+    "id": 37108,
+    "bus_stop": "전의산업단지",
+    "latitude": 36.7012593,
+    "longtitude": 127.2106772
+  },
+  {
+    "id": 61039,
+    "bus_stop": "새롬중학교(새뜸마을1단지)",
+    "latitude": 36.4804553,
+    "longtitude": 127.249332
+  },
+  {
+    "id": 51131,
+    "bus_stop": "새롬중학교(새뜸마을1단지)",
+    "latitude": 36.4802617,
+    "longtitude": 127.2494164
+  },
+  {
+    "id": 61040,
+    "bus_stop": "새뜸마을4단지(가온마을1단지)",
+    "latitude": 36.4894565,
+    "longtitude": 127.2448371
+  },
+  {
+    "id": 61041,
+    "bus_stop": "새뜸마을4단지(가온마을1단지)",
+    "latitude": 36.4895961,
+    "longtitude": 127.2447697
+  },
+  {
+    "id": 35100,
+    "bus_stop": "산학리(주니어전문스쿨)",
+    "latitude": 36.4825063,
+    "longtitude": 127.232697
+  },
+  {
+    "id": 35101,
+    "bus_stop": "산학리(주니어전문스쿨)",
+    "latitude": 36.4826597,
+    "longtitude": 127.2327579
+  },
+  {
+    "id": 61055,
+    "bus_stop": "새뜸마을1,2단지",
+    "latitude": 36.4828552,
+    "longtitude": 127.2459137
+  },
+  {
+    "id": 61056,
+    "bus_stop": "새뜸마을3,4단지",
+    "latitude": 36.4866304,
+    "longtitude": 127.2470123
+  },
+  {
+    "id": 61057,
+    "bus_stop": "새뜸마을3,4단지",
+    "latitude": 36.4864817,
+    "longtitude": 127.2470741
+  },
+  {
+    "id": 52062,
+    "bus_stop": "한뜰마을1,2단지",
+    "latitude": 36.506399,
+    "longtitude": 127.267947
+  },
+  {
+    "id": 253,
+    "bus_stop": "소정2리(넉바위)",
+    "latitude": 36.71608574,
+    "longtitude": 127.1509366
+  },
+  {
+    "id": 57017,
+    "bus_stop": "대평동",
+    "latitude": 36.472267,
+    "longtitude": 127.276406
+  },
+  {
+    "id": 57018,
+    "bus_stop": "대평동",
+    "latitude": 36.472148,
+    "longtitude": 127.276445
+  },
+  {
+    "id": 36150,
+    "bus_stop": "청라리",
+    "latitude": 36.5882205,
+    "longtitude": 127.1984708
+  },
+  {
+    "id": 34119,
+    "bus_stop": "금천2리마을회관",
+    "latitude": 36.4383112,
+    "longtitude": 127.3199267
+  },
+  {
+    "id": 51121,
+    "bus_stop": "세종고속시외버스터미널(지하)",
+    "latitude": 36.4708162,
+    "longtitude": 127.2731717
+  },
+  {
+    "id": 51122,
+    "bus_stop": "세종고속시외버스터미널(지하)",
+    "latitude": 36.4706404,
+    "longtitude": 127.273189
+  },
+  {
+    "id": 52056,
+    "bus_stop": "국립세종도서관",
+    "latitude": 36.5003888,
+    "longtitude": 127.2675805
+  },
+  {
+    "id": 11104,
+    "bus_stop": "홍익대학교",
+    "latitude": 36.6209716,
+    "longtitude": 127.2903749
+  },
+  {
+    "id": 31068,
+    "bus_stop": "세종예술고등학교",
+    "latitude": 36.492489,
+    "longtitude": 127.268747
+  },
+  {
+    "id": 31069,
+    "bus_stop": "세종예술고등학교",
+    "latitude": 36.492432,
+    "longtitude": 127.268779
+  },
+  {
+    "id": 57026,
+    "bus_stop": "장재1리",
+    "latitude": 36.479548,
+    "longtitude": 127.308328
+  },
+  {
+    "id": 31070,
+    "bus_stop": "연기2리마을회관",
+    "latitude": 36.5423242,
+    "longtitude": 127.2802675
+  },
+  {
+    "id": 11411,
+    "bus_stop": "번암리",
+    "latitude": 36.588329,
+    "longtitude": 127.2986104
+  },
+  {
+    "id": 38090,
+    "bus_stop": "송성3리(솔티)",
+    "latitude": 36.636109,
+    "longtitude": 127.2172432
+  },
+  {
+    "id": 38091,
+    "bus_stop": "송정리",
+    "latitude": 36.6252011,
+    "longtitude": 127.2325295
+  },
+  {
+    "id": 38092,
+    "bus_stop": "청람리(동막골)",
+    "latitude": 36.6443571,
+    "longtitude": 127.2318088
+  },
+  {
+    "id": 31071,
+    "bus_stop": "세종예술고등학교",
+    "latitude": 36.492095,
+    "longtitude": 127.269558
+  },
+  {
+    "id": 31072,
+    "bus_stop": "세종예술고등학교",
+    "latitude": 36.492706,
+    "longtitude": 127.268917
+  },
+  {
+    "id": 61037,
+    "bus_stop": "나릿재마을",
+    "latitude": 36.4914044,
+    "longtitude": 127.2581439
+  },
+  {
+    "id": 61038,
+    "bus_stop": "나릿재마을",
+    "latitude": 36.4912197,
+    "longtitude": 127.2581891
+  },
+  {
+    "id": 58011,
+    "bus_stop": "가락마을6단지",
+    "latitude": 36.502547,
+    "longtitude": 127.238868
+  },
+  {
+    "id": 58012,
+    "bus_stop": "가락마을6단지",
+    "latitude": 36.5024695,
+    "longtitude": 127.2384071
+  },
+  {
+    "id": 34118,
+    "bus_stop": "성강리",
+    "latitude": 36.4223668,
+    "longtitude": 127.2507526
+  },
+  {
+    "id": 32121,
+    "bus_stop": "내판리(외판1교)",
+    "latitude": 36.555932,
+    "longtitude": 127.323048
+  },
+  {
+    "id": 32122,
+    "bus_stop": "내판리(외판1교)",
+    "latitude": 36.555994,
+    "longtitude": 127.32309
+  },
+  {
+    "id": 36153,
+    "bus_stop": "쌍류리(수디산)",
+    "latitude": 36.609737,
+    "longtitude": 127.217233
+  },
+  {
+    "id": 53052,
+    "bus_stop": "고운동(만남로)",
+    "latitude": 36.501134,
+    "longtitude": 127.236316
+  },
+  {
+    "id": 53053,
+    "bus_stop": "고운동(만남로)",
+    "latitude": 36.500435,
+    "longtitude": 127.235985
+  },
+  {
+    "id": 32123,
+    "bus_stop": "연동면 복합커뮤니티센터",
+    "latitude": 36.555077,
+    "longtitude": 127.326537
+  },
+  {
+    "id": 32124,
+    "bus_stop": "연동면 복합커뮤니티센터",
+    "latitude": 36.555012,
+    "longtitude": 127.326823
+  },
+  {
+    "id": 57027,
+    "bus_stop": "산학연클러스터",
+    "latitude": 36.501718,
+    "longtitude": 127.328826
+  },
+  {
+    "id": 57028,
+    "bus_stop": "산학연클러스터",
+    "latitude": 36.500789,
+    "longtitude": 127.328331
+  },
+  {
+    "id": 57029,
+    "bus_stop": "집현동",
+    "latitude": 36.498135,
+    "longtitude": 127.322785
+  },
+  {
+    "id": 57030,
+    "bus_stop": "집현동",
+    "latitude": 36.497917,
+    "longtitude": 127.321985
+  },
+  {
+    "id": 31073,
+    "bus_stop": "누리동",
+    "latitude": 36.533978,
+    "longtitude": 127.29214
+  },
+  {
+    "id": 53054,
+    "bus_stop": "세종누리학교",
+    "latitude": 36.525453,
+    "longtitude": 127.242234
+  },
+  {
+    "id": 53055,
+    "bus_stop": "세종누리학교",
+    "latitude": 36.525623,
+    "longtitude": 127.242241
+  },
+  {
+    "id": 51134,
+    "bus_stop": "주택성능연구개발센터",
+    "latitude": 36.4686297,
+    "longtitude": 127.2415678
+  },
+  {
+    "id": 62011,
+    "bus_stop": "수루배마을6단지",
+    "latitude": 36.494364,
+    "longtitude": 127.318453
+  },
+  {
+    "id": 62012,
+    "bus_stop": "수루배마을6단지",
+    "latitude": 36.494546,
+    "longtitude": 127.318515
+  },
+  {
+    "id": 52063,
+    "bus_stop": "한뜰마을3단지",
+    "latitude": 36.504765,
+    "longtitude": 127.277736
+  },
+  {
+    "id": 51135,
+    "bus_stop": "주택성능연구개발센터",
+    "latitude": 36.4684392,
+    "longtitude": 127.2412886
+  },
+  {
+    "id": 35102,
+    "bus_stop": "장기중학교후문",
+    "latitude": 36.495592,
+    "longtitude": 127.203518
+  },
+  {
+    "id": 35103,
+    "bus_stop": "장기중학교후문",
+    "latitude": 36.495617,
+    "longtitude": 127.203627
+  },
+  {
+    "id": 51136,
+    "bus_stop": "새뜸마을7,10단지",
+    "latitude": 36.48844,
+    "longtitude": 127.250695
+  },
+  {
+    "id": 62013,
+    "bus_stop": "수루배마을4단지",
+    "latitude": 36.501441,
+    "longtitude": 127.31419
+  },
+  {
+    "id": 62014,
+    "bus_stop": "수루배마을4단지",
+    "latitude": 36.501285,
+    "longtitude": 127.31406
+  },
+  {
+    "id": 62015,
+    "bus_stop": "수루배마을3단지",
+    "latitude": 36.500322,
+    "longtitude": 127.307365
+  },
+  {
+    "id": 62016,
+    "bus_stop": "수루배마을3단지",
+    "latitude": 36.500238,
+    "longtitude": 127.307661
+  },
+  {
+    "id": 51137,
+    "bus_stop": "한국산업인력공단(세종지사)",
+    "latitude": 36.490395,
+    "longtitude": 127.256809
+  },
+  {
+    "id": 51138,
+    "bus_stop": "한국산업인력공단(세종지사)",
+    "latitude": 36.4903,
+    "longtitude": 127.256369
+  },
+  {
+    "id": 51140,
+    "bus_stop": "국책연구단지동측",
+    "latitude": 36.495015,
+    "longtitude": 127.306198
+  },
+  {
+    "id": 51139,
+    "bus_stop": "국책연구단지동측",
+    "latitude": 36.495008,
+    "longtitude": 127.30666
+  },
+  {
+    "id": 51141,
+    "bus_stop": "반곡차고지",
+    "latitude": 36.496639,
+    "longtitude": 127.317551
+  },
+  {
+    "id": 51142,
+    "bus_stop": "반곡차고지",
+    "latitude": 36.496516,
+    "longtitude": 127.31785
+  },
+  {
+    "id": 51143,
+    "bus_stop": "반곡고등학교",
+    "latitude": 36.497411,
+    "longtitude": 127.316427
+  },
+  {
+    "id": 51144,
+    "bus_stop": "반곡고등학교",
+    "latitude": 36.497739,
+    "longtitude": 127.316291
+  },
+  {
+    "id": 52064,
+    "bus_stop": "세종충남대학교병원",
+    "latitude": 36.520517,
+    "longtitude": 127.259481
+  },
+  {
+    "id": 52065,
+    "bus_stop": "세종충남대학교병원",
+    "latitude": 36.521617,
+    "longtitude": 127.259736
+  },
+  {
+    "id": 64014,
+    "bus_stop": "부강버스종점",
+    "latitude": 36.526916,
+    "longtitude": 127.3696197
+  },
+  {
+    "id": 64032,
+    "bus_stop": "장욱진화백탑비",
+    "latitude": 36.5559269,
+    "longtitude": 127.3394987
+  },
+  {
+    "id": 64046,
+    "bus_stop": "나릿재마을 4,6단지",
+    "latitude": 36.4916231,
+    "longtitude": 127.2611096
+  },
+  {
+    "id": 64059,
+    "bus_stop": "세종예술의전당",
+    "latitude": 36.4849259,
+    "longtitude": 127.266713
+  },
+  {
+    "id": 64089,
+    "bus_stop": "봉암2교",
+    "latitude": 36.5595678,
+    "longtitude": 127.2835256
+  },
+  {
+    "id": 64091,
+    "bus_stop": "봉암리(봉암길)",
+    "latitude": 36.5578496,
+    "longtitude": 127.2847434
+  },
+  {
+    "id": 64110,
+    "bus_stop": "연기리",
+    "latitude": 36.5523851,
+    "longtitude": 127.2776127
+  },
+  {
+    "id": 64111,
+    "bus_stop": "연기리",
+    "latitude": 36.553186,
+    "longtitude": 127.2781373
+  },
+  {
+    "id": 38096,
+    "bus_stop": "대전공원묘원",
+    "latitude": 36.4519,
+    "longtitude": 127.2266
+  },
+  {
+    "id": 38097,
+    "bus_stop": "대전공원묘원",
+    "latitude": 36.452,
+    "longtitude": 127.2269
+  },
+  {
+    "id": 33069,
+    "bus_stop": "응암2리마을회관",
+    "latitude": 36.5534,
+    "longtitude": 127.3389
+  },
+  {
+    "id": 39038,
+    "bus_stop": "송성1리",
+    "latitude": 36.645081,
+    "longtitude": 127.217391
+  },
+  {
+    "id": 52068,
+    "bus_stop": "해밀마을1단지",
+    "latitude": 36.524978,
+    "longtitude": 127.2631843
+  },
+  {
+    "id": 52069,
+    "bus_stop": "해밀마을1단지",
+    "latitude": 36.5245725,
+    "longtitude": 127.263286
+  },
+  {
+    "id": 52071,
+    "bus_stop": "원수산MTB공원",
+    "latitude": 36.523357,
+    "longtitude": 127.2663781
+  },
+  {
+    "id": 52070,
+    "bus_stop": "원수산MTB공원",
+    "latitude": 36.5237808,
+    "longtitude": 127.2664048
+  },
+  {
+    "id": 57031,
+    "bus_stop": "산학연클러스터",
+    "latitude": 36.50184,
+    "longtitude": 127.32914
+  },
+  {
+    "id": 57032,
+    "bus_stop": "산학연클러스터",
+    "latitude": 36.50067,
+    "longtitude": 127.3279
+  },
+  {
+    "id": 57033,
+    "bus_stop": "집현동",
+    "latitude": 36.49804,
+    "longtitude": 127.32304
+  },
+  {
+    "id": 57034,
+    "bus_stop": "집현동",
+    "latitude": 36.49818,
+    "longtitude": 127.32136
+  },
+  {
+    "id": 64033,
+    "bus_stop": "청미마을회관",
+    "latitude": 36.6625624,
+    "longtitude": 127.2340451
+  },
+  {
+    "id": 64056,
+    "bus_stop": "번암안동네",
+    "latitude": 36.5845518,
+    "longtitude": 127.2925292
+  },
+  {
+    "id": 64060,
+    "bus_stop": "세종예술의전당",
+    "latitude": 36.484826,
+    "longtitude": 127.2662838
+  },
+  {
+    "id": 64061,
+    "bus_stop": "양지고등학교",
+    "latitude": 36.5074521,
+    "longtitude": 127.268335
+  },
+  {
+    "id": 64062,
+    "bus_stop": "양지고등학교",
+    "latitude": 36.50836,
+    "longtitude": 127.2664
+  },
+  {
+    "id": 64064,
+    "bus_stop": "세종소방서",
+    "latitude": 36.5061679,
+    "longtitude": 127.2722563
+  },
+  {
+    "id": 64075,
+    "bus_stop": "등곡리(쌍용양회)",
+    "latitude": 36.5020407,
+    "longtitude": 127.3866584
+  },
+  {
+    "id": 64076,
+    "bus_stop": "문곡리(호계마을)",
+    "latitude": 36.5288945,
+    "longtitude": 127.3933123
+  },
+  {
+    "id": 64077,
+    "bus_stop": "문곡리(호계마을)",
+    "latitude": 36.5290048,
+    "longtitude": 127.3932318
+  },
+  {
+    "id": 64088,
+    "bus_stop": "대전세종연구원",
+    "latitude": 36.4894396,
+    "longtitude": 127.3023454
+  },
+  {
+    "id": 64093,
+    "bus_stop": "봉암리(봉암길,서원길)",
+    "latitude": 36.5582417,
+    "longtitude": 127.2868999
+  },
+  {
+    "id": 64096,
+    "bus_stop": "이응다리(금강보행교)",
+    "latitude": 36.4863,
+    "longtitude": 127.2825612
+  },
+  {
+    "id": 64097,
+    "bus_stop": "이응다리(금강보행교)",
+    "latitude": 36.4865595,
+    "longtitude": 127.2823788
+  },
+  {
+    "id": 64009,
+    "bus_stop": "수산리교차로",
+    "latitude": 36.5378723,
+    "longtitude": 127.2340996
+  },
+  {
+    "id": 64010,
+    "bus_stop": "수산리교차로",
+    "latitude": 36.5382055,
+    "longtitude": 127.2339589
+  },
+  {
+    "id": 64048,
+    "bus_stop": "새나루마을9,10단지",
+    "latitude": 36.49297,
+    "longtitude": 127.32451
+  },
+  {
+    "id": 64049,
+    "bus_stop": "새나루마을9,10단지",
+    "latitude": 36.49296,
+    "longtitude": 127.32349
+  },
+  {
+    "id": 64050,
+    "bus_stop": "응암3리",
+    "latitude": 36.5362983,
+    "longtitude": 127.3486242
+  },
+  {
+    "id": 64051,
+    "bus_stop": "응암3리",
+    "latitude": 36.5361388,
+    "longtitude": 127.3486174
+  },
+  {
+    "id": 64052,
+    "bus_stop": "평기교",
+    "latitude": 36.5034383,
+    "longtitude": 127.202422
+  },
+  {
+    "id": 64053,
+    "bus_stop": "평기교",
+    "latitude": 36.5033477,
+    "longtitude": 127.2021484
+  },
+  {
+    "id": 64069,
+    "bus_stop": "새나루마을10단지",
+    "latitude": 36.4937474,
+    "longtitude": 127.3255569
+  },
+  {
+    "id": 64087,
+    "bus_stop": "세종예술고등학교",
+    "latitude": 36.4908067,
+    "longtitude": 127.2701107
+  },
+  {
+    "id": 64098,
+    "bus_stop": "바른초등학교",
+    "latitude": 36.5293754,
+    "longtitude": 127.2583137
+  },
+  {
+    "id": 64100,
+    "bus_stop": "산울마을7,8단지",
+    "latitude": 36.5321419,
+    "longtitude": 127.2652344
+  },
+  {
+    "id": 64103,
+    "bus_stop": "산울동커뮤니티센터",
+    "latitude": 36.5332548,
+    "longtitude": 127.2619562
+  },
+  {
+    "id": 64104,
+    "bus_stop": "산울동 산울고등학교",
+    "latitude": 36.535935,
+    "longtitude": 127.2644083
+  },
+  {
+    "id": 64105,
+    "bus_stop": "산울동 산울고등학교",
+    "latitude": 36.5357583,
+    "longtitude": 127.2660176
+  },
+  {
+    "id": 64106,
+    "bus_stop": "산울마을3단지",
+    "latitude": 36.5260553,
+    "longtitude": 127.2592531
+  },
+  {
+    "id": 64107,
+    "bus_stop": "산울마을3단지",
+    "latitude": 36.525732,
+    "longtitude": 127.2587327
+  },
+  {
+    "id": 2348,
+    "bus_stop": "조치원전통시장북측",
+    "latitude": 36.6013651,
+    "longtitude": 127.2996963
+  },
+  {
+    "id": 32125,
+    "bus_stop": "진웅엠피아,재진가로등",
+    "latitude": 36.538209,
+    "longtitude": 127.3364865
+  },
+  {
+    "id": 32126,
+    "bus_stop": "진웅엠피아,재진가로등",
+    "latitude": 36.5383444,
+    "longtitude": 127.3366315
+  },
+  {
+    "id": 32127,
+    "bus_stop": "명학2리",
+    "latitude": 36.5236,
+    "longtitude": 127.35205
+  },
+  {
+    "id": 32128,
+    "bus_stop": "명학2리",
+    "latitude": 36.5238951,
+    "longtitude": 127.3519644
+  },
+  {
+    "id": 32129,
+    "bus_stop": "응암3리마을입구",
+    "latitude": 36.55073,
+    "longtitude": 127.35874
+  },
+  {
+    "id": 64019,
+    "bus_stop": "다솜동",
+    "latitude": 36.532531,
+    "longtitude": 127.3188316
+  },
+  {
+    "id": 64020,
+    "bus_stop": "다솜동",
+    "latitude": 36.5319968,
+    "longtitude": 127.3203074
+  },
+  {
+    "id": 64021,
+    "bus_stop": "누리동",
+    "latitude": 36.5342796,
+    "longtitude": 127.2936421
+  },
+  {
+    "id": 64022,
+    "bus_stop": "누리동",
+    "latitude": 36.5339416,
+    "longtitude": 127.2936765
+  },
+  {
+    "id": 64023,
+    "bus_stop": "신흥3리",
+    "latitude": 36.5956852,
+    "longtitude": 127.2907396
+  },
+  {
+    "id": 64024,
+    "bus_stop": "신흥3리",
+    "latitude": 36.5956318,
+    "longtitude": 127.2911254
+  },
+  {
+    "id": 64025,
+    "bus_stop": "조치원 농협",
+    "latitude": 36.592983,
+    "longtitude": 127.2869737
+  },
+  {
+    "id": 64026,
+    "bus_stop": "조치원 농협",
+    "latitude": 36.5928162,
+    "longtitude": 127.2869351
+  },
+  {
+    "id": 64027,
+    "bus_stop": "신흥푸르지오",
+    "latitude": 36.5915324,
+    "longtitude": 127.2899626
+  },
+  {
+    "id": 64028,
+    "bus_stop": "신흥푸르지오",
+    "latitude": 36.5913565,
+    "longtitude": 127.2899016
+  },
+  {
+    "id": 64073,
+    "bus_stop": "한국개발연구원(KDI)",
+    "latitude": 36.4819656,
+    "longtitude": 127.3084015
+  },
+  {
+    "id": 64079,
+    "bus_stop": "관정교",
+    "latitude": 36.6921738,
+    "longtitude": 127.2023419
+  },
+  {
+    "id": 52066,
+    "bus_stop": "세종충남대학교병원(후문)",
+    "latitude": 36.520501,
+    "longtitude": 127.259685
+  },
+  {
+    "id": 52067,
+    "bus_stop": "세종충남대학교병원(후문)",
+    "latitude": 36.521691,
+    "longtitude": 127.259634
+  },
+  {
+    "id": 64011,
+    "bus_stop": "다솜동",
+    "latitude": 36.5317939,
+    "longtitude": 127.3202744
+  },
+  {
+    "id": 64012,
+    "bus_stop": "다솜동",
+    "latitude": 36.5319645,
+    "longtitude": 127.3198216
+  },
+  {
+    "id": 64065,
+    "bus_stop": "전통문화체험관",
+    "latitude": 36.5038919,
+    "longtitude": 127.2832104
+  },
+  {
+    "id": 64068,
+    "bus_stop": "세종연구단지(수루배1단지)",
+    "latitude": 36.4960327,
+    "longtitude": 127.3053012
+  },
+  {
+    "id": 64078,
+    "bus_stop": "관정교",
+    "latitude": 36.6923538,
+    "longtitude": 127.2023473
+  },
+  {
+    "id": 64108,
+    "bus_stop": "용호동",
+    "latitude": 36.5365298,
+    "longtitude": 127.3113612
+  },
+  {
+    "id": 64109,
+    "bus_stop": "용호동",
+    "latitude": 36.5363568,
+    "longtitude": 127.3123309
+  },
+  {
+    "id": 64112,
+    "bus_stop": "등곡삼거리",
+    "latitude": 36.5172791,
+    "longtitude": 127.3788515
+  },
+  {
+    "id": 64113,
+    "bus_stop": "등곡삼거리",
+    "latitude": 36.5179956,
+    "longtitude": 127.3785076
+  },
+  {
+    "id": 64114,
+    "bus_stop": "문곡리(범벅골)",
+    "latitude": 36.5279539,
+    "longtitude": 127.3955749
+  },
+  {
+    "id": 64117,
+    "bus_stop": "용호동",
+    "latitude": 36.5365242,
+    "longtitude": 127.3123125
+  },
+  {
+    "id": 64120,
+    "bus_stop": "도램마을5단지",
+    "latitude": 36.5181598,
+    "longtitude": 127.256533
+  },
+  {
+    "id": 64121,
+    "bus_stop": "도램마을5단지",
+    "latitude": 36.5179106,
+    "longtitude": 127.2561784
+  },
+  {
+    "id": 64122,
+    "bus_stop": "늘봄초등학교",
+    "latitude": 36.5141406,
+    "longtitude": 127.255785
+  },
+  {
+    "id": 64123,
+    "bus_stop": "늘봄초등학교",
+    "latitude": 36.5146509,
+    "longtitude": 127.2554888
+  },
+  {
+    "id": 64124,
+    "bus_stop": "도램마을1,2단지",
+    "latitude": 36.5113335,
+    "longtitude": 127.2555407
+  },
+  {
+    "id": 64127,
+    "bus_stop": "해들마을6단지",
+    "latitude": 36.4754331,
+    "longtitude": 127.2771512
+  },
+  {
+    "id": 64128,
+    "bus_stop": "해들마을6단지",
+    "latitude": 36.4756927,
+    "longtitude": 127.276936
+  },
+  {
+    "id": 64129,
+    "bus_stop": "세종세무서,시청별관",
+    "latitude": 36.4790321,
+    "longtitude": 127.2847192
+  },
+  {
+    "id": 53056,
+    "bus_stop": "아름제2중(가락마을20단지)",
+    "latitude": 36.5165801,
+    "longtitude": 127.2413696
+  },
+  {
+    "id": 53058,
+    "bus_stop": "가락마을8단지.가재마을4단지",
+    "latitude": 36.5076818,
+    "longtitude": 127.2411758
+  },
+  {
+    "id": 53060,
+    "bus_stop": "종촌초등학교(가락마을6, 7단지)",
+    "latitude": 36.5034395,
+    "longtitude": 127.2408773
+  },
+  {
+    "id": 53061,
+    "bus_stop": "종촌초등학교(가재마을3단지)",
+    "latitude": 36.5038057,
+    "longtitude": 127.2413842
+  },
+  {
+    "id": 53059,
+    "bus_stop": "가락마을8단지.가재마을4단지",
+    "latitude": 36.5076286,
+    "longtitude": 127.2416171
+  },
+  {
+    "id": 53057,
+    "bus_stop": "아름제2중(가락마을20단지)",
+    "latitude": 36.5166984,
+    "longtitude": 127.2418662
+  },
+  {
+    "id": 64031,
+    "bus_stop": "월하리(패션아울렛)",
+    "latitude": 36.5735137,
+    "longtitude": 127.2903054
+  },
+  {
+    "id": 64034,
+    "bus_stop": "반곡고등학교",
+    "latitude": 36.4978363,
+    "longtitude": 127.3161531
+  },
+  {
+    "id": 64035,
+    "bus_stop": "반곡고등학교",
+    "latitude": 36.49733,
+    "longtitude": 127.31655
+  },
+  {
+    "id": 11108,
+    "bus_stop": "조치원역",
+    "latitude": 36.60099,
+    "longtitude": 127.29713
+  },
+  {
+    "id": 64074,
+    "bus_stop": "등곡리(쌍용양회)",
+    "latitude": 36.5037501,
+    "longtitude": 127.3860039
+  },
+  {
+    "id": 64086,
+    "bus_stop": "세종예술고등학교",
+    "latitude": 36.4906518,
+    "longtitude": 127.2705183
+  },
+  {
+    "id": 64092,
+    "bus_stop": "봉암리(봉암길)",
+    "latitude": 36.5577505,
+    "longtitude": 127.2846844
+  },
+  {
+    "id": 64099,
+    "bus_stop": "바른초등학교",
+    "latitude": 36.5289659,
+    "longtitude": 127.2577719
+  },
+  {
+    "id": 64101,
+    "bus_stop": "산울마을7,8단지",
+    "latitude": 36.5321635,
+    "longtitude": 127.2655455
+  },
+  {
+    "id": 64102,
+    "bus_stop": "산울동커뮤니티센터",
+    "latitude": 36.5324359,
+    "longtitude": 127.2615592
+  },
+  {
+    "id": 64116,
+    "bus_stop": "용호동",
+    "latitude": 36.5364579,
+    "longtitude": 127.3112516
+  },
+  {
+    "id": 64131,
+    "bus_stop": "세종시청,금강보행교",
+    "latitude": 36.4807267,
+    "longtitude": 127.2886721
+  },
+  {
+    "id": 64134,
+    "bus_stop": "호려울마을10단지",
+    "latitude": 36.4843529,
+    "longtitude": 127.2943667
+  },
+  {
+    "id": 64136,
+    "bus_stop": "글벗초등학교(새샘마을4단지)",
+    "latitude": 36.4875727,
+    "longtitude": 127.2966502
+  },
+  {
+    "id": 64137,
+    "bus_stop": "산학연클러스터(지원센터)",
+    "latitude": 36.5005464,
+    "longtitude": 127.328401
+  },
+  {
+    "id": 64138,
+    "bus_stop": "가득초등학교정문",
+    "latitude": 36.4883661,
+    "longtitude": 127.2441957
+  },
+  {
+    "id": 64139,
+    "bus_stop": "가득초등학교정문",
+    "latitude": 36.4883202,
+    "longtitude": 127.2437707
+  },
+  {
+    "id": 64151,
+    "bus_stop": "조치원우체국",
+    "latitude": 36.6020774,
+    "longtitude": 127.2852972
+  },
+  {
+    "id": 64152,
+    "bus_stop": "조치원우체국",
+    "latitude": 36.601868,
+    "longtitude": 127.2853443
+  },
+  {
+    "id": 64153,
+    "bus_stop": "엘리프세종(조치원)",
+    "latitude": 36.6032116,
+    "longtitude": 127.2803017
+  },
+  {
+    "id": 64154,
+    "bus_stop": "엘리프세종(조치원)",
+    "latitude": 36.6030738,
+    "longtitude": 127.2804573
+  },
+  {
+    "id": 64155,
+    "bus_stop": "세종시교육청교육원",
+    "latitude": 36.6047447,
+    "longtitude": 127.2852209
+  },
+  {
+    "id": 64156,
+    "bus_stop": "세종시교육청교육원",
+    "latitude": 36.6045948,
+    "longtitude": 127.2856334
+  },
+  {
+    "id": 64162,
+    "bus_stop": "누리동기점지",
+    "latitude": 36.5290162,
+    "longtitude": 127.2952436
+  },
+  {
+    "id": 64163,
+    "bus_stop": "누리동기점지",
+    "latitude": 36.5291514,
+    "longtitude": 127.2948186
+  },
+  {
+    "id": 64164,
+    "bus_stop": "어진동행정복지센터",
+    "latitude": 36.5011188,
+    "longtitude": 127.2560874
+  },
+  {
+    "id": 64165,
+    "bus_stop": "어진동행정복지센터",
+    "latitude": 36.5013843,
+    "longtitude": 127.2561366
+  },
+  {
+    "id": 64166,
+    "bus_stop": "집현동기점지",
+    "latitude": 36.4930617,
+    "longtitude": 127.3270546
+  },
+  {
+    "id": 64167,
+    "bus_stop": "원성리(죽근마을)",
+    "latitude": 36.6760555,
+    "longtitude": 127.199558
+  },
+  {
+    "id": 51145,
+    "bus_stop": "소담동새샘마을",
+    "latitude": 36.484316,
+    "longtitude": 127.294478
+  },
+  {
+    "id": 51146,
+    "bus_stop": "소담동새샘마을",
+    "latitude": 36.483856,
+    "longtitude": 127.294281
+  },
+  {
+    "id": 57040,
+    "bus_stop": "해밀고등학교",
+    "latitude": 36.52621,
+    "longtitude": 127.27124
+  },
+  {
+    "id": 57039,
+    "bus_stop": "해밀고등학교",
+    "latitude": 36.5259544,
+    "longtitude": 127.2715644
+  },
+  {
+    "id": 57041,
+    "bus_stop": "나성중학교,나성초등학교",
+    "latitude": 36.48943,
+    "longtitude": 127.26369
+  },
+  {
+    "id": 57042,
+    "bus_stop": "나성중학교,나성초등학교",
+    "latitude": 36.49113,
+    "longtitude": 127.26272
+  },
+  {
+    "id": 64036,
+    "bus_stop": "용포삼거리",
+    "latitude": 36.4683,
+    "longtitude": 127.2822
+  },
+  {
+    "id": 64037,
+    "bus_stop": "용포삼거리",
+    "latitude": 36.46825,
+    "longtitude": 127.28234
+  },
+  {
+    "id": 64063,
+    "bus_stop": "세종소방서",
+    "latitude": 36.5064823,
+    "longtitude": 127.272369
+  },
+  {
+    "id": 64067,
+    "bus_stop": "세종연구단지(수루배1단지)",
+    "latitude": 36.4962997,
+    "longtitude": 127.3055641
+  },
+  {
+    "id": 64072,
+    "bus_stop": "새나루마을1단지(후문)",
+    "latitude": 36.4837674,
+    "longtitude": 127.3176229
+  },
+  {
+    "id": 64095,
+    "bus_stop": "반곡고등학교",
+    "latitude": 36.497378,
+    "longtitude": 127.3166309
+  },
+  {
+    "id": 64125,
+    "bus_stop": "도램마을1,2단지",
+    "latitude": 36.5111653,
+    "longtitude": 127.2558786
+  },
+  {
+    "id": 64126,
+    "bus_stop": "도램마을6단지",
+    "latitude": 36.5086238,
+    "longtitude": 127.2605491
+  },
+  {
+    "id": 64130,
+    "bus_stop": "세종세무서,시청별관",
+    "latitude": 36.4788561,
+    "longtitude": 127.2851048
+  },
+  {
+    "id": 64132,
+    "bus_stop": "세종시청,금강보행교",
+    "latitude": 36.4804471,
+    "longtitude": 127.2888646
+  },
+  {
+    "id": 64133,
+    "bus_stop": "호려울마을10단지",
+    "latitude": 36.4835973,
+    "longtitude": 127.2941527
+  },
+  {
+    "id": 64135,
+    "bus_stop": "글벗초등학교(새샘마을4단지)",
+    "latitude": 36.4866784,
+    "longtitude": 127.296646
+  },
+  {
+    "id": 64157,
+    "bus_stop": "송성3리마을회관",
+    "latitude": 36.6379031,
+    "longtitude": 127.2173692
+  },
+  {
+    "id": 64158,
+    "bus_stop": "연기면행정복지센터",
+    "latitude": 36.5436977,
+    "longtitude": 127.269023
+  },
+  {
+    "id": 64159,
+    "bus_stop": "연기면행정복지센터",
+    "latitude": 36.5435865,
+    "longtitude": 127.2697251
+  },
+  {
+    "id": 64161,
+    "bus_stop": "원봉1리(생적골)",
+    "latitude": 36.4552915,
+    "longtitude": 127.2410254
+  },
+  {
+    "id": 64168,
+    "bus_stop": "원성리(죽근마을)",
+    "latitude": 36.676151,
+    "longtitude": 127.1994662
+  },
+  {
+    "id": 33074,
+    "bus_stop": "부강생활체육공원",
+    "latitude": 36.5136568,
+    "longtitude": 127.3680756
+  },
+  {
+    "id": 33075,
+    "bus_stop": "부강생활체육공원",
+    "latitude": 36.5135576,
+    "longtitude": 127.3682151
+  },
+  {
+    "id": 31074,
+    "bus_stop": "국립세종수목원(연구동)",
+    "latitude": 36.4980336,
+    "longtitude": 127.2897139
+  },
+  {
+    "id": 31075,
+    "bus_stop": "국립세종수목원,중앙공원",
+    "latitude": 36.4996496,
+    "longtitude": 127.283625
+  },
+  {
+    "id": 31076,
+    "bus_stop": "세종호수공원",
+    "latitude": 36.5018825,
+    "longtitude": 127.2791339
+  },
+  {
+    "id": 31077,
+    "bus_stop": "세종중앙공원",
+    "latitude": 36.5001803,
+    "longtitude": 127.2821042
+  },
+  {
+    "id": 31078,
+    "bus_stop": "국립세종수목원",
+    "latitude": 36.4988004,
+    "longtitude": 127.286745
+  },
+  {
+    "id": 31079,
+    "bus_stop": "국립세종수목원(연구동)",
+    "latitude": 36.4976075,
+    "longtitude": 127.2900113
+  },
+  {
+    "id": 33070,
+    "bus_stop": "부강2리",
+    "latitude": 36.5295,
+    "longtitude": 127.36597
+  },
+  {
+    "id": 33072,
+    "bus_stop": "부강초등학교",
+    "latitude": 36.52783,
+    "longtitude": 127.36722
+  },
+  {
+    "id": 33073,
+    "bus_stop": "복지회관",
+    "latitude": 36.52697,
+    "longtitude": 127.36974
+  },
+  {
+    "id": 33071,
+    "bus_stop": "부강2리",
+    "latitude": 36.52934,
+    "longtitude": 127.36628
+  },
+  {
+    "id": 62017,
+    "bus_stop": "나릿재마을1,2단지",
+    "latitude": 36.4874554,
+    "longtitude": 127.2646885
+  },
+  {
+    "id": 62018,
+    "bus_stop": "나릿재마을1,2단지",
+    "latitude": 36.4880312,
+    "longtitude": 127.2641006
+  },
+  {
+    "id": 64016,
+    "bus_stop": "전의산업단지교차로",
+    "latitude": 36.70158,
+    "longtitude": 127.21039
+  },
+  {
+    "id": 64038,
+    "bus_stop": "새샘마을7,8단지",
+    "latitude": 36.48683,
+    "longtitude": 127.29981
+  },
+  {
+    "id": 64039,
+    "bus_stop": "새샘마을7,8단지",
+    "latitude": 36.48709,
+    "longtitude": 127.30017
+  },
+  {
+    "id": 64040,
+    "bus_stop": "동면농협예양지소",
+    "latitude": 36.56798,
+    "longtitude": 127.32163
+  },
+  {
+    "id": 64041,
+    "bus_stop": "동면농협예양지소",
+    "latitude": 36.56811,
+    "longtitude": 127.3218
+  },
+  {
+    "id": 64042,
+    "bus_stop": "새나루마을4,9단지",
+    "latitude": 36.49207,
+    "longtitude": 127.32188
+  },
+  {
+    "id": 64043,
+    "bus_stop": "새나루마을4,9단지",
+    "latitude": 36.49207,
+    "longtitude": 127.32226
+  },
+  {
+    "id": 64044,
+    "bus_stop": "새나루마을2,8단지",
+    "latitude": 36.4884705,
+    "longtitude": 127.3221026
+  },
+  {
+    "id": 64045,
+    "bus_stop": "새나루마을2,8단지",
+    "latitude": 36.4885801,
+    "longtitude": 127.3224222
+  },
+  {
+    "id": 64047,
+    "bus_stop": "나릿재마을4,6단지",
+    "latitude": 36.491527,
+    "longtitude": 127.261263
+  },
+  {
+    "id": 64066,
+    "bus_stop": "전통문화체험관",
+    "latitude": 36.5038217,
+    "longtitude": 127.2854098
+  },
+  {
+    "id": 64070,
+    "bus_stop": "새나루마을10단지",
+    "latitude": 36.4937495,
+    "longtitude": 127.3252565
+  },
+  {
+    "id": 64071,
+    "bus_stop": "새나루마을1단지(후문)",
+    "latitude": 36.4840122,
+    "longtitude": 127.3174727
+  },
+  {
+    "id": 64080,
+    "bus_stop": "문곡리(만트럭)",
+    "latitude": 36.5290657,
+    "longtitude": 127.4035571
+  },
+  {
+    "id": 64081,
+    "bus_stop": "문곡리(만트럭)",
+    "latitude": 36.5289586,
+    "longtitude": 127.4034337
+  },
+  {
+    "id": 64090,
+    "bus_stop": "봉암2교",
+    "latitude": 36.5597276,
+    "longtitude": 127.2833969
+  },
+  {
+    "id": 64115,
+    "bus_stop": "행산리",
+    "latitude": 36.5561197,
+    "longtitude": 127.3731555
+  },
+  {
+    "id": 64160,
+    "bus_stop": "원봉1리(토끼샘)",
+    "latitude": 36.4528694,
+    "longtitude": 127.2403984
+  },
+  {
+    "id": 64169,
+    "bus_stop": "국립박물관단지",
+    "latitude": 36.4899997,
+    "longtitude": 127.272418
+  },
+  {
+    "id": 64173,
+    "bus_stop": "욱일아파트",
+    "latitude": 36.6033347,
+    "longtitude": 127.2923462
+  },
+  {
+    "id": 64174,
+    "bus_stop": "욱일아파트",
+    "latitude": 36.6034944,
+    "longtitude": 127.292196
+  },
+  {
+    "id": 35104,
+    "bus_stop": "도계리(풍덕골길)",
+    "latitude": 36.4949688,
+    "longtitude": 127.2100667
+  },
+  {
+    "id": 35105,
+    "bus_stop": "도계리(풍덕골길)",
+    "latitude": 36.4952236,
+    "longtitude": 127.209954
+  },
+  {
+    "id": 52072,
+    "bus_stop": "범지기마을6,11단지",
+    "latitude": 36.5106244,
+    "longtitude": 127.2501763
+  },
+  {
+    "id": 64094,
+    "bus_stop": "봉암리(봉암길,서원길)",
+    "latitude": 36.5585606,
+    "longtitude": 127.2871252
+  },
+  {
+    "id": 64118,
+    "bus_stop": "한국개발연구원(KDI)",
+    "latitude": 36.4822622,
+    "longtitude": 127.3084078
+  },
+  {
+    "id": 64119,
+    "bus_stop": "대전교통공사",
+    "latitude": 36.3512087,
+    "longtitude": 127.3549442
+  }
+]

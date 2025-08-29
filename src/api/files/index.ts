@@ -1,28 +1,43 @@
 import { apiClient } from '..';
 
-interface UploadFileParams {
-  filename: string;
-  contentType: string;
+interface GetPresignedUrlResponse {
+  url: string;
+  key: string;
+}
+
+interface UploadFileResponse {
+  url: string;
 }
 
 export const filesApi = {
-  getPresignedUrl: async (file: UploadFileParams) =>
-    await apiClient.get('files/presign-upload', {
+  getPresignedUrl: async (file: File) =>
+    await apiClient.get<GetPresignedUrlResponse>('files/presign-upload', {
       params: {
-        filename: file.filename,
-        contentType: file.contentType,
+        filename: file.name,
+        contentType: file.type,
       },
       headers: {
-        'Content-Type': file.contentType,
+        'Content-Type': file.type,
       },
     }),
-  uploadFile: async (url: string, file: File) => {
+  uploadFile: async (url: string, file: File): Promise<UploadFileResponse> =>
     await fetch(url, {
       method: 'PUT',
       headers: {
-        'Content-Type': 'application/pdf',
+        'Content-Type': file.type,
       },
       body: file,
-    });
-  },
+    }),
 };
+
+// getPresignedUrl({
+//   fileName: 'example.pdf',
+//   contentType: 'application/pdf',
+// }).then((response) => {
+//   const { url, key } = response.data;
+//   uploadFile(url, file).then((res) => {
+//     const { url } = res.data;
+//     setUrls((prev) => [...prev, url]);
+//   });
+
+// })

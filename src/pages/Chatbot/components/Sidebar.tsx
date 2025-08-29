@@ -2,7 +2,11 @@ import { Suspense } from 'react';
 import { useCreateChatSession, useGetChatSession } from '../queries';
 import { useNavigate, useParams } from 'react-router-dom';
 
-const SidebarComponent = () => {
+interface SidebarComponentProps {
+  sidebarOpen: boolean;
+}
+
+const SidebarComponent = ({ sidebarOpen }: SidebarComponentProps) => {
   const { data: analysisHistory } = useGetChatSession();
   const { mutateAsync: createChatSession } = useCreateChatSession();
   const { id } = useParams();
@@ -17,43 +21,53 @@ const SidebarComponent = () => {
     }
   };
   return (
-    <div className="h-screen w-64 border-r border-gray-300 bg-white p-4 shadow-sm">
-      <div className="mb-6">
-        <h2 className="mb-4 text-lg font-bold text-gray-800">창업 분석 AI</h2>
+    <div
+      className={`${sidebarOpen ? 'w-64' : 'w-0'} flex flex-col overflow-hidden border-r border-gray-200 bg-[#F7F7F8] transition-all duration-300 ease-in-out`}
+    >
+      <div className="p-4">
         <button
+          className="flex w-full items-center justify-center space-x-2 rounded-lg bg-black px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-gray-800"
           onClick={handleCreateSession}
-          className="flex w-full items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700"
         >
-          + 새 분석 시작
+          <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+          </svg>
+          <span>새 분석 시작</span>
         </button>
       </div>
 
-      <div>
-        <h3 className="mb-3 text-sm font-semibold text-gray-600">최근 분석</h3>
-        <div className="space-y-2">
-          {analysisHistory.map((analysis, index) => (
+      <div className="flex-1 px-4 pb-4">
+        <div className="mb-3 text-xs font-medium text-gray-500">최근 분석</div>
+
+        <div className="space-y-1">
+          {analysisHistory.map((history) => (
             <button
-              key={index}
-              className={`w-full rounded-lg p-2 text-left text-sm transition-colors ${
-                analysis.id === (id ? parseInt(id) : -1)
-                  ? 'bg-blue-100 text-blue-800'
-                  : 'text-gray-700 hover:bg-gray-100'
-              }`}
-              onClick={() => navigate(`/chatbot/${analysis.id}`)}
+              onClick={() => navigate(`/chatbot/${history.id}`)}
+              key={history.id}
+              className={`w-full cursor-pointer rounded-lg p-3 text-start transition-colors hover:bg-gray-200 ${history.id === Number(id) ? 'bg-gray-200' : ''}`}
             >
-              {analysis.title}
+              <div className="truncate text-sm text-gray-900">{history.title}</div>
             </button>
           ))}
+        </div>
+      </div>
+
+      <div className="border-t border-gray-200 p-4">
+        <div className="flex items-center space-x-3">
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
+            <span className="text-sm font-medium text-white">김</span>
+          </div>
+          <div className="text-sm font-medium text-gray-900">김창업</div>
         </div>
       </div>
     </div>
   );
 };
 
-export default function Sidebar() {
+export default function Sidebar({ sidebarOpen }: SidebarComponentProps) {
   return (
     <Suspense fallback={null}>
-      <SidebarComponent />
+      <SidebarComponent sidebarOpen={sidebarOpen} />
     </Suspense>
   );
 }
