@@ -60,10 +60,9 @@ export default function ChatBotHome() {
 
   useEffect(() => {
     if (query) {
-      console.log('query:', query);
       handleSend();
     }
-  }, [query]);
+  }, [query, handleSend]);
 
   return (
     <div className="flex min-h-screen bg-white">

@@ -20,7 +20,7 @@ export default function FirstSection({
   isVideoPlaying,
   setIsVideoPlaying,
 }: FirstSectionProps) {
-  const [inputValue, setInputValue] = useState('세종시 조치원읍에 카페를 차리고 싶어.');
+  const [inputValue, setInputValue] = useState('');
   const [isCompact, setIsCompact] = useState(false);
   const navigate = useNavigate();
 
@@ -110,6 +110,7 @@ export default function FirstSection({
                   isCompact ? 'flex-1 px-2' : 'mt-2 ml-1.5'
                 }`}
                 value={inputValue}
+                placeholder="세종시 조치원읍에 카페를 차리고 싶어."
               />
 
               {/* Bottom Row - Compact 모드에서는 버튼만 */}
