@@ -185,8 +185,8 @@ function PropertyRegistrationPage({
 
     const requestData: PropertyRequest = {
       ...formData,
-      rent: formData.rent * 10000, // 만원을 원으로 변환
-      deposit: formData.deposit * 10000, // 만원을 원으로 변환
+      rent: formData.rent,
+      deposit: formData.deposit,
       imageUrls: imageKeys,
     };
 
