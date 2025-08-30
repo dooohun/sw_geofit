@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import ConclusionPage from './components/Conclusion';
 import DataSourcePage from './components/DataSource';
 import BusinessDetailPage from './components/FifthPage';
@@ -26,10 +26,11 @@ export default function ReportGenerator({
   shouldGeneratePDF,
   onPDFGenerated,
 }: ReportGeneratorProps) {
-  console.log(reportData);
+  const isGeneratingRef = useRef(false); // 중복 실행 방지를 위한 ref
 
   useEffect(() => {
-    if (shouldGeneratePDF && reportData && reportRef.current && onPDFGenerated) {
+    if (shouldGeneratePDF && reportData && reportRef.current && onPDFGenerated && !isGeneratingRef.current) {
+      isGeneratingRef.current = true;
       const generatePDF = async () => {
         try {
           // PDF 생성 로직
@@ -74,12 +75,14 @@ export default function ReportGenerator({
           onPDFGenerated(key);
         } catch (error) {
           console.error('PDF 생성 오류:', error);
+        } finally {
+          isGeneratingRef.current = false; // 완료 후 플래그 리셋
         }
       };
 
       generatePDF();
     }
-  }, [shouldGeneratePDF, reportData, reportRef, onPDFGenerated]);
+  }, [shouldGeneratePDF, reportData, onPDFGenerated]);
   return (
     <div className="absolute top-[100000px] flex justify-center">
       <div className="space-y-8">

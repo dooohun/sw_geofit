@@ -46,16 +46,22 @@ export default function PropertyDetailModal({ isOpen, onClose, propertyId }: Pro
   if (!isOpen || !property) return null;
 
   // AI 분석 완료 여부 체크
-  const isAnalysisComplete =
-    property.rec1Type &&
-    property.rec2Type &&
-    property.rec3Type &&
-    property.reason1 &&
-    property.reason2 &&
-    property.reason3 &&
-    property.economy &&
-    property.demand &&
-    property.environment;
+  const isAnalysisComplete = property.rec1Type;
+
+  const handleDownload = async () => {
+    if (!property.pdfUrl) return;
+
+    try {
+      // presigned URL 생성
+      const { url } = await filesApi.downloadFile(property.pdfUrl);
+
+      // 새 창에서 다운로드 (브라우저가 자동으로 다운로드 처리)
+      window.open(url, '_blank');
+    } catch (error) {
+      console.error('다운로드 실패:', error);
+      alert('다운로드에 실패했습니다.');
+    }
+  };
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto">
@@ -267,7 +273,10 @@ export default function PropertyDetailModal({ isOpen, onClose, propertyId }: Pro
 
                     {/* Action Buttons */}
                     <div className="flex gap-4">
-                      <button className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3 text-white hover:bg-blue-700">
+                      <button
+                        className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3 text-white hover:bg-blue-700"
+                        onClick={handleDownload}
+                      >
                         <Download className="h-5 w-5" />
                         AI 분석 리포트 보기
                       </button>

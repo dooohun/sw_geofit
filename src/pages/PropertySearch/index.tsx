@@ -190,13 +190,7 @@ export default function PropertySearchPage() {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {propertyData?.properties.map((property) => {
             // 분석 완료 여부 체크
-            const isAnalysisComplete =
-              property.rec1Type &&
-              property.rec2Type &&
-              property.rec3Type &&
-              property.reason1 &&
-              property.reason2 &&
-              property.reason3;
+            const isAnalysisComplete = property.rec1Type;
 
             return (
               <div

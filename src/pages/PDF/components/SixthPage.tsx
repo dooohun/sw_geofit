@@ -37,98 +37,15 @@ interface TableContent {
   description: string;
   headers: string[];
   id: number;
-  rows: Array<[number, string, number, string]>;
+  // Update the tuple to have 7 elements to match usage in the code
+  rows: Array<[number, string, number, string, string, string, string]>;
   title: string;
-}
-
-interface ChartContent {
-  chartType: string;
-  datasets: Array<{
-    data: number[];
-    label: string;
-  }>;
-  description: string;
-  id: number;
-  labels: string[];
-  title: string;
-  xAxisLabel: string;
-  yAxisLabel: string;
 }
 
 export default function Top3ComparisonPage({ data }: { data: any }) {
   const tableSection = data.sections.find((s: any) => s.type === 'table');
-  const chartSection = data.sections.find((s: any) => s.type === 'chart');
 
   const tableData = tableSection?.content as TableContent;
-  const chartData = chartSection?.content as ChartContent;
-
-  // 막대 차트 설정 (가로형)
-  const barOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    indexAxis: 'y' as const,
-    plugins: {
-      legend: {
-        display: false,
-      },
-      tooltip: {
-        backgroundColor: '#1f2937',
-        titleColor: '#ffffff',
-        bodyColor: '#ffffff',
-        borderColor: '#3b82f6',
-        borderWidth: 1,
-        callbacks: {
-          label: function (context: any) {
-            return `점수: ${context.parsed.x}점`;
-          },
-        },
-      },
-    },
-    scales: {
-      x: {
-        beginAtZero: true,
-        max: 100,
-        grid: {
-          color: '#f3f4f6',
-        },
-        ticks: {
-          color: '#6b7280',
-          font: {
-            size: 12,
-          },
-        },
-      },
-      y: {
-        grid: {
-          display: false,
-        },
-        ticks: {
-          color: '#6b7280',
-          font: {
-            size: 12,
-          },
-        },
-      },
-    },
-  };
-
-  const chartDataConfig = {
-    labels: chartData?.labels || [],
-    datasets: [
-      {
-        data: chartData?.datasets[0]?.data || [],
-        backgroundColor: [
-          '#3b82f6', // 파랑
-          '#10b981', // 초록
-          '#f59e0b', // 노랑
-        ],
-        borderColor: ['#1d4ed8', '#059669', '#d97706'],
-        borderWidth: 2,
-        borderRadius: 8,
-        borderSkipped: false,
-      },
-    ],
-  };
 
   // 임대료 레벨에 따른 색상
   const getRentLevelColor = (level: string) => {
@@ -211,14 +128,14 @@ export default function Top3ComparisonPage({ data }: { data: any }) {
                       <td className="px-3 py-4 text-sm text-gray-700">{row[3]}</td>
                       <td className="px-3 py-4">
                         <span
-                          className={`rounded px-2 py-1 text-xs font-medium ${getCompetitionColor(row[4] as string)}`}
+                          className={`rounded px-2 py-1 text-xs font-medium ${getCompetitionColor(row[4] as unknown as string)}`}
                         >
                           {row[4]}
                         </span>
                       </td>
                       <td className="px-3 py-4">
                         <span
-                          className={`rounded px-2 py-1 text-xs font-medium ${getRentLevelColor(row[5] as string)}`}
+                          className={`rounded px-2 py-1 text-xs font-medium ${getRentLevelColor(row[5] as unknown as string)}`}
                         >
                           {row[5]}
                         </span>
@@ -232,15 +149,6 @@ export default function Top3ComparisonPage({ data }: { data: any }) {
 
             <div className="mt-4 text-center text-xs text-gray-500">{tableData?.description}</div>
           </div>
-
-          {/* 가로 막대 차트 */}
-          {/* <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-lg">
-            <h2 className="mb-6 text-xl font-bold text-gray-800">{chartData?.title}</h2>
-            <div style={{ height: '320px' }}>
-              <Bar data={chartDataConfig} options={barOptions} />
-            </div>
-            <div className="mt-4 text-center text-xs text-gray-500">{chartData?.description}</div>
-          </div> */}
         </div>
       </div>
 
@@ -263,10 +171,14 @@ export default function Top3ComparisonPage({ data }: { data: any }) {
                   </div>
                 </div>
                 <div className="mb-2 flex justify-center space-x-1">
-                  <span className={`rounded px-2 py-1 text-xs font-medium ${getCompetitionColor(row[4] as string)}`}>
+                  <span
+                    className={`rounded px-2 py-1 text-xs font-medium ${getCompetitionColor(row[4] as unknown as string)}`}
+                  >
                     경쟁{row[4]}
                   </span>
-                  <span className={`rounded px-2 py-1 text-xs font-medium ${getRentLevelColor(row[5] as string)}`}>
+                  <span
+                    className={`rounded px-2 py-1 text-xs font-medium ${getRentLevelColor(row[5] as unknown as string)}`}
+                  >
                     {row[5]}
                   </span>
                 </div>
