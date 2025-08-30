@@ -197,9 +197,9 @@ function PropertyRegistrationPage({
           const requestData = {
             address: `${formData.sigungu} ${dongData.find((item) => item.id === formData.dongId)?.name} ${formData.detailAddress}`,
             floor: floorData.find((item) => item.id === formData.floorId)?.name,
-            rent: formData.rent,
+            rent: formData.rent * 10000,
             area: formData.area,
-            deposit: formData.deposit,
+            deposit: formData.deposit * 10000,
             property_id: data,
           };
           const apiResponse = await crawlingApi.crawling(requestData);

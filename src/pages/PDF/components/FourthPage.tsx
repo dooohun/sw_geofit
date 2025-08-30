@@ -244,9 +244,9 @@ export default function ScoreSummaryPage({ data }: { data: any }) {
             </div>
             <div className="col-span-2">
               <div className="text-sm leading-relaxed text-gray-700">
-                <span className="font-semibold text-gray-800">평가 공식:</span>
+                <span className="font-semibold text-gray-800">평가 공식</span>
                 <br />
-                {scoreData?.formula}
+                {scoreData?.formula.slice(7, -1)}
               </div>
             </div>
           </div>
@@ -284,7 +284,7 @@ export default function ScoreSummaryPage({ data }: { data: any }) {
           <div className="grid grid-cols-7 gap-3">
             {Object.entries(scoreData?.base_scores || {}).map(([key, score]) => (
               <div key={key} className="rounded-lg border border-gray-100 bg-white p-3 text-center shadow-sm">
-                <div className="text-lg font-bold text-purple-600">{score}</div>
+                <div className="text-lg font-bold text-purple-600">{score.toFixed(1)}</div>
                 <div className="text-xs font-medium text-gray-700">{key}</div>
               </div>
             ))}
