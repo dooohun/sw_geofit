@@ -194,10 +194,17 @@ function PropertyRegistrationPage({
       onSuccess: async (data) => {
         try {
           // 크롤링 실행
-          const apiResponse = await crawlingApi.crawling(data);
+          const requestData = {
+            address: `${formData.sigungu} ${dongData.find((item) => item.id === formData.dongId)?.name} ${formData.detailAddress}`,
+            floor: floorData.find((item) => item.id === formData.floorId)?.name,
+            rent: formData.rent,
+            area: formData.area,
+            deposit: formData.deposit,
+            property_id: data,
+          };
+          const apiResponse = await crawlingApi.crawling(requestData);
           // PDF 생성 및 업로드
           const response = await apiResponse.json();
-          console.log(response);
           setReportData(response.result);
           setCurrentPropertyData(data);
           setShouldGeneratePDF(true);
