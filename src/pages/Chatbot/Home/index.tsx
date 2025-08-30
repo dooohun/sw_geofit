@@ -1,24 +1,35 @@
 import { useState } from 'react';
 import RequestIcon from '@/assets/svgs/request-icon.svg';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
+import { useCreateChatSession, usePostMessage } from '../queries';
 
 export default function ChatBotHome() {
   const [searchParams] = useSearchParams();
   const query = searchParams.get('query') || '';
   const [inputValue, setInputValue] = useState(query);
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const navigate = useNavigate();
+
+  const { mutate: createChatSession } = useCreateChatSession();
+  const { mutate: postMessage } = usePostMessage();
 
   const handleSend = () => {
     if (inputValue.trim()) {
       setInputValue('');
+      createChatSession(undefined, {
+        onSuccess: (newSession) => {
+          postMessage({ sessionId: newSession.id, message: inputValue });
+          navigate(`/chatbot/${newSession.id}`);
+        },
+      });
     }
   };
 
   const handleKeyPress = async (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
-      setInputValue('');
+      handleSend();
     }
   };
 

@@ -16,7 +16,7 @@ export default function ChatBot() {
 
   const sessionId = id ? parseInt(id) : 0;
   const { data: chatbotMessage, isLoading } = useGetMessages(sessionId);
-  const { mutate: postMessage, isPending } = usePostMessage(sessionId, {
+  const { mutate: postMessage, isPending } = usePostMessage({
     onSuccess: () => {
       // 성공 시 pending 메시지 제거
       setPendingMessage(null);
@@ -42,7 +42,7 @@ export default function ChatBot() {
     const messageToSend = inputValue.trim();
     setInputValue('');
     setPendingMessage(messageToSend);
-    postMessage(messageToSend);
+    postMessage({ sessionId, message: messageToSend });
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
@@ -115,7 +115,7 @@ export default function ChatBot() {
         </div>
 
         {/* Input */}
-        <div className="border-t border-gray-200 p-6">
+        <div className="p-6">
           <div className="mx-auto max-w-4xl">
             <div className="relative flex justify-between gap-4">
               <div className="relative flex-1">

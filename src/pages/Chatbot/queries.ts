@@ -1,5 +1,5 @@
-import { chatbotApi } from "@/api/chatbot"
-import { useMutation, useQueryClient, useSuspenseQuery } from "@tanstack/react-query"
+import { chatbotApi } from '@/api/chatbot';
+import { useMutation, useQueryClient, useSuspenseQuery } from '@tanstack/react-query';
 
 export const useGetChatSession = () => {
   return useSuspenseQuery({
@@ -7,16 +7,15 @@ export const useGetChatSession = () => {
     queryFn: () => chatbotApi.getSession(),
     select: (data) => data.sort((a, b) => b.id - a.id),
     staleTime: 5 * 60 * 1000,
-  })
-}
+  });
+};
 
 export const useGetMessages = (sessionId: number) => {
   return useSuspenseQuery({
     queryKey: ['messages', sessionId],
     queryFn: () => chatbotApi.getMessages(sessionId),
-    staleTime: 1 * 60 * 1000, // 1분간 캐시 유지
   });
-}
+};
 
 export const useCreateChatSession = () => {
   const queryClient = useQueryClient();
@@ -24,25 +23,23 @@ export const useCreateChatSession = () => {
     mutationKey: ['createChatSession'],
     mutationFn: () => chatbotApi.createSession(),
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['chatbotSession']});
-    }
-  })
-}
+      queryClient.invalidateQueries({ queryKey: ['chatbotSession'] });
+    },
+  });
+};
 
-export const usePostMessage = (sessionId: number, options?: {
-  onSuccess?: () => void;
-  onError?: () => void;
-}) => {
+export const usePostMessage = (options?: { onSuccess?: () => void; onError?: () => void }) => {
   const queryClient = useQueryClient();
   return useMutation({
-    mutationKey: ['postMessage', sessionId],
-    mutationFn: (message: string) => chatbotApi.postMessage(sessionId, message),
+    mutationKey: ['postMessage'],
+    mutationFn: ({ sessionId, message }: { sessionId: number; message: string }) =>
+      chatbotApi.postMessage(sessionId, message),
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['messages', sessionId]});
+      queryClient.invalidateQueries({ queryKey: ['messages'] });
       setTimeout(() => {
-        queryClient.invalidateQueries({ queryKey: ['messages', sessionId]});
+        queryClient.invalidateQueries({ queryKey: ['messages'] });
       }, 1500);
-      
+
       options?.onSuccess?.();
     },
     onError: () => {
@@ -50,4 +47,4 @@ export const usePostMessage = (sessionId: number, options?: {
     },
     retry: false,
   });
-}
+};
