@@ -1,9 +1,12 @@
-import { Suspense, useState } from 'react';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { Suspense, useRef, useState } from 'react';
 import { useGetDong, useGetFloor, useGetType, useMutateProperty } from './queries';
 import type { PropertyRequest } from '@/api/property/entity';
 import { useUploadImages } from './useUploadImages';
 import { crawlingApi } from '@/api/crawling';
 import LoadingSpinner from '@/components/LoadingSpinner';
+import ReportGenerator from '../PDF';
+import { filesApi } from '@/api/files';
 // import { crawlingApi } from '@/api/crawling';
 
 interface ImageFile {
@@ -12,7 +15,17 @@ interface ImageFile {
   preview: string;
 }
 
-function PropertyRegistrationPage() {
+interface PropertyRegistrationPageProps {
+  setReportData: React.Dispatch<React.SetStateAction<any>>;
+  setShouldGeneratePDF: React.Dispatch<React.SetStateAction<boolean>>;
+  setCurrentPropertyData: React.Dispatch<React.SetStateAction<any>>;
+}
+
+function PropertyRegistrationPage({
+  setReportData,
+  setShouldGeneratePDF,
+  setCurrentPropertyData,
+}: PropertyRegistrationPageProps) {
   const [images, setImages] = useState<ImageFile[]>([]);
   const [contractFile, setContractFile] = useState<File | null>(null);
 
@@ -94,6 +107,65 @@ function PropertyRegistrationPage() {
     }));
   };
 
+  // async function generatePDF(): Promise<string | null> {
+  //   if (!reportRef.current) return null;
+
+  //   try {
+  //     // 모든 폰트가 로드될 때까지 기다림
+  //     await document.fonts.ready;
+
+  //     const pages = reportRef.current.querySelectorAll('[data-page]');
+  //     const pdf = new jsPDF({
+  //       orientation: 'portrait',
+  //       unit: 'px',
+  //       format: [A4_WIDTH, A4_HEIGHT],
+  //     });
+
+  //     for (let i = 0; i < pages.length; i++) {
+  //       const page = pages[i] as HTMLElement;
+
+  //       const options = {
+  //         scale: 3,
+  //         useCORS: true,
+  //         allowTaint: false,
+  //         backgroundColor: '#ffffff',
+  //         logging: true, // 디버깅용
+  //       };
+
+  //       const canvas = await html2canvas(page, options);
+  //       const imgData = canvas.toDataURL('image/jpeg', 0.9); // JPEG 포맷으로 용량 최적화
+
+  //       if (i > 0) {
+  //         pdf.addPage();
+  //       }
+
+  //       pdf.addImage(imgData, 'JPEG', 0, 0, A4_WIDTH, A4_HEIGHT);
+  //     }
+
+  //     // PDF를 Blob으로 생성 (다운로드 대신)
+  //     const pdfBlob = pdf.output('blob');
+
+  //     // 현재 날짜를 포함한 파일명 생성
+  //     const currentDate = new Date().toISOString().split('T')[0];
+  //     const fileName = `상권분석리포트_세종시소담동_${currentDate}.pdf`;
+
+  //     // Blob을 File 객체로 변환
+  //     const pdfFile = new File([pdfBlob], fileName, { type: 'application/pdf' });
+
+  //     // S3에 업로드
+  //     const { getPresignedUrl, uploadFile } = filesApi;
+  //     const presignedResponse = await getPresignedUrl(pdfFile);
+  //     const { url: presignedUrl, key } = presignedResponse;
+
+  //     await uploadFile(presignedUrl, pdfFile);
+
+  //     return key; // S3 키 반환
+  //   } catch (error) {
+  //     console.error('PDF 생성 및 업로드 중 오류 발생:', error);
+  //     throw error;
+  //   }
+  // }
+
   const handleSubmit = async () => {
     // 필수 필드 검증
     if (
@@ -118,10 +190,26 @@ function PropertyRegistrationPage() {
     };
 
     mutate(requestData, {
-      onSuccess: async (data) => await crawlingApi.crawling(data),
+      onSuccess: async (data) => {
+        try {
+          // 크롤링 실행
+          const apiResponse = await crawlingApi.crawling(data);
+          // PDF 생성 및 업로드
+          const response = await apiResponse.json();
+          console.log(response);
+          setReportData(response.result);
+          setCurrentPropertyData(data);
+          setShouldGeneratePDF(true);
+        } catch (error) {
+          console.error('크롤링 또는 PDF 처리 중 오류:', error);
+          alert('리포트 생성 중 오류가 발생했습니다.');
+        }
+      },
+      onError: (error) => {
+        console.error('데이터 제출 실패:', error);
+        alert('데이터 제출에 실패했습니다.');
+      },
     });
-    // const address = `${formData.sido} ${formData.sigungu} ${dongData.find((d) => d.id === formData.dongId)?.name || ''} ${formData.detailAddress}`;
-    // await crawlingApi.allCrawling(address);
   };
 
   return (
@@ -440,9 +528,41 @@ function PropertyRegistrationPage() {
 }
 
 export default function PropertyRegistration() {
+  const reportRef = useRef<HTMLDivElement>(null);
+  const [reportData, setReportData] = useState<any>(null);
+  const [shouldGeneratePDF, setShouldGeneratePDF] = useState(false);
+  const [currentPropertyData, setCurrentPropertyData] = useState<any>(null);
+
+  const handlePDFGenerated = async (pdfKey: string) => {
+    try {
+      if (currentPropertyData) {
+        await filesApi.putFile(pdfKey, currentPropertyData);
+        console.log('PDF가 성공적으로 업로드되었습니다:', pdfKey);
+      }
+    } catch (error) {
+      console.error('PDF 업로드 오류:', error);
+    } finally {
+      setShouldGeneratePDF(false);
+      setCurrentPropertyData(null);
+    }
+  };
   return (
     <Suspense fallback={<LoadingSpinner />}>
-      <PropertyRegistrationPage />
+      <PropertyRegistrationPage
+        setReportData={setReportData}
+        setCurrentPropertyData={setCurrentPropertyData}
+        setShouldGeneratePDF={setShouldGeneratePDF}
+      />
+      <div className="relative h-1 overflow-hidden">
+        {reportData && (
+          <ReportGenerator
+            reportRef={reportRef}
+            reportData={reportData}
+            shouldGeneratePDF={shouldGeneratePDF}
+            onPDFGenerated={handlePDFGenerated}
+          />
+        )}
+      </div>
     </Suspense>
   );
 }

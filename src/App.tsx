@@ -7,7 +7,6 @@ import PropertyRegistration from '@/pages/PropertyRegistration';
 import './App.css';
 import Layout from './components/Layout';
 import PropertySearchPage from './pages/PropertySearch';
-import KakaoMap from '@/pages/KakaoMap';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Route path="/analysis" element={<Analysis />} />
         <Route path="/chatbot" element={<ChatBotHome />} />
         <Route path="/chatbot/:id" element={<ChatBot />} />
-        <Route path="/kakao-map" element={<KakaoMap />} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>

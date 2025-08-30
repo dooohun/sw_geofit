@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// src/components/MapExample.tsx
-import { useState, useEffect } from 'react';
 import KakaoMap from '@/components/Kakaomap';
+import { MapPin, Map } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import busStopData from '@/lib/bus-data.json';
 import baby from '@/assets/images/baby.png';
 import bank from '@/assets/images/bank.png';
@@ -13,13 +13,15 @@ import government from '@/assets/images/government.png';
 import hospital from '@/assets/images/hospital.png';
 import school from '@/assets/images/school.png';
 
+const A4_WIDTH = 794;
+const A4_HEIGHT = 1123;
+
 declare global {
   interface Window {
     kakao: any;
   }
 }
 
-// 마커 타입 정의
 interface MarkerData {
   position: { lat: number; lng: number };
   title: string;
@@ -30,7 +32,6 @@ interface MarkerData {
   };
 }
 
-// POI 카테고리 정의
 const POI_CATEGORIES = {
   bank: { code: 'BK9', name: '은행', icon: bank },
   culture: { code: 'CT1', name: '문화시설', icon: culture },
@@ -42,7 +43,7 @@ const POI_CATEGORIES = {
   school: { code: 'SC4', name: '학교', icon: school },
   kindergarten: {
     code: 'PS3',
-    name: '어린이집/유치원',
+    name: '어린이집',
     icon: baby,
   },
 };
@@ -58,8 +59,11 @@ function getDistanceFromLatLonInM(lat1: number, lon1: number, lat2: number, lon2
   return R * c; // meters
 }
 
-export default function MapExample() {
-  // 세종시 중심으로 기본 위치 설정
+export default function LocationMapPage({ data }: { data: any }) {
+  // API 검색으로 대체 가능
+  const mapSection = data.sections.find((s: any) => s.type === 'text');
+  const mapData = mapSection?.content;
+
   const center = {
     lat: 36.4875,
     lng: 127.2514,
@@ -68,7 +72,6 @@ export default function MapExample() {
   const [currentLocationMarker, setCurrentLocationMarker] = useState<MarkerData | null>(null);
   const [busStopMarkers, setBusStopMarkers] = useState<MarkerData[]>([]);
 
-  // 버스 정류장 마커 생성
   const createBusStopMarkers = () => {
     const newBusStopMarkers: MarkerData[] = busStopData
       .map((busStop) => {
@@ -86,7 +89,7 @@ export default function MapExample() {
             category: 'bus_stop_data',
             image: {
               src: bus,
-              size: { width: 32, height: 32 },
+              size: { width: 20, height: 20 },
             },
           };
         }
@@ -115,7 +118,7 @@ export default function MapExample() {
               category: categoryKey,
               image: {
                 src: category.icon,
-                size: { width: 28, height: 28 },
+                size: { width: 20, height: 20 },
               },
             }));
 
@@ -154,7 +157,6 @@ export default function MapExample() {
     addCurrentLocationMarker();
   }, []);
 
-  // 마커 통계 계산
   const markerStats = Object.keys(POI_CATEGORIES).reduce(
     (acc, key) => {
       acc[key] = markers.filter((marker) => marker.category === key).length;
@@ -167,56 +169,88 @@ export default function MapExample() {
   const allMarkers = [...markers, ...busStopMarkers, ...(currentLocationMarker ? [currentLocationMarker] : [])];
 
   return (
-    <div className="mx-auto max-w-6xl p-6">
-      <h1 className="mb-6 text-3xl font-bold">🗺️ 세종시 지도 서비스</h1>
-      {/* 지도 */}
-      <div className="mb-6">
-        <KakaoMap
-          width="100%"
-          height="600px"
-          center={center}
-          level={4}
-          markers={allMarkers}
-          showCircle
-          circleOptions={{
-            center: center,
-            radius: 500, // 500m 반경
-            strokeWeight: 2,
-            strokeColor: '#FF6B6B',
-            strokeOpacity: 0.8,
-            fillColor: '#FF6B6B',
-            fillOpacity: 0.1,
-          }}
-        />
+    <div
+      className="relative overflow-hidden bg-white"
+      style={{
+        width: `${A4_WIDTH}px`,
+        height: `${A4_HEIGHT}px`,
+        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+      }}
+    >
+      {/* 헤더 */}
+      <div className="px-16 pt-6 pb-6">
+        <div className="mb-6 flex items-center justify-between">
+          <div className="flex items-center">
+            <Map className="mr-3 h-8 w-8 text-green-600" />
+            <h1 className="text-3xl font-bold text-gray-800">공실 위치 맵</h1>
+          </div>
+          <div className="text-sm text-gray-500">3/5</div>
+        </div>
+
+        <div className="rounded-lg border border-green-100 p-4">
+          <div className="flex items-center">
+            <MapPin className="mr-2 h-5 w-5 text-green-600" />
+            <span className="font-semibold text-gray-800">{mapData?.center}</span>
+            <span className="ml-4 text-sm text-gray-600">• 반경 {mapData?.radius_m}m</span>
+          </div>
+        </div>
       </div>
 
-      {/* 마커 통계 및 목록 */}
-      <div className="grid gap-6 lg:grid-cols-2">
-        {/* 마커 통계 */}
-        <div className="rounded-lg bg-white p-4 shadow-md">
-          <h2 className="mb-4 text-xl font-semibold">📊 마커 통계</h2>
-          <div className="space-y-2">
-            {busStopMarkers.length > 0 && (
-              <div className="flex items-center justify-between rounded bg-purple-50 px-3 py-2">
-                <span className="font-medium">🚌 버스정류장 (500m 내)</span>
-                <span className="rounded bg-purple-200 px-2 py-1 text-sm">{busStopMarkers.length}개</span>
-              </div>
-            )}
-            {Object.entries(POI_CATEGORIES).map(([key, category]) => {
-              const count = markerStats[key] || 0;
-              return count > 0 ? (
-                <div key={key} className="flex items-center justify-between rounded bg-blue-50 px-3 py-2">
-                  <span className="font-medium">{category.name}</span>
-                  <span className="rounded bg-blue-200 px-2 py-1 text-sm">{count}개</span>
-                </div>
-              ) : null;
-            })}
-            <div className="mt-4 border-t pt-2">
-              <div className="flex items-center justify-between font-semibold">
-                <span>총 마커 수</span>
-                <span className="rounded bg-gray-200 px-2 py-1">{allMarkers.length}개</span>
-              </div>
+      {/* 메인 컨텐츠 - 맵과 통계 */}
+      <div className="mb-8 px-16">
+        <div>
+          <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-lg">
+            <div style={{ height: '420px' }} className="w-full">
+              <KakaoMap
+                width="100%"
+                height="420px"
+                center={center}
+                level={4}
+                markers={allMarkers}
+                showCircle
+                circleOptions={{
+                  center: center,
+                  radius: 500, // 500m 반경
+                  strokeWeight: 2,
+                  strokeColor: '#FF6B6B',
+                  strokeOpacity: 0.8,
+                  fillColor: '#FF6B6B',
+                  fillOpacity: 0.1,
+                }}
+              />
             </div>
+            <div className="mt-3 text-center text-sm text-gray-500">{mapData?.map_note}</div>
+          </div>
+        </div>
+      </div>
+
+      {/* 하단 그리드 통계 */}
+      <div className="px-16 pb-16">
+        <div className="rounded-xl border border-gray-200 p-6">
+          <h3 className="mb-4 text-center text-lg font-bold text-gray-800">
+            반경 {mapData?.radius_m}m 내 주요 시설 분포
+          </h3>
+
+          <div className="grid grid-cols-5 gap-3">
+            {Object.keys(markerStats).map((key) => (
+              <div
+                key={key}
+                className="rounded-lg border border-gray-100 bg-white p-4 text-center shadow-sm transition-shadow hover:shadow-md"
+              >
+                <div className="text-lg font-bold text-gray-800">
+                  {POI_CATEGORIES[key as keyof typeof POI_CATEGORIES].name}
+                </div>
+                <div className="text-xs leading-tight text-gray-600">{markerStats[key]}</div>
+              </div>
+            ))}
+            <div className="rounded-lg border border-gray-100 bg-white p-4 text-center shadow-sm transition-shadow hover:shadow-md">
+              <div className="text-lg font-bold text-gray-800">버스정류장</div>
+              <div className="text-xs leading-tight text-gray-600">{busStopMarkers.length}</div>
+            </div>
+          </div>
+
+          <div className="mt-4 text-center text-sm text-gray-600">
+            * 도보 5분 거리 내 접근 가능한 주요 시설들을 표시했습니다.
           </div>
         </div>
       </div>

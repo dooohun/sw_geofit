@@ -30,4 +30,8 @@ export const filesApi = {
     }),
 
   downloadFile: async (key: string) => await apiClient.get<{ url: string }>(`files/presign-download?key=${key}`),
+  putFile: async (key: string, propertyId: number) =>
+    await apiClient.put(`property/${propertyId}`, {
+      body: { url: key },
+    }),
 };

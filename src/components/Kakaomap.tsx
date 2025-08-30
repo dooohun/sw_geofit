@@ -164,14 +164,18 @@ export default function KakaoMap({
   }, []);
 
   return (
-    <div
-      ref={mapContainer}
-      style={{
-        width,
-        height,
-        borderRadius: '8px',
-        border: '1px solid #ddd',
-      }}
-    />
+    <div className="relative">
+      <div
+        ref={mapContainer}
+        style={{
+          width,
+          height,
+          borderRadius: '8px',
+          border: '1px solid #ddd',
+        }}
+        className="z-10"
+      />
+      <div className="react-kakao-map" />
+    </div>
   );
 }
