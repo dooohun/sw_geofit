@@ -232,7 +232,7 @@ export default function ScoreSummaryPage({ data }: { data: any }) {
             <Target className="mr-3 h-8 w-8 text-purple-600" />
             <h1 className="text-3xl font-bold text-gray-800">상권 종합 점수 요약</h1>
           </div>
-          <div className="text-sm text-gray-500">4/5</div>
+          <div className="text-sm text-gray-500">4/11</div>
         </div>
 
         {/* 최종 점수 및 공식 */}

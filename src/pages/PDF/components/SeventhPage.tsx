@@ -230,7 +230,7 @@ export default function RentAnalysisPage({ data }: { data: any }) {
             <Building className="mr-3 h-8 w-8 text-green-600" />
             <h1 className="text-3xl font-bold text-gray-800">임대료 분석</h1>
           </div>
-          <div className="text-sm text-gray-500">9/9</div>
+          <div className="text-sm text-gray-500">9/11</div>
         </div>
 
         {/* 기본 정보 */}

@@ -36,7 +36,7 @@ export default function ConclusionPage({ data }: { data: any }) {
             <Target className="mr-3 h-8 w-8 text-blue-600" />
             <h1 className="text-3xl font-bold text-gray-800">결론</h1>
           </div>
-          <div className="text-sm text-gray-500">10/10</div>
+          <div className="text-sm text-gray-500">10/11</div>
         </div>
       </div>
 

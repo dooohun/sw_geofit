@@ -121,7 +121,7 @@ export default function ExecutiveSummaryPage({ data }: { data: any }) {
             <TrendingUp className="mr-3 h-8 w-8 text-blue-600" />
             <h1 className="text-3xl font-bold text-gray-800">Executive Summary</h1>
           </div>
-          <div className="text-sm text-gray-500">2/5</div>
+          <div className="text-sm text-gray-500">2/11</div>
         </div>
       </div>
 

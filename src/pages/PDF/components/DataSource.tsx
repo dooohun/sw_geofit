@@ -30,7 +30,7 @@ export default function DataSourcePage({ data }: { data: any }) {
             </div>
             <h1 className="text-3xl font-bold text-gray-800">데이터 출처 및 산식</h1>
           </div>
-          <div className="text-sm text-gray-500">부록</div>
+          <div className="text-sm text-gray-500">(부록) 11/11</div>
         </div>
       </div>
 

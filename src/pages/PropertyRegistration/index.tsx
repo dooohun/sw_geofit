@@ -185,8 +185,8 @@ function PropertyRegistrationPage({
 
     const requestData: PropertyRequest = {
       ...formData,
-      rent: formData.rent,
-      deposit: formData.deposit,
+      rent: formData.rent * 10000,
+      deposit: formData.deposit * 10000,
       imageUrls: imageKeys,
     };
 
@@ -197,10 +197,13 @@ function PropertyRegistrationPage({
           const requestData = {
             address: `${formData.sigungu} ${dongData.find((item) => item.id === formData.dongId)?.name} ${formData.detailAddress}`,
             floor: floorData.find((item) => item.id === formData.floorId)?.name,
-            rent: formData.rent * 10000,
+            rent: formData.rent,
             area: formData.area,
-            deposit: formData.deposit * 10000,
+            deposit: formData.deposit,
             property_id: data,
+            sido: '세종특별자치시',
+            sigungu: '세종시',
+            dong: dongData.find((item) => item.id === formData.dongId)?.name,
           };
           const apiResponse = await crawlingApi.crawling(requestData);
           // PDF 생성 및 업로드

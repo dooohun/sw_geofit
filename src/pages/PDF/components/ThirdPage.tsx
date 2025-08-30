@@ -221,7 +221,7 @@ export default function LocationMapPage({ data }: { data: any }) {
             <Map className="mr-3 h-8 w-8 text-green-600" />
             <h1 className="text-3xl font-bold text-gray-800">공실 위치 맵</h1>
           </div>
-          <div className="text-sm text-gray-500">3/5</div>
+          <div className="text-sm text-gray-500">3/11</div>
         </div>
 
         <div className="rounded-lg border border-green-100 p-4">

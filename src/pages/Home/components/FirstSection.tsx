@@ -117,7 +117,7 @@ export default function FirstSection({
               {isCompact ? (
                 <button
                   className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-black text-white hover:scale-105 hover:bg-gray-800"
-                  onClick={() => navigate(`/chatbot?query=${inputValue}`)}
+                  onClick={() => navigate(`/chatbot/?query=${inputValue}`)}
                 >
                   <RequestIcon className="h-5 w-5" />
                 </button>

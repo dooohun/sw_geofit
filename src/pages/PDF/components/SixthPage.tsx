@@ -91,7 +91,7 @@ export default function Top3ComparisonPage({ data }: { data: any }) {
             <Award className="mr-3 h-8 w-8 text-yellow-600" />
             <h1 className="text-3xl font-bold text-gray-800">Top3 비교</h1>
           </div>
-          <div className="text-sm text-gray-500">8/8</div>
+          <div className="text-sm text-gray-500">8/11</div>
         </div>
       </div>
 

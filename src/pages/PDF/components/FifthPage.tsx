@@ -206,7 +206,7 @@ export default function BusinessDetailPage({ data }: { data: any }) {
             <TrendingUp className="mr-3 h-8 w-8 text-indigo-600" />
             <h1 className="text-3xl font-bold text-gray-800">업종 상세 - {businessType}</h1>
           </div>
-          <div className="text-sm text-gray-500">{pageNumber}/8</div>
+          <div className="text-sm text-gray-500">{pageNumber}/11</div>
         </div>
 
         {/* 점수 및 강점/약점 */}
