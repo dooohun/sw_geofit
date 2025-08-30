@@ -29,7 +29,6 @@ function PropertyRegistrationPage({
 }: PropertyRegistrationPageProps) {
   const [images, setImages] = useState<ImageFile[]>([]);
   const [contractFile, setContractFile] = useState<File | null>(null);
-  const [showSuccessModal, setShowSuccessModal] = useState(false);
 
   const [formData, setFormData] = useState<PropertyRequest>({
     dongId: 0,
@@ -202,8 +201,6 @@ function PropertyRegistrationPage({
           setReportData(response.result);
           setCurrentPropertyData(data);
           setShouldGeneratePDF(true);
-
-          setShowSuccessModal(true);
         } catch (error) {
           console.error('크롤링 또는 PDF 처리 중 오류:', error);
           alert('리포트 생성 중 오류가 발생했습니다.');
@@ -527,7 +524,6 @@ function PropertyRegistrationPage({
           </div>
         </div>
       </div>
-      <SuccessModal isOpen={showSuccessModal} onClose={() => setShowSuccessModal(false)} />
     </div>
   );
 }
@@ -537,6 +533,7 @@ export default function PropertyRegistration() {
   const [reportData, setReportData] = useState<any>(null);
   const [shouldGeneratePDF, setShouldGeneratePDF] = useState(false);
   const [currentPropertyData, setCurrentPropertyData] = useState<any>(null);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
 
   const handlePDFGenerated = async (pdfKey: string) => {
     try {
@@ -565,9 +562,11 @@ export default function PropertyRegistration() {
             reportData={reportData}
             shouldGeneratePDF={shouldGeneratePDF}
             onPDFGenerated={handlePDFGenerated}
+            onOpenSuccessModal={() => setShowSuccessModal(true)}
           />
         )}
       </div>
+      <SuccessModal isOpen={showSuccessModal} onClose={() => setShowSuccessModal(false)} />
     </Suspense>
   );
 }

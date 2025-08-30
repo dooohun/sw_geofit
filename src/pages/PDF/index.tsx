@@ -18,6 +18,7 @@ interface ReportGeneratorProps {
   reportData: any;
   shouldGeneratePDF: boolean;
   onPDFGenerated: (pdfKey: string) => void;
+  onOpenSuccessModal: () => void;
 }
 
 export default function ReportGenerator({
@@ -25,6 +26,7 @@ export default function ReportGenerator({
   reportData,
   shouldGeneratePDF,
   onPDFGenerated,
+  onOpenSuccessModal,
 }: ReportGeneratorProps) {
   const isGeneratingRef = useRef(false); // 중복 실행 방지를 위한 ref
 
@@ -73,6 +75,7 @@ export default function ReportGenerator({
           await uploadFile(presignedUrl, pdfFile);
 
           onPDFGenerated(key);
+          onOpenSuccessModal();
         } catch (error) {
           console.error('PDF 생성 오류:', error);
         } finally {
