@@ -11,6 +11,7 @@ export default function ChatBot() {
   const [inputValue, setInputValue] = useState('');
   const [pendingMessage, setPendingMessage] = useState<string | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [isProcessing, setIsProcessing] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const { id } = useParams();
 
@@ -18,14 +19,12 @@ export default function ChatBot() {
   const { data: chatbotMessage, isLoading } = useGetMessages(sessionId);
   const { mutate: postMessage, isPending } = usePostMessage({
     onSuccess: () => {
-      // 성공 시 pending 메시지 제거
       setPendingMessage(null);
-      setInputValue('');
+      setIsProcessing(false);
     },
     onError: () => {
-      // 에러 시에도 pending 메시지 제거 (또는 에러 처리)
       setPendingMessage(null);
-      setInputValue('');
+      setIsProcessing(false);
     },
   });
 
@@ -38,15 +37,19 @@ export default function ChatBot() {
   }, [chatbotMessage, pendingMessage]);
 
   const handleSendMessage = () => {
-    if (!inputValue.trim() || isPending || isLoading) return;
     const messageToSend = inputValue.trim();
+
+    if (!messageToSend || isPending || isLoading || isProcessing) return;
+
     setInputValue('');
     setPendingMessage(messageToSend);
+    setIsProcessing(true);
+
     postMessage({ sessionId, message: messageToSend });
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
       handleSendMessage();
     }
@@ -100,12 +103,12 @@ export default function ChatBot() {
         {/* Messages */}
         <div className="flex-1 overflow-y-auto p-6">
           <div className="mx-auto max-w-4xl">
-            {chatbotMessage.messages.map((message) => (
+            {chatbotMessage?.messages?.map((message) => (
               <ChatBubble key={message.id} message={message.content} isBot={!message.isUser} />
             ))}
 
             {/* Pending 메시지 표시 (전송 중인 사용자 메시지) */}
-            {pendingMessage && <ChatBubble message={pendingMessage} isBot={false} />}
+            {pendingMessage && <ChatBubble message={pendingMessage} isBot={false} isPending={true} />}
 
             {/* 로딩 인디케이터 (AI 응답 대기 중) */}
             {isPending && <LoadingIndicator />}
@@ -124,16 +127,21 @@ export default function ChatBot() {
                   onChange={(e) => setInputValue(e.target.value)}
                   onKeyDown={handleKeyPress}
                   placeholder="추가 정보이나 요청사항을 입력해주세요"
-                  className="w-full resize-none rounded-xl border border-gray-300 px-4 py-3 pr-12 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
+                  className="w-full resize-none rounded-xl border border-gray-300 px-4 py-3 pr-12 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none disabled:bg-gray-50 disabled:text-gray-500"
                   rows={1}
+                  disabled={isProcessing || isPending}
                 />
               </div>
               <button
                 onClick={handleSendMessage}
-                disabled={!inputValue.trim()}
+                disabled={!inputValue.trim() || isProcessing || isPending}
                 className="flex h-[46px] w-[46px] items-center justify-center rounded-lg bg-black p-3 text-white transition-colors hover:bg-gray-800 disabled:cursor-not-allowed disabled:bg-gray-300"
               >
-                <RequestIcon />
+                {isProcessing || isPending ? (
+                  <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
+                ) : (
+                  <RequestIcon />
+                )}
               </button>
             </div>
 

@@ -1,6 +1,6 @@
 export interface ChatbotSessionResponse {
-  id: number,
-  title: string,
+  id: number;
+  title: string;
 }
 
 export interface CreateChatBotSessionResponse {
@@ -16,4 +16,10 @@ interface ChatMessage {
 
 export interface ChatMessageResponse {
   messages: ChatMessage[];
+}
+
+export interface PostMessageResponse {
+  type: 'COLLECT' | 'RESULT' | 'POLICY' | 'EVALUATION';
+  content: string;
+  ids?: number[];
 }

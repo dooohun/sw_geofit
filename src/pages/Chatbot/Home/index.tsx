@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import RequestIcon from '@/assets/svgs/request-icon.svg';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
@@ -8,6 +8,7 @@ export default function ChatBotHome() {
   const [searchParams] = useSearchParams();
   const query = searchParams.get('query') || '';
   const [inputValue, setInputValue] = useState(query);
+  const [isProcessing, setIsProcessing] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const navigate = useNavigate();
 
@@ -15,12 +16,32 @@ export default function ChatBotHome() {
   const { mutate: postMessage } = usePostMessage();
 
   const handleSend = () => {
+    const messageToSend = inputValue.trim();
+
+    if (!messageToSend || isProcessing) return;
     if (inputValue.trim()) {
       setInputValue('');
+      setIsProcessing(true);
+
       createChatSession(undefined, {
         onSuccess: (newSession) => {
-          postMessage({ sessionId: newSession.id, message: inputValue });
-          navigate(`/chatbot/${newSession.id}`);
+          postMessage(
+            { sessionId: newSession.id, message: inputValue },
+            {
+              onSuccess: () => {
+                setIsProcessing(false);
+                navigate(`/chatbot/${newSession.id}`);
+              },
+              onError: () => {
+                setIsProcessing(false);
+                setInputValue(messageToSend);
+              },
+            },
+          );
+        },
+        onError: () => {
+          setIsProcessing(false);
+          setInputValue(messageToSend);
         },
       });
     }
@@ -36,6 +57,13 @@ export default function ChatBotHome() {
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
+
+  useEffect(() => {
+    if (query) {
+      console.log('query:', query);
+      handleSend();
+    }
+  }, [query]);
 
   return (
     <div className="flex min-h-screen bg-white">
@@ -91,7 +119,7 @@ export default function ChatBotHome() {
         </div>
 
         {/* Input Area */}
-        <div className="border-t border-gray-200 p-6">
+        <div className="p-6">
           <div className="mx-auto max-w-4xl">
             <div className="relative flex justify-between gap-4">
               <div className="relative flex-1">
@@ -102,14 +130,19 @@ export default function ChatBotHome() {
                   placeholder="추가 정보이나 요청사항을 입력해주세요"
                   className="w-full resize-none rounded-xl border border-gray-300 px-4 py-3 pr-12 text-sm focus:border-gray-400 focus:ring-0 focus:outline-none"
                   rows={1}
+                  disabled={isProcessing}
                 />
               </div>
               <button
                 onClick={handleSend}
-                disabled={!inputValue.trim()}
+                disabled={!inputValue.trim() || isProcessing}
                 className="flex h-[46px] w-[46px] items-center justify-center rounded-lg bg-black p-3 text-white transition-colors hover:bg-gray-800 disabled:cursor-not-allowed disabled:bg-gray-300"
               >
-                <RequestIcon />
+                {isProcessing ? (
+                  <div className="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
+                ) : (
+                  <RequestIcon />
+                )}
               </button>
             </div>
 

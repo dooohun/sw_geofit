@@ -22,7 +22,7 @@ const SidebarComponent = ({ sidebarOpen }: SidebarComponentProps) => {
   };
   return (
     <div
-      className={`${sidebarOpen ? 'w-64' : 'w-0'} flex flex-col overflow-hidden border-r border-gray-200 bg-[#F7F7F8] transition-all duration-300 ease-in-out`}
+      className={`${sidebarOpen ? 'w-64' : 'w-0'} flex h-screen flex-col overflow-hidden border-r border-gray-200 bg-[#F7F7F8] transition-all duration-300 ease-in-out`}
     >
       <div className="p-4">
         <button
@@ -36,9 +36,8 @@ const SidebarComponent = ({ sidebarOpen }: SidebarComponentProps) => {
         </button>
       </div>
 
-      <div className="flex-1 px-4 pb-4">
+      <div className="overflow-y-scroll px-4 pb-4">
         <div className="mb-3 text-xs font-medium text-gray-500">최근 분석</div>
-
         <div className="space-y-1">
           {analysisHistory.map((history) => (
             <button
