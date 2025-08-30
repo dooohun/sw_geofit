@@ -1,17 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import KakaoMap from '@/components/Kakaomap';
 import { MapPin, Map } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import busStopData from '@/lib/bus-data.json';
-import baby from '@/assets/images/baby.png';
-import bank from '@/assets/images/bank.png';
 import bus from '@/assets/images/bus.png';
-import cart from '@/assets/images/cart.png';
-import convinence from '@/assets/images/convinence.png';
-import culture from '@/assets/images/culture.png';
-import government from '@/assets/images/government.png';
-import hospital from '@/assets/images/hospital.png';
-import school from '@/assets/images/school.png';
+import map from '@/assets/images/map.png';
 
 const A4_WIDTH = 794;
 const A4_HEIGHT = 1123;
@@ -33,19 +25,66 @@ interface MarkerData {
 }
 
 const POI_CATEGORIES = {
-  bank: { code: 'BK9', name: '은행', icon: bank },
-  culture: { code: 'CT1', name: '문화시설', icon: culture },
-  public: { code: 'PO3', name: '공공기관', icon: government },
-  tourism: { code: 'AT4', name: '관광명소', icon: culture },
-  accommodation: { code: 'AD5', name: '숙박', icon: cart },
-  hospital: { code: 'HP8', name: '병원', icon: hospital },
-  mart: { code: 'CS2', name: '편의점', icon: convinence },
-  school: { code: 'SC4', name: '학교', icon: school },
+  bank: {
+    code: 'BK9',
+    name: '은행',
+    color: '#10B981', // green-500
+  },
+  culture: {
+    code: 'CT1',
+    name: '문화시설',
+    color: '#8B5CF6', // violet-500
+  },
+  public: {
+    code: 'PO3',
+    name: '공공기관',
+    color: '#3B82F6', // blue-500
+  },
+  tourism: {
+    code: 'AT4',
+    name: '관광명소',
+    color: '#F59E0B', // amber-500
+  },
+  accommodation: {
+    code: 'AD5',
+    name: '숙박',
+    color: '#EC4899', // pink-500
+  },
+  hospital: {
+    code: 'HP8',
+    name: '병원',
+    color: '#EF4444', // red-500
+  },
+  mart: {
+    code: 'CS2',
+    name: '편의점',
+    color: '#06B6D4', // cyan-500
+  },
+  school: {
+    code: 'SC4',
+    name: '학교',
+    color: '#84CC16', // lime-500
+  },
   kindergarten: {
     code: 'PS3',
     name: '어린이집',
-    icon: baby,
+    color: '#F97316', // orange-500
   },
+};
+
+const createMapPinMarker = (color: string, size: number = 24) => {
+  const svgString = `
+    <svg width="${size + 4}" height="${size + 4}" viewBox="0 0 ${size + 4} ${size + 4}" xmlns="http://www.w3.org/2000/svg">
+      <g transform="translate(2, 2)">
+        <svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="${color}" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+          <circle cx="12" cy="10" r="3" fill="white" stroke="${color}"/>
+        </svg>
+      </g>
+    </svg>
+  `;
+
+  return `data:image/svg+xml;base64,${btoa(svgString)}`;
 };
 
 function getDistanceFromLatLonInM(lat1: number, lon1: number, lat2: number, lon2: number): number {
@@ -60,7 +99,6 @@ function getDistanceFromLatLonInM(lat1: number, lon1: number, lat2: number, lon2
 }
 
 export default function LocationMapPage({ data }: { data: any }) {
-  // API 검색으로 대체 가능
   const mapSection = data.sections.find((s: any) => s.type === 'text');
   const mapData = mapSection?.content;
 
@@ -103,7 +141,6 @@ export default function LocationMapPage({ data }: { data: any }) {
   // POI 마커 검색 및 추가
   const searchPOIMarkers = () => {
     const ps = new window.kakao.maps.services.Places();
-    const allMarkers: MarkerData[] = [];
 
     Object.entries(POI_CATEGORIES).forEach(([categoryKey, category]) => {
       if (!category) return;
@@ -117,8 +154,8 @@ export default function LocationMapPage({ data }: { data: any }) {
               title: place.place_name,
               category: categoryKey,
               image: {
-                src: category.icon,
-                size: { width: 20, height: 20 },
+                src: createMapPinMarker(category.color, 28),
+                size: { width: 28, height: 28 },
               },
             }));
 
@@ -199,9 +236,33 @@ export default function LocationMapPage({ data }: { data: any }) {
       {/* 메인 컨텐츠 - 맵과 통계 */}
       <div className="mb-8 px-16">
         <div>
-          <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-lg">
+          <div className="relative rounded-xl border border-gray-100 bg-white p-4 shadow-lg">
+            <div className="absolute top-6 right-6 z-50 rounded-lg border border-gray-200 bg-white p-3 shadow-md">
+              <h4 className="mb-2 text-sm font-bold text-gray-700">범례</h4>
+              <div className="space-y-1">
+                {Object.entries(POI_CATEGORIES).map(([key, category]) => (
+                  <div key={key} className="flex items-center text-xs">
+                    <MapPin className="mr-2 h-4 w-4" style={{ color: category.color, fill: category.color }} />
+                    <span className="text-gray-600">{category.name}</span>
+                  </div>
+                ))}
+                <div className="mt-1 flex items-center border-t border-gray-200 pt-1 text-xs">
+                  <div className="mr-2 flex h-4 w-4 items-center justify-center">
+                    <div className="h-3 w-3 rounded-full bg-blue-500"></div>
+                  </div>
+                  <span className="text-gray-600">버스정류장</span>
+                </div>
+                <div className="flex items-center text-xs">
+                  <div className="mr-2 flex h-4 w-4 items-center justify-center">
+                    <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
+                  </div>
+                  <span className="text-gray-600">현재위치</span>
+                </div>
+              </div>
+            </div>
             <div style={{ height: '420px' }} className="w-full">
-              <KakaoMap
+              <img src={map} />
+              {/* <KakaoMap
                 width="100%"
                 height="420px"
                 center={center}
@@ -217,7 +278,7 @@ export default function LocationMapPage({ data }: { data: any }) {
                   fillColor: '#FF6B6B',
                   fillOpacity: 0.1,
                 }}
-              />
+              /> */}
             </div>
             <div className="mt-3 text-center text-sm text-gray-500">{mapData?.map_note}</div>
           </div>
