@@ -20,7 +20,7 @@ export default function FirstSection({
   isVideoPlaying,
   setIsVideoPlaying,
 }: FirstSectionProps) {
-  const [inputValue, setInputValue] = useState('서울시 강남구에 카페를 차리고 싶어');
+  const [inputValue, setInputValue] = useState('세종시 조치원읍에 카페를 차리고 싶어.');
   const [isCompact, setIsCompact] = useState(false);
   const navigate = useNavigate();
 
@@ -79,7 +79,7 @@ export default function FirstSection({
           >
             {/* Main Title */}
             <h1 className="font-semi mb-4 text-[72px] leading-tight font-bold tracking-[-3.38px] text-black">
-              Analyze, Chat, Locate
+              Chat, Locate, Analyze
               <br />
               All in One
             </h1>
@@ -106,11 +106,10 @@ export default function FirstSection({
               <input
                 type="text"
                 onChange={(e) => setInputValue(e.target.value)}
-                className={`text-left text-base font-medium text-gray-700 focus:outline-none ${
+                className={`text- text-left text-base font-medium text-gray-700 opacity-50 focus:outline-none ${
                   isCompact ? 'flex-1 px-2' : 'mt-2 ml-1.5'
                 }`}
                 value={inputValue}
-                placeholder="창업하고 싶은 조건을 말씀해주세요..."
               />
 
               {/* Bottom Row - Compact 모드에서는 버튼만 */}
@@ -125,7 +124,7 @@ export default function FirstSection({
                 <div className="flex items-center justify-between">
                   <button className="flex h-[42px] w-[170px] cursor-pointer items-center justify-between space-x-2 rounded-3xl border-[1px] border-[#E2E8F0] p-[14px] text-gray-500 transition-all hover:scale-105 hover:bg-gray-50">
                     <SuggestionIcon />
-                    <span className="text-sm text-[#1A202C]">New suggestion</span>
+                    <span className="mr-2 text-sm text-[#1A202C]">New suggestion</span>
                   </button>
                   <button
                     className="flex cursor-pointer items-center space-x-2 rounded-3xl bg-black px-6 py-2 text-white hover:scale-105 hover:bg-gray-800 hover:shadow-lg"
